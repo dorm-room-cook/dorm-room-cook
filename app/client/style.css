@@ -1,0 +1,14 @@
+body {
+  background-color: #F0F0F0;
+}
+
+/* Image filters - to use, just add className='uh-green' for example after <Image /> */
+.uh-green { filter: invert(16%) sepia(56%) saturate(2027%) hue-rotate(137deg) brightness(94%) contrast(98%); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
