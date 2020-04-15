@@ -12,3 +12,27 @@ body {
 .sepia { filter: sepia(100%); }
 .huerotate { filter: hue-rotate(180deg); }
 .rss.opacity { filter: opacity(50%); }
+
+
+/* Add font and change menu display settings */
+.ui.borderless.top.attached.menu{
+  background-color: whitesmoke !important;
+  border-radius: 0;
+  height: 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+/* Fix highlight for item and font hover */
+.ui .item:hover {
+  background: transparent !important;
+  color: #008800 !important;
+  font-size: larger;
+}
+
+/* Fix decorations for active menu item */
+.ui .item.active{
+  background: transparent !important;
+  color: #008800 !important;
+}
