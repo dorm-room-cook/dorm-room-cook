@@ -6,12 +6,26 @@ class Footer extends React.Component {
     const divStyle = { paddingTop: '15px' };
     return (
         <footer>
-          <div style={divStyle} className="ui center aligned container">
+          <div style={divStyle} className="ui center aligned container footer-background">
             <hr />
-              Department of Information and Computer Sciences <br />
-              University of Hawaii<br />
-              Honolulu, HI 96822 <br />
-            <a href="http://ics-software-engineering.github.io/meteor-application-template-react">Template Home Page</a>
+            <button className="ui circular facebook icon button">
+              <i className="facebook icon"></i>
+            </button>
+            <button className="ui circular twitter icon button">
+              <i className="twitter icon"></i>
+            </button>
+            <button className="ui circular linkedin icon button">
+              <i className="linkedin icon"></i>
+            </button>
+            <button className="ui circular instagram icon button">
+              <i className="instagram icon"></i>
+            </button>
+            <button className="ui circular twitch icon button">
+              <i className="twitch icon"></i>
+            </button>
+            <button className="ui circular youtube icon button">
+              <i className="youtube icon"></i>
+            </button>
           </div>
         </footer>
     );
