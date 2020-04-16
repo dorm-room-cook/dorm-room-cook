@@ -51,7 +51,7 @@ class NavBar extends React.Component {
                            activeClassName="active"
                            exact to="/listallitems"
                            key='listallitems'
-                           content='Local Ingredients'/>
+                           content='Local Ingredients'/>,
               ]
           ) : ''}
           {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
