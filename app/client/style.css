@@ -37,6 +37,10 @@ body {
   color: #008800 !important;
 }
 
+.buttons {
+  width: 100%;
+}
+
 .footer {
   padding-top: 15px;
   width: 100%;

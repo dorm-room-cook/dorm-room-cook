@@ -1,10 +1,9 @@
 import React from 'react';
-import { Grid, Container } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   render() {
-    const divStyle = { paddingTop: '15px' };
     return (
         <footer>
           <div style={{ width: '100%', height: '100hv' }} className="ui center aligned container footer">
@@ -13,7 +12,7 @@ class Footer extends React.Component {
             <img src="/images/green-line-2.png"/>
               </Grid.Row>
             </Grid>
-            <div style={{ marginTop: '50px' }}>
+            <div style={{ marginTop: '50px' }} className="buttons">
             <Grid container>
               <Grid.Row centered>
             <button className="ui circular facebook icon button">
