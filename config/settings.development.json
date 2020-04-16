@@ -5,7 +5,8 @@
     { "email": "safeway@foo.com", "password": "changeme" },
     { "email": "foodland@foo.com", "password": "changeme" },
     { "email": "walmart@foo.com", "password": "changeme" },
-    { "email": "themarket@foo.com", "password": "changeme" }
+    { "email": "themarket@foo.com", "password": "changeme" },
+    { "email": "vendor@foo.com", "password": "changeme", "role": "vendor" }
   ],
   "defaultData": [
     { "name": "Basket", "quantity": 3, "owner": "john@foo.com", "condition": "excellent" },

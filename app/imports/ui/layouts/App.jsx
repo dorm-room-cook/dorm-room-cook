@@ -15,6 +15,7 @@ import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
 import Admin from '../pages/Admin';
+import AddVendorItem from '../pages/AddVendorItem';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 class App extends React.Component {
@@ -31,6 +32,7 @@ class App extends React.Component {
               <ProtectedRoute path="/add" component={AddStuff}/>
               <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
               <AdminProtectedRoute path="/admin" component={Admin}/>
+              <ProtectedRoute path="/additem" component={AddVendorItem}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
@@ -78,6 +80,20 @@ const AdminProtectedRoute = ({ component: Component, ...rest }) => (
     />
 );
 
+const VendorProtectedRoute = ({ component: Component, ...rest }) => (
+    <Route
+        {...rest}
+        render={(props) => {
+          const isLogged = Meteor.userId() !== null;
+          const isVendor = Roles.userIsInRole(Meteor.userId(), 'vendor');
+          return (isLogged && isVendor) ?
+              (<Component {...props} />) :
+              (<Redirect to={{ pathname: '/signin', state: { from: props.location } }}/>
+              );
+        }}
+    />
+);
+
 /** Require a component and location to be passed to each ProtectedRoute. */
 ProtectedRoute.propTypes = {
   component: PropTypes.func.isRequired,
@@ -86,6 +102,11 @@ ProtectedRoute.propTypes = {
 
 /** Require a component and location to be passed to each AdminProtectedRoute. */
 AdminProtectedRoute.propTypes = {
+  component: PropTypes.func.isRequired,
+  location: PropTypes.object,
+};
+
+VendorProtectedRoute.propTypes = {
   component: PropTypes.func.isRequired,
   location: PropTypes.object,
 };
