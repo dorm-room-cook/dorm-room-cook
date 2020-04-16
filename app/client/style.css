@@ -1,3 +1,42 @@
+body {
+  background-color: #F0F0F0;
+}
+
+/* Image filters - to use, just add className='uh-green' for example after <Image /> */
+.uh-green { filter: invert(16%) sepia(56%) saturate(2027%) hue-rotate(137deg) brightness(94%) contrast(98%); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+
+/* Add font and change menu display settings */
+.ui.borderless.top.attached.menu{
+  background-color: whitesmoke !important;
+  border-radius: 0;
+  height: 25px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+/* Fix highlight for item and font hover */
+.ui .item:hover {
+  background: transparent !important;
+  color: #008800 !important;
+  font-size: larger;
+}
+
+/* Fix decorations for active menu item */
+.ui .item.active{
+  background: transparent !important;
+  color: #008800 !important;
+}
+
 .footer {
   padding-top: 15px;
   width: 100%;
