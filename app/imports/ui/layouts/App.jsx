@@ -7,14 +7,14 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
-import ListStuff from '../pages/ListStuff';
+// import ListStuff from '../pages/ListStuff';
 import AddRecipe from '../pages/AddRecipe';
-import EditStuff from '../pages/EditStuff';
+// import EditStuff from '../pages/EditStuff';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
-import Admin from '../pages/Admin';
+import Recipes from '../pages/Recipes';
 import AddVendorItem from '../pages/AddVendorItem';
 import ListVendorItems from '../pages/ListVendorItems';
 import VendorHome from '../pages/VendorHome';
@@ -29,13 +29,12 @@ class App extends React.Component {
             <NavBar/>
             <Switch>
               <Route exact path="/" component={Landing}/>
-              <Route path="/vendors" component={VendorHome}/>
+              <Route path="/recipes" component={Recipes}/>
+              {/*<Route path="/vendors" component={VendorHome}/>*/}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
-              <ProtectedRoute path="/list" component={ListStuff}/>
+              <ProtectedRoute path="/vendors" component={VendorHome}/>
               <ProtectedRoute path="/add" component={AddRecipe}/>
-              <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
-              <AdminProtectedRoute path="/admin" component={Admin}/>
               <ProtectedRoute path="/additem" component={AddVendorItem}/>
               <ProtectedRoute path="/listallitems" component={ListVendorItems}/>
               <ProtectedRoute path="/signout" component={Signout}/>

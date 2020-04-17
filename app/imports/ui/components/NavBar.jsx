@@ -21,15 +21,9 @@ class NavBar extends React.Component {
           </Menu.Item>
           <Menu.Item as={NavLink}
                      activeClassName=""
-                     exact to="recipes"
+                     exact to='recipes'
                      key=''
                      content='Recipes'/>
-          <Menu.Item as={NavLink}
-                     activeClassName=""
-                     exact to="vendors"
-                     key=''
-                     content='Vendors'/>
-          {/* If user is not logged in - display this */}
           {this.props.currentUser ? (
               [<Menu.Item as={NavLink}
                           activeClassName="active"
@@ -42,25 +36,21 @@ class NavBar extends React.Component {
                            exact to="/list"
                            key='list'
                            content='My Recipes'/>,
-                <Menu.Item as={NavLink}
-                  activeClassName="active"
-                  exact to="/additem"
-                  key='additem'
-                  content='Add Vendor Item'/>,
-                <Menu.Item as={NavLink}
-                           activeClassName="active"
-                           exact to="/listallitems"
-                           key='listallitems'
-                           content='Local Ingredients'/>,
               ]
           ) : ''}
-          {Roles.userIsInRole(Meteor.userId(), 'admin') ? (
+          {Roles.userIsInRole(Meteor.userId(), 'vendor') ? ([
               <Menu.Item as={NavLink}
                          activeClassName="active"
-                         exact to="/admin"
-                         key='admin'
-                         content='Admin'
-              />
+                         exact to="/vendors"
+                         key='vendors'
+                         content='Vendors'
+              />,
+              <Menu.Item as={NavLink}
+                         activeClassName="active"
+                         exact to="/listallitems"
+                         key='listallitems'
+                         content='My Ingredients'
+              />]
           ) : ''}
           <Menu.Item position="right">
             {this.props.currentUser === '' ? (
