@@ -5,7 +5,7 @@ Meteor-application-template-react is a sample Meteor 1.9 application that illust
   * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
   * [Semantic UI React](https://react.semantic-ui.com/) for user interface.
   * [Uniforms](https://uniforms.tools/) for form development.
-  * [alanning:roles](https://github.com/alanning/meteor-roles) to implement a special "Admin" user.
+  * [alanning:roles](https://github.com/alanning/meteor-roles) to implement a special "Recipes" user.
   * Authorization, authentication, and registration using built-in Meteor packages.
   * Initialization of users and data from a settings file.
   * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
@@ -185,7 +185,7 @@ Alternatively, clicking on the Login link, then on the Sign Up menu item display
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/register-page.png)
 
 
-#### Landing (after Login) page, non-Admin user
+#### Landing (after Login) page, non-Recipes user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
@@ -213,15 +213,15 @@ After clicking on the "Edit" link associated with an item, this page displays th
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/edit-stuff-page.png)
 
-#### Landing (after Login), Admin user
+#### Landing (after Login), Recipes user
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/admin-landing-page.png)
 
-#### Admin page (list all users stuff)
+#### Recipes page (list all users stuff)
 
-To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
+To provide a simple example of a "super power" for Recipes users, the Recipes page lists all of the Stuff by all of the users:
 
 ![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/admin-list-stuff-page.png)
 
