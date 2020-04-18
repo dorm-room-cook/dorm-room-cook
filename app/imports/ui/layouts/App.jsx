@@ -15,6 +15,7 @@ import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
 import Recipes from '../pages/Recipes';
+import VendorList from '../pages/VendorList';
 import AddVendorItem from '../pages/AddVendorItem';
 import ListVendorItems from '../pages/ListVendorItems';
 import VendorHome from '../pages/VendorHome';
@@ -30,6 +31,7 @@ class App extends React.Component {
             <Switch>
               <Route exact path="/" component={Landing}/>
               <Route path="/recipes" component={Recipes}/>
+              <Route path="/vendorList" component={VendorList}/>
               {/*<Route path="/vendors" component={VendorHome}/>*/}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
