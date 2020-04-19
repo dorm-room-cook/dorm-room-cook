@@ -21,7 +21,7 @@ class VendorList extends React.Component {
         <Container>
           <Header as="h2" textAlign="center">List of Vendors</Header>
           <Input fluid icon='search' placeholder='Search...'/>
-          <Card.Group>
+          <Card.Group style={{ padding: '20px' }}>
             {this.props.vendors.map((vendor, index) => <Vendor
                     key={index}
                     vendor={vendor}/>)}
