@@ -20,10 +20,7 @@ Meteor.publish('StuffAdmin', function publish() {
   return this.ready();
 });
 
+/** This subscription publishes all vendors regardless of user. */
 Meteor.publish('Vendors', function publish() {
-  if (this.userId) {
-    const username = Meteor.users.findOne(this.userId).username;
-    return Vendors.find({ owner: username });
-  }
-  return this.ready();
+  return Vendors.find();
 });

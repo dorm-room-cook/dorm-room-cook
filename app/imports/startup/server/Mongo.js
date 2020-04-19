@@ -20,13 +20,13 @@ if (Stuffs.find().count() === 0) {
 }
 
 function addVendor(data) {
-  console.log(`  Adding: ${data.name} (${data.owner})`);
+  console.log(`  Adding: ${data.vendor} (${data.owner})`);
   Vendors.insert(data);
 }
 
 if (Vendors.find().count() === 0) {
-  if (Meteor.settings.defaultData) {
-    console.log('Creating default data.');
+  if (Meteor.settings.defaultVendorProfiles) {
+    console.log('Creating default vendor data.');
     Meteor.settings.defaultVendorProfiles.map(data => addVendor(data));
   }
 }

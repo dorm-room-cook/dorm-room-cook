@@ -22,10 +22,9 @@ class VendorList extends React.Component {
           <Header as="h2" textAlign="center">List of Vendors</Header>
           <Input fluid icon='search' placeholder='Search...'/>
           <Card.Group>
-            {this.props.vendors.map((contact, index) => <Vendor
+            {this.props.vendors.map((vendor, index) => <Vendor
                     key={index}
-                    contact={contact}
-                    Vendors={Vendors}/>)}
+                    vendor={vendor}/>)}
           </Card.Group>
         </Container>
     );

@@ -28,7 +28,6 @@ class Vendor extends React.Component {
 /** Require a document to be passed to this component. */
 Vendor.propTypes = {
   vendor: PropTypes.object.isRequired,
-  Vendors: PropTypes.object.isRequired,
 };
 
 /** Wrap this component in withRouter since we use the <Link> React Router element. */
