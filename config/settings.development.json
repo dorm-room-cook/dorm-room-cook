@@ -51,62 +51,6 @@
         "Using a spoon, drizzle chocolate sauce over prepared crackers. Top each with another cracker to make a sandwich and enjoy!"
       ],
       "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
-      "nutrition": {
-        "carbs": {
-          "name":"Carbohydrates",
-          "measurement":"g",
-          "per_100g":34,
-          "per_serving":0
-        },
-        "calories": {
-          "name":"Calories",
-          "measurement":"kj",
-          "per_100g":669,
-          "per_serving":0
-        },
-        "fat": {
-          "name":"Fat",
-          "measurement":"g",
-          "per_100g":3,
-          "per_serving":0
-        },
-        "proteins": {
-          "name":"Proteins",
-          "measurement":"g",
-          "per_100g":0,
-          "per_serving":0
-        },
-        "salt": {
-          "name":"Salt",
-          "measurement":"g",
-          "per_100g":0,
-          "per_serving":0
-        },
-        "saturated-fat": {
-          "name":"Saturated Fat",
-          "measurement":"g",
-          "per_100g":3,
-          "per_serving":0
-        },
-        "sodium": {
-          "name":"Sodium",
-          "measurement":"g",
-          "per_100g":0,
-          "per_serving":0
-        },
-        "sugars": {
-          "name": "Sugars",
-          "measurement": "g",
-          "per_100g": 22,
-          "per_serving": 0
-        },
-        "fiber": {
-          "name": "Fiber",
-          "measurement": "g",
-          "per_100g": 5.3,
-          "per_serving": 0
-        }
-      },
       "views": 0,
       "created":"2020-04-15",
       "updated":"2020-04-15"
@@ -164,71 +108,6 @@
         "Bash the reserved pomegranate half with a wooden spoon so the seeds come tumbling out and scatter these over the platter along with the nuts, snip the cress on top, then serve with the feta crumbled over the top."
       ],
       "source": "https://www.jamieoliver.com/recipes/vegetables-recipes/superfood-salad/",
-      "nutrition": [
-        "386 Calories",
-        "18.4g Fat",
-        "11.3g Sugars",
-        "0.7g Salt",
-        "11g Protein",
-        "46.9g Carbs",
-        "5.3g Fiber"
-      ],
-      "nutrition": {
-        "carbs": {
-          "name":"Carbohydrates",
-          "measurement":"g",
-          "per_100g":46.9,
-          "per_serving":0
-        },
-        "calories": {
-          "name":"Calories",
-          "measurement":"kj",
-          "per_100g":386,
-          "per_serving":0
-        },
-        "fat": {
-          "name":"Fat",
-          "measurement":"g",
-          "per_100g":18.4,
-          "per_serving":0
-        },
-        "proteins": {
-          "name":"Proteins",
-          "measurement":"g",
-          "per_100g":11,
-          "per_serving":0
-        },
-        "salt": {
-          "name":"Salt",
-          "measurement":"g",
-          "per_100g":0.7,
-          "per_serving":0
-        },
-        "saturated-fat": {
-          "name":"Saturated Fat",
-          "measurement":"g",
-          "per_100g":0,
-          "per_serving":0
-        },
-        "sodium": {
-          "name":"Sodium",
-          "measurement":"g",
-          "per_100g":0,
-          "per_serving":0
-        },
-        "sugars": {
-          "name": "Sugars",
-          "measurement": "g",
-          "per_100g": 11.3,
-          "per_serving": 0
-        },
-        "fiber": {
-          "name": "Fiber",
-          "measurement": "g",
-          "per_100g": 5.3,
-          "per_serving": 0
-        }
-      },
       "views": 0,
       "created":"2020-01-29T08:05:42.984195+00:00",
       "updated":"2020-01-29T08:05:42.984195+00:00"
