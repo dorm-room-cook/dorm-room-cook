@@ -18,6 +18,8 @@ import Recipes from '../pages/Recipes';
 import AddVendorItem from '../pages/AddVendorItem';
 import ListVendorItems from '../pages/ListVendorItems';
 import VendorHome from '../pages/VendorHome';
+import EditUserProfile from '../pages/EditUserProfile';
+
 
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
@@ -37,6 +39,7 @@ class App extends React.Component {
               <ProtectedRoute path="/add" component={AddRecipe}/>
               <ProtectedRoute path="/additem" component={AddVendorItem}/>
               <ProtectedRoute path="/listallitems" component={ListVendorItems}/>
+              <ProtectedRoute path="/edituserprofile" component={EditUserProfile}/>
               <ProtectedRoute path="/signout" component={Signout}/>
               <Route component={NotFound}/>
             </Switch>
