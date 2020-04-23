@@ -1,0 +1,93 @@
+{
+  "profiles": [
+    {
+      "firstName": "Michael",
+      "lastName": "Rogers",
+      "bio": "Project Management, Website Design and Recipe Creation",
+      "major": "Computer Science",
+      "interests": [
+        "Sandwiches",
+        "Steak",
+        "Machine Learning"
+      ],
+      "recipes":[
+        "Fluffernutter Sandwich",
+        "Something else"
+      ],
+      "picture": "https://ca.slack-edge.com/TS7NRJMB7-US9698SUR-7eab80555b70-512",
+      "email": "mlr2010@hawaii.edu"
+    },
+    {
+      "firstName": "Joshua",
+      "lastName": "Hartmann",
+      "bio": "React Framework Guru",
+      "major": "Computer Science",
+      "interests": [
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "recipes":[
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "picture": "https://ca.slack-edge.com/TS7NRJMB7-US9698SUR-7eab80555b70-512",
+      "email": "mlr2010@hawaii.edu"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Rogers",
+      "bio": "Meteor and JavaScript Aficionado",
+      "major": "Engineering",
+      "interests": [
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "recipes":[
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "picture": "https://ca.slack-edge.com/TS7NRJMB7-USEBKFVSM-21eaa8d50430-512",
+      "email": "user@hawaii.edu"
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Mangubat",
+      "bio": "Front End Development",
+      "major": "Engineering",
+      "interests": [
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "recipes":[
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "picture": "https://ca.slack-edge.com/TS7NRJMB7-USMBWH3KJ-6b53892ebced-512",
+      "email": "user@hawaii.edu"
+    },
+    {
+      "firstName": "Jonathan",
+      "lastName": "Oba",
+      "bio": "Jack of all trades, master of none.",
+      "major": "Engineering",
+      "interests": [
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "recipes":[
+        "Something",
+        "Something Else",
+        "Another thing"
+      ],
+      "picture": "https://ca.slack-edge.com/TS7NRJMB7-USLHUCQ95-14f2f6636888-512",
+      "email": "user2010@hawaii.edu"
+    }
+  ]
+}

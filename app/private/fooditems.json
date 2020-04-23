@@ -1,0 +1,42 @@
+{
+  "fooditems": [
+    {
+      "name": "Chives",
+      "price": 2.00,
+      "size": "medium",
+      "vendor": "Safeway",
+      "availability": true,
+      "qty": 3
+    },
+    {
+      "name": "Chives",
+      "price": 2.50,
+      "size": "medium",
+      "vendor": "Foodland",
+      "availability": true,
+      "qty": 3
+    },
+    {
+      "name": "Salt",
+      "price": 2.50,
+      "size": "medium",
+      "vendor": "Foodland",
+      "availability": true,
+      "qty": 3
+    },    {
+      "name": "Red Chili",
+      "price": 2.50,
+      "size": "medium",
+      "vendor": "Foodland",
+      "availability": true,
+      "qty": 3
+    },    {
+      "name": "Broccoli",
+      "price": 2.50,
+      "size": "medium",
+      "vendor": "Foodland",
+      "availability": true,
+      "qty": 3
+    }
+  ]
+}
