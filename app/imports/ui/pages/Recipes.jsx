@@ -21,7 +21,7 @@ class Recipes extends React.Component {
 
   handleTypeChange = (e, { value }) => this.setState({ type: value });
 
-  handleTimeChange = (e, { value }) => this.setState({ time: value });
+  // handleTimeChange = (e, { value }) => this.setState({ time: value });
 
   render() {
     const numOfCards = [1, 2, 3, 4, 5, 6];
@@ -124,7 +124,7 @@ class Recipes extends React.Component {
                         Hamburgers, Milkshake, French Fries
                       </Card.Content>
                       <Card.Content extra>
-                        <Icon className='zoom' color='black'></Icon> View Directions
+                        <Icon className='zoom' color='black'/> View Directions
                       </Card.Content>
                     </Card>
                 ))}
