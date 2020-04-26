@@ -21,8 +21,8 @@
       "image": "/images/fluff.png",
       "description": "Great snack for all occasions. Simple to make, fun to eat.",
       "owner": "john@foo.com",
-      "preptime": 9,
-      "cooktime": 1,
+      "time": 10,
+      "items": 7,
       "cost": 2.00,
       "ingredients": [
         "RITZ crackers",
@@ -43,7 +43,7 @@
         "Spoon",
         "Bowl"
       ],
-      "servingsize": 4,
+      "servings": 4,
       "instructions": [
         "Spread ½ Tbsp peanut butter onto 8 crackers. Pipe or spread ½ Tbsp marshmallow creme over the peanut butter and set crackers on a plate or cookie sheet.",
         "In a medium microwave-safe bowl, combine chocolate chips and butter. Microwave on high for 20 seconds.",
@@ -54,66 +54,8 @@
       "views": 0,
       "created":"2020-04-15",
       "updated":"2020-04-15"
-    },
-    {
-      "title": "Superfood salad",
-      "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
-      "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
-      "owner": "safeway@foo.com",
-      "preptime": 9,
-      "cooktime": 1,
-      "cost": 2.00,
-      "ingredients": [
-        "2 sweet potatoes (350g each)",
-        "1 pinch of dried chilli flakes",
-        "1 pinch of ground coriander",
-        "1 small pinch of ground cinnamon",
-        "olive oil",
-        "200 g quinoa",
-        "320 g broccoli",
-        "35 g mixed nuts such as walnuts, almonds, Brazils",
-        "1 pomegranate",
-        "extra virgin olive oil",
-        "1 splash of balsamic vinegar",
-        "2 limes",
-        "40 g mixed sprouts",
-        "1 punnet of salad cress (use a mixture of varieties, if possible)",
-        "1 bunch of fresh coriander (30g)",
-        "1 fresh red chilli",
-        "1 ripe avocado",
-        "20 g feta cheese"
-      ],
-      "type": [
-        "Healthy",
-        "Snack",
-        "Munchies"
-      ],
-      "tools": [
-        "Oven",
-        "Microwave",
-        "Cookie sheet"
-      ],
-      "servingsize": 4,
-      "instructions": [
-        "Preheat the oven to 200°C/400°F/gas 6.",
-        "Scrub and chop the sweet potatoes into 2.5cm chunks. Place into a roasting tray with the chilli flakes, ground coriander and cinnamon, a drizzle of olive oil and a little sea salt and black pepper, then toss well.",
-        "Spread out into an even layer and place in the hot oven for 15 to 20 minutes, or until golden and crisp.",
-        "Meanwhile, cook the quinoa in boiling salted water according to the packet instructions.",
-        "Slice the broccoli into small florets, then halve and finely slice the stalk. Place into a heatproof colander and rest it over the quinoa pan. Cover and steam for 3 minutes, or until just tender.",
-        "Once cooked, drain and rinse the quinoa under cold running water, then leave to cool along with the broccoli. Remove the sweet potato from the oven and leave it to cool, too.",
-        "Meanwhile, toast the nuts in a dry frying pan over a medium-high heat for 2 to 3 minutes, then transfer to a pestle and mortar and crush lightly.",
-        "Halve the pomegranate and squeeze half the juice into a large bowl. Add 3 times as much extra virgin olive oil, the lime juice and balsamic vinegar. Whisk well and season to taste.",
-        "Add the cooled broccoli and sprouts to the dressing, then snip in the cress. Roughly chop the coriander (stalks and all), finely slice the chilli and add to the bowl along with the quinoa and sweet potato.",
-        "Toss well, spread out on a serving platter, then scoop out and dot over the avocado flesh.",
-        "Bash the reserved pomegranate half with a wooden spoon so the seeds come tumbling out and scatter these over the platter along with the nuts, snip the cress on top, then serve with the feta crumbled over the top."
-      ],
-      "source": "https://www.jamieoliver.com/recipes/vegetables-recipes/superfood-salad/",
-      "views": 0,
-      "created":"2020-01-29T08:05:42.984195+00:00",
-      "updated":"2020-01-29T08:05:42.984195+00:00"
     }
   ],
-
   "defaultVendorProfiles": [
     {
       "vendor": "Safeway",

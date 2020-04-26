@@ -25,7 +25,7 @@ class Footer extends React.Component {
                 </List>
               </Grid.Column>
               <Grid.Column width={4}>
-                <Header inverted as='h4' content='Recipes' />
+                <Header inverted as='h4' content='ListRecipes' />
                 <List link inverted>
                   <List.Item as='a'>Herbivores</List.Item>
                   <List.Item as='a'>Carnivores</List.Item>

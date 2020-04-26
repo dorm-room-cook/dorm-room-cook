@@ -2,7 +2,7 @@ import React from 'react';
 import { Table } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 
-/** Renders a single row in the List Stuff (Recipes) table. See pages/ListStuffAdmin.jsx. */
+/** Renders a single row in the List Stuff (ListRecipes) table. See pages/ListStuffAdmin.jsx. */
 class StuffItemAdmin extends React.Component {
   render() {
     return (

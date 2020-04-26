@@ -14,7 +14,7 @@ import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
-import Recipes from '../pages/Recipes';
+import ListRecipes from '../pages/ListRecipes';
 import AddVendorItem from '../pages/AddVendorItem';
 import ListVendorItems from '../pages/ListVendorItems';
 import VendorHome from '../pages/VendorHome';
@@ -29,7 +29,7 @@ class App extends React.Component {
             <NavBar/>
             <Switch>
               <Route exact path="/" component={Landing}/>
-              <Route path="/recipes" component={Recipes}/>
+              <Route path="/listallrecipes" component={ListRecipes}/>
               {/* <Route path="/vendors" component={VendorHome}/> */}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>

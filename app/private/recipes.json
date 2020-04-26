@@ -5,8 +5,8 @@
       "image": "/images/fluff.png",
       "description": "Great snack for all occasions. Simple to make, fun to eat.",
       "owner": "john@foo.com",
-      "preptime": 9,
-      "cooktime": 1,
+      "time": 10,
+      "items": 7,
       "cost": 2.00,
       "ingredients": [
         "RITZ crackers",
@@ -27,7 +27,7 @@
         "Spoon",
         "Bowl"
       ],
-      "servingsize": 4,
+      "servings": 4,
       "instructions": [
         "Spread ½ Tbsp peanut butter onto 8 crackers. Pipe or spread ½ Tbsp marshmallow creme over the peanut butter and set crackers on a plate or cookie sheet.",
         "In a medium microwave-safe bowl, combine chocolate chips and butter. Microwave on high for 20 seconds.",
@@ -44,8 +44,8 @@
       "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
       "owner": "safeway@foo.com",
-      "preptime": 9,
-      "cooktime": 1,
+      "time": 10,
+      "items": 18,
       "cost": 2.00,
       "ingredients": [
         "2 sweet potatoes (350g each)",
@@ -77,7 +77,7 @@
         "Microwave",
         "Cookie sheet"
       ],
-      "servingsize": 4,
+      "servings": 4,
       "instructions": [
         "Preheat the oven to 200°C/400°F/gas 6.",
         "Scrub and chop the sweet potatoes into 2.5cm chunks. Place into a roasting tray with the chilli flakes, ground coriander and cinnamon, a drizzle of olive oil and a little sea salt and black pepper, then toss well.",
