@@ -30,3 +30,18 @@ if (Recipes.find().count() === 0) {
     Meteor.settings.defaultRecipes.map(data => addRecipe(data));
   }
 }
+
+/**
+ * If the loadAssetsFile field in settings.development.json is true, then load the data in private/recipe.json.
+ * This approach allows you to initialize your system with large amounts of data.
+ * Note that settings.development.json is limited to 64,000 characters.
+ * We use the "Assets" capability in Meteor.
+ * For more info on assets, see https://docs.meteor.com/api/assets.html
+ * Recipe count check is to make sure we don't load the file twice, which would generate errors due to duplicate info.
+ */
+if ((Meteor.settings.loadAssetsFile) && (Recipes.find().count() === 2)) {
+  const assetsFileName = 'recipes.json';
+  console.log(`Loading data from private/${assetsFileName}`);
+  const jsonData = JSON.parse(Assets.getText(assetsFileName));
+  jsonData.recipes.map(recipe => addRecipe(recipe));
+}

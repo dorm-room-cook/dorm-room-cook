@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "title": "Ritz-choco-fluffernutter Sandwiches",
+      "title": "Ritz-choco-fluffernutter Sandwiches (copy)",
       "image": "/images/fluff.png",
       "description": "Great snack for all occasions. Simple to make, fun to eat.",
       "owner": "john@foo.com",
@@ -35,68 +35,12 @@
         "Using a spoon, drizzle chocolate sauce over prepared crackers. Top each with another cracker to make a sandwich and enjoy!"
       ],
       "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
-      "nutrition": {
-        "carbs": {
-          "name": "Carbohydrates",
-          "measurement": "g",
-          "per_100g": 34,
-          "per_serving": 0
-        },
-        "calories": {
-          "name": "Calories",
-          "measurement": "kj",
-          "per_100g": 669,
-          "per_serving": 0
-        },
-        "fat": {
-          "name": "Fat",
-          "measurement": "g",
-          "per_100g": 3,
-          "per_serving": 0
-        },
-        "proteins": {
-          "name": "Proteins",
-          "measurement": "g",
-          "per_100g": 0,
-          "per_serving": 0
-        },
-        "salt": {
-          "name": "Salt",
-          "measurement": "g",
-          "per_100g": 0,
-          "per_serving": 0
-        },
-        "saturated-fat": {
-          "name": "Saturated Fat",
-          "measurement": "g",
-          "per_100g": 3,
-          "per_serving": 0
-        },
-        "sodium": {
-          "name": "Sodium",
-          "measurement": "g",
-          "per_100g": 0,
-          "per_serving": 0
-        },
-        "sugars": {
-          "name": "Sugars",
-          "measurement": "g",
-          "per_100g": 22,
-          "per_serving": 0
-        },
-        "fiber": {
-          "name": "Fiber",
-          "measurement": "g",
-          "per_100g": 5.3,
-          "per_serving": 0
-        }
-      },
       "views": 0,
-      "created": "2020-04-15",
-      "updated": "2020-04-15"
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
     },
     {
-      "title": "Superfood salad",
+      "title": "Superfood salad (copy)",
       "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
       "owner": "safeway@foo.com",
@@ -148,94 +92,9 @@
         "Bash the reserved pomegranate half with a wooden spoon so the seeds come tumbling out and scatter these over the platter along with the nuts, snip the cress on top, then serve with the feta crumbled over the top."
       ],
       "source": "https://www.jamieoliver.com/recipes/vegetables-recipes/superfood-salad/",
-      "nutrition": {
-        "carbs": {
-          "name": "Carbohydrates",
-          "measurement": "g",
-          "per_100g": 46.9,
-          "per_serving": 0
-        },
-        "calories": {
-          "name": "Calories",
-          "measurement": "kj",
-          "per_100g": 386,
-          "per_serving": 0
-        },
-        "fat": {
-          "name": "Fat",
-          "measurement": "g",
-          "per_100g": 18.4,
-          "per_serving": 0
-        },
-        "proteins": {
-          "name": "Proteins",
-          "measurement": "g",
-          "per_100g": 11,
-          "per_serving": 0
-        },
-        "salt": {
-          "name": "Salt",
-          "measurement": "g",
-          "per_100g": 0.7,
-          "per_serving": 0
-        },
-        "saturated-fat": {
-          "name": "Saturated Fat",
-          "measurement": "g",
-          "per_100g": 0,
-          "per_serving": 0
-        },
-        "sodium": {
-          "name": "Sodium",
-          "measurement": "g",
-          "per_100g": 0,
-          "per_serving": 0
-        },
-        "sugars": {
-          "name": "Sugars",
-          "measurement": "g",
-          "per_100g": 11.3,
-          "per_serving": 0
-        },
-        "fiber": {
-          "name": "Fiber",
-          "measurement": "g",
-          "per_100g": 5.3,
-          "per_serving": 0
-        }
-      },
       "views": 0,
-      "created": "2020-01-29T08:05:42.984195+00:00",
-      "updated": "2020-01-29T08:05:42.984195+00:00"
-    }
-  ],
-  "defaultVendorProfiles": [
-    {
-      "vendor": "Safeway",
-      "image": "/images/safeway.png",
-      "owner": "safeway@foo.com",
-      "address": "2855 E Manoa Rd, Honolulu, HI 96822",
-      "hours": "6AM-10PM Daily",
-      "phone": "(808) 988-2058",
-      "priceindex": "$$"
-    },
-    {
-      "vendor": "Foodland",
-      "image": "/images/foodland.png",
-      "owner": "foodland@foo.com",
-      "address": "2939 Harding Ave, Honolulu, HI 96816",
-      "hours": "6AM-9PM Daily",
-      "phone": "(808) 734-6303",
-      "priceindex": "$"
-    },
-    {
-      "vendor": "The Market",
-      "image": "/images/....png",
-      "owner": "themarket@foo.com",
-      "address": "2585 Dole St, Honolulu, HI 96822",
-      "hours": "2PM-12AM Daily, closed Wednesdays",
-      "phone": "(808) 988-2058",
-      "priceindex": "$$$"
+      "created":"2020-01-29T08:05:42.984195+00:00",
+      "updated":"2020-01-29T08:05:42.984195+00:00"
     }
   ]
 }
