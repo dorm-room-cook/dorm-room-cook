@@ -1,5 +1,27 @@
-body {
-  background-color: #f9f9f9 !important;
+html,body{
+  height:100%;
+  margin:0;
+  color:#fff;
+  text-align:center;
+  /*background: rgb(193,7,7);*/
+  /*background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;*/
+  background: url('images/gb2.jpg') !important;
+}
+
+.linediv {
+  margin: 1rem 0rem;
+}
+
+i {
+  color: #015b1b;
+}
+
+/*!* Fix highlight for item and font hover *!*/
+i:hover {
+  background: transparent !important;
+  transition: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  transition: color .5s;
+  color: #ff6600 !important;
 }
 
 /* Image filters - to use, just add className='uh-green' for example after <Image /> */
@@ -31,14 +53,13 @@ h1.ui.header {
   height: 25px;
   font-family: 'Indie Flower', cursive;
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 /* Fix highlight for item and font hover */
 .ui .item:hover {
   background: transparent !important;
   color: #008800 !important;
-  /*font-size: larger;*/
 }
 
 /* Fix decorations for active menu item */
@@ -49,17 +70,4 @@ h1.ui.header {
 
 .buttons {
   width: 100%;
-}
-
-
-/* footer */
-.footer {
-  padding-top: 15px;
-  width: 100%;
-  min-height: 0px;
-  background-image: url('/images/footer-img.jpg');
-  padding-bottom: 100px;
-  background-position: -20px 50px;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
