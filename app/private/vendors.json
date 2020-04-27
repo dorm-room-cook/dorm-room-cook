@@ -1,31 +1,34 @@
 {
 "vendors": [
     {
-      "vendor": "Safeway",
+      "name": "Safeway",
       "image": "/images/safeway.png",
       "owner": "safeway@foo.com",
       "address": "2855 E Manoa Rd, Honolulu, HI 96822",
       "hours": "6AM-10PM Daily",
       "phone": "(808) 988-2058",
-      "priceindex": "$$"
+      "priceindex": "$$",
+      "likes": 0
     },
     {
-      "vendor": "Foodland",
+      "name": "Foodland",
       "image": "/images/foodland.png",
       "owner": "foodland@foo.com",
       "address": "2939 Harding Ave, Honolulu, HI 96816",
       "hours": "6AM-9PM Daily",
       "phone": "(808) 734-6303",
-      "priceindex": "$"
+      "priceindex": "$",
+      "likes": 0
     },
     {
-      "vendor": "The Market",
+      "name": "The Market",
       "image": "/images/....png",
       "owner": "themarket@foo.com",
       "address": "2585 Dole St, Honolulu, HI 96822",
       "hours": "2PM-12AM Daily, closed Wednesdays",
       "phone": "(808) 988-2058",
-      "priceindex": "$$$"
+      "priceindex": "$$$",
+      "likes": 0
     }
   ]
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Grid, Header, Button, Icon, Card, List, Segment, Modal, Image } from 'semantic-ui-react';
+import { Container, Grid, Header, Icon, Card, List, Segment, Modal, Image } from 'semantic-ui-react';
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
 class Footer extends React.Component {
   state = { open: false }
@@ -58,7 +58,7 @@ class Footer extends React.Component {
                 Privacy Policy
               </List.Item>
             </List>
-            <Modal basic size={size} open={open} onClose={this.close}>
+            <Modal basic size={size} open={open} onClose={this.close} closeIcon>
               <Modal.Header textAlign={'centered'}>Meet the Team</Modal.Header>
               <Modal.Content>
                 <Card.Group centered itemsPerRow={2}>
@@ -169,14 +169,6 @@ class Footer extends React.Component {
                   </Card>
                 </Card.Group>
               </Modal.Content>
-             <Modal.Actions>
-              <Button
-                  basic negative
-                  color='red'
-                  onClick={this.close}
-                  content='Close'
-              />
-             </Modal.Actions>
             </Modal>
           </Container>
         </Segment>

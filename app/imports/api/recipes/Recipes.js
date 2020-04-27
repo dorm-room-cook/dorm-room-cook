@@ -13,7 +13,6 @@ const RecipeSchema = new SimpleSchema({
   owner: String,
   time: String,
   items: Number,
-  cost: { type: Number, min: 0 },
   ingredients: [String],
   type: [String],
   tools: { type: Array, optional: true },
@@ -22,6 +21,7 @@ const RecipeSchema = new SimpleSchema({
   instructions: [String],
   source: { type: String, optional: true },
   views: Number,
+  notes: [String],
   created: String,
   updated: String,
 }, { tracker: Tracker });

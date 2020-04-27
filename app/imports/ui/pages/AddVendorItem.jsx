@@ -5,8 +5,8 @@ import swal from 'sweetalert';
 import { Meteor } from 'meteor/meteor';
 import 'uniforms-bridge-simple-schema-2'; // required for Uniforms
 import SimpleSchema from 'simpl-schema';
-import { Stuffs } from '../../api/stuff/Stuff';
-import StuffItem from '../components/StuffItem';
+import { Items } from '../../api/items/Items';
+import StuffItem from '../components/VendorItem';
 
 /** Create a schema to specify the structure of the data to appear in the form. */
 const formSchema = new SimpleSchema({
@@ -26,7 +26,7 @@ class AddVendorItem extends React.Component {
   submit(data, formRef) {
     const { name, price, size } = data;
     const owner = Meteor.user().username;
-    Stuffs.insert({ name, price, size, owner },
+    Items.insert({ name, price, size, owner },
         (error) => {
           if (error) {
             swal('Error', error.message, 'error');

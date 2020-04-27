@@ -1,13 +1,12 @@
 {
   "recipes": [
     {
-      "title": "Ritz-choco-fluffernutter Sandwiches (copy)",
+      "title": "Ritz-choco-fluffernutter Sandwiches",
       "image": "/images/fluff.png",
       "description": "Great snack for all occasions. Simple to make, fun to eat.",
       "owner": "john@foo.com",
       "time": 10,
       "items": 7,
-      "cost": 2.00,
       "ingredients": [
         "RITZ crackers",
         "Peanut Butter",
@@ -36,17 +35,17 @@
       ],
       "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
       "views": 0,
+      "notes": [],
       "created":"2020-04-15",
       "updated":"2020-04-15"
     },
     {
-      "title": "Superfood salad (copy)",
+      "title": "Superfood salad",
       "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
       "owner": "safeway@foo.com",
       "time": 10,
       "items": 18,
-      "cost": 2.00,
       "ingredients": [
         "2 sweet potatoes (350g each)",
         "1 pinch of dried chilli flakes",
@@ -93,8 +92,151 @@
       ],
       "source": "https://www.jamieoliver.com/recipes/vegetables-recipes/superfood-salad/",
       "views": 0,
+      "notes": [],
       "created":"2020-01-29T08:05:42.984195+00:00",
       "updated":"2020-01-29T08:05:42.984195+00:00"
+    },
+    {
+      "title": "Pumpkin Mug Pie with Toffee and Caramel",
+      "image": "http://2.bp.blogspot.com/-KC7UT71Lxvs/UnG0CuF9NLI/AAAAAAAAICI/4EkO9SWp3Fk/s640/DSC_0071.tiff",
+      "description": "Making a mug pie is easy. Just throw all the ingredients in a mug and then stick it in the microwave for a few minutes.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 9,
+      "ingredients": [
+        "3/4 cup pumpkin puree (canned)",
+        "1/4 cup heavy cream*",
+        "1 egg yolk",
+        "1/4 cup sugar",
+        "1/4 teaspoon cinnamon",
+        "A pinch of ginger",
+        "A pinch of cloves",
+        "A pinch of salt",
+        "1/2 teaspoon vanilla"
+      ],
+      "type": [
+        "Dessert",
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Microwave",
+        "Spoon",
+        "Mug"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Combine all the ingredients in a large mug.",
+        "If your mug is too small, try two mugs or a microwavable bowl.",
+        "Turn the microwave power down to 50% power.",
+        "Cook for 6-8 minutes or until a knife inserted comes out pretty clean.",
+        "You could also try doing it at full power for less time.",
+        "If you do that, I would start with maybe 2 minutes and then try every 30 seconds till it's done.",
+        "Cool in the refrigerator (or freezer) and top with whipped cream, toffee bits, and caramel (recipe here)."
+      ],
+      "source": "http://www.yammiesnoshery.com/2013/10/pumpkin-mug-pie-with-toffee-and-caramel.html",
+      "views": 3,
+      "notes": ["If you're dairy free, try coconut or almond milk."
+      ],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+    {
+      "title": "Chocolate Mug Cake",
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2020/02/chocolate-mug-cake-33.jpg",
+      "description": "Microwave Chocolate Mug Cake – the easiest and fastest dessert ever! It literally takes just minutes to prepare and cooks in a flash!",
+      "owner": "safeway@foo.com",
+      "time": 10,
+      "items": 8,
+      "ingredients": [
+        "3 Tbsp all-purpose flour",
+        "3 Tbsp granulated sugar",
+        "2 1/2 Tbsp unsweetened cocoa powder",
+        "1 pinch baking soda",
+        "2 Tbsp mayonnaise (good quality like Hellman's)",
+        "3 Tbsp whole milk",
+        "1/4 tsp vanilla extract",
+        "1 Tbsp semi-sweet chocolate chips (optional)"
+      ],
+      "type": [
+        "Healthy",
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Oven",
+        "Microwave",
+        "Cookie sheet"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Mix dry ingredients in a mug: Whisk flour, cocoa, sugar, baking soda in a medium microwave safe ceramic mug (at least 11 oz.).",
+        "Add wet ingredients: Add in milk, vanilla and mayonnaise.",
+        "Blend, add chocolate chips: Stir well with a fork to combine, while scraping along bottom and edges (especially bottom edges if it's not rounded). Sprinkle over chocolate chips.",
+        "Cook though in microwave: heat mixture in microwave on high power until just barely cooked through in the center, about 1 minute to 1 1/2 minutes. Let it cool for a minute or two it will be hot.",
+        "Optionally top: if desired served topped with vanilla or chocolate ice cream, or with whipped cream and shaved chocolate."
+      ],
+      "source": "https://www.cookingclassy.com/chocolate-mug-cake/",
+      "views": 0,
+      "notes": [
+        "No greasing mug necessary. It's going to stick either way so just soak in water after finishing for easier clean up.",
+        "Be careful not to over-cook or mug cake will end up dry.",
+        "Enjoy within about 10 minutes of making for best texture."
+      ],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Breakfast Burrito",
+      "image": "https://www.cookingclassy.com/wp-content/uploads/2019/08/breakfast-burrito-01.jpg",
+      "description": "Breakfast burritos are one of my favorite splurge breakfast recipes. Though normally I don’t make them for breakfast – more often than not we actually eat them for dinner.",
+      "owner": "safeway@foo.com",
+      "time": 35,
+      "items": 10,
+      "ingredients": [
+        "6 large eggs",
+        "8 oz. chorizo sausage*",
+        "1 Tbsp olive oil",
+        "2 cups frozen O'Brien hash brown potatoes",
+        "Salt and freshly ground black pepper",
+        "4 extra large flour tortillas (10 to 11-inch)",
+        "3/4 cup shredded Mexican cheese blend",
+        "1 cup fresh pico de gallo, homemade or store-bought",
+        "1 avocado, diced",
+        "Mexican hot sauce, such as Cholula or Tapatio, for serving (optional)"
+      ],
+      "course": "Breakfast",
+      "cuisine": "Mexican",
+      "Keyword": "Breakfast Burritos",
+      "type": [
+        "Healthy",
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Skillet",
+        "Refrigerator"
+      ],
+      "servings": 4,
+      "instructions": [
+        "In a medium mixing bowl beat eggs with a fork just until blended, set aside.",
+        "Heat a 10-inch non-stick skillet over medium-high heat. Crumble in chorizo and cook, while breaking up sausage and tossing, until browned and cooked through, about 5 - 6 minutes.",
+        "Transfer sausage to a sheet of foil lined with paper towels, wrap to keep warm. Leave rendered fat in skillet.",
+        "Pour 1 Tbsp oil into skillet with sausage drippings, heat over medium-high. Add potatoes (stand back the may splatter since frozen), season with salt and pepper to taste. Cook, tossing occasionally, until lightly browned and cooked through, about 7 - 8 minutes.",
+        "Transfer potatoes to a sheet of foil lined with paper towels, wrap to keep warm. There should be just a little oil left behind in the skillet if not drizzle in about 1/2 Tbsp olive oil.",
+        "Heat skillet over medium-low heat. Add eggs and cook, scrapping bottom of a pan constantly with a rubber spatula and folding edges of eggs inward, just until eggs are nearly set, season with salt and pepper. Remove from heat, cover and keep warm (they'll continue to cook from residual heat of pan).",
+        "Heat tortillas on a griddle, in a large skillet or in the microwave until heated through.",
+        "To assemble, layer 1/4 of the eggs in a row in the center of each tortilla. Top each with 1/4 of the potatoes. Divide cheese among each then sprinkle with sausage. Spoon a few big spoonfuls of pico de gallo over each, top with avocado.",
+        "Wrap two sides of tortilla inward then roll bottom side over, then roll up and wrap snuggly. Serve with Mexican hot sauce if desired."
+      ],
+      "source": "https://www.cookingclassy.com/breakfast-burrito-recipe/",
+      "views": 0,
+      "notes": [
+        "8 oz bacon (8 slices) can be substituted for chorizo.",
+        "Burritos can be made ahead and frozen, see notes above recipe for how-to."
+      ],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
     }
   ]
 }
