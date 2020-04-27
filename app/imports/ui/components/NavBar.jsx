@@ -10,7 +10,7 @@ import { Roles } from 'meteor/alanning:roles';
 class NavBar extends React.Component {
   render() {
     return (
-        <Menu attached="top" borderless>
+        <Menu inverted attached="top" borderless>
           <Menu.Item as={NavLink}
                      activeClassName=""
                      exact to="/">

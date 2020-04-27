@@ -1,31 +1,11 @@
 import React from 'react';
-import { Card, Image, Button, List } from 'semantic-ui-react';
+import { Button, Card, Image, List, Modal, Grid, Header } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-// import swal from 'sweetalert';
 import { withRouter } from 'react-router-dom';
+import { _ } from 'meteor/underscore';
 
-/** Component for layout out a Profile Card. */
+/** Component for layout out a Recipe Card. */
 class RecipeCard extends React.Component {
-  // removeContact(docID) {
-  //   swal({
-  //     title: 'Are you sure?',
-  //     text: `Once deleted, ${this.props.recipe.title}
-  //         will no longer be in your list of contacts.`,
-  //     icon: 'warning',
-  //     buttons: true,
-  //     dangerMode: true,
-  //   })
-  //       .then((willDelete) => {
-  //         if (willDelete) {
-  //           this.props.Recipes.remove(docID);
-  //           swal(`Poof! ${this.props.recipe.title} has been deleted!`, {
-  //             icon: 'success',
-  //           });
-  //         } else {
-  //           swal(`${this.props.recipe.title} is still in my-recipes!`);
-  //         }
-  //       });
-  // }
 
     render() {
       return (
@@ -63,7 +43,67 @@ class RecipeCard extends React.Component {
           </Card.Description>
         </Card.Content>
         <Card.Content textAlign='center' extra>
-          <Button inverted compact size='mini' color='purple' content='View Recipe'/>
+           <Modal
+               trigger={<Button inverted color='blue'>View Details</Button>}
+               size='small'>
+             <article className="text-over">
+               <figure>
+                 <img src={this.props.recipe.image}/>
+                 <figcaption>
+                   <h1>
+                     {this.props.recipe.description}
+                   </h1>
+                 </figcaption>
+               </figure>
+             </article>
+             <Modal.Content>
+               <Grid container divided inverted stackable>
+                  <Grid.Row textAlign='centered'>
+                    <Header className='baloo' as='h2' content={this.props.recipe.title} color='orange'/>
+                  </Grid.Row>
+                 <Grid.Column width={4}>
+                   <Header as='h4' content='Ingredients' />
+                   <List bulleted>
+                     {_.map(this.props.recipe.ingredients,
+                         (ingredient, index) => <List.Item key={index}>{ingredient}</List.Item>)}
+                   </List>
+                 </Grid.Column>
+                 <Grid.Column width={10}>
+                   <Header as='h4' content='Directions' />
+                   <List ordered>
+                     {_.map(this.props.recipe.instructions,
+                         (instruction, index) => <List.Item key={index}>{instruction}</List.Item>)}
+                   </List>
+                 </Grid.Column>
+                 <Grid.Column width={2}>
+                   <Header as='h4' content='Info' />
+                   <List text-align='centered' divided>
+                     <List.Item>
+                       <List.Content>
+                         <List.Icon inverted color='blue' name='clock outline'/>
+                         <span>{this.props.recipe.time}</span>
+                         <List.Description as='a'>Minutes</List.Description>
+                       </List.Content>
+                     </List.Item>
+                     <List.Item>
+                       <List.Content>
+                         <List.Icon inverted color='red' name='food'/>
+                         <span>{this.props.recipe.items}</span>
+                         <List.Description as='a'>Items</List.Description>
+                       </List.Content>
+                     </List.Item>
+                     <List.Item>
+                       <List.Content>
+                         <List.Icon inverted color='yellow' name='star'/>
+                         <span>{this.props.recipe.views}</span>
+                         <List.Description as='a'>Likes</List.Description>
+                       </List.Content>
+                     </List.Item>
+                   </List>
+                 </Grid.Column>
+               </Grid>
+              </Modal.Content>
+           </Modal>
         </Card.Content>
       </Card>
     );

@@ -3,8 +3,8 @@ import { Meteor } from 'meteor/meteor';
 import { Container, Table, Header, Loader } from 'semantic-ui-react';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import { Stuffs } from '../../api/stuff/Stuff';
-import StuffItemAdmin from '../components/StuffItemAdmin';
+import { Stuffs } from '../../api/items/Items';
+import VendorItemAdmin from '../components/VendorItemAdmin';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
 class ListStuffAdmin extends React.Component {
@@ -29,7 +29,7 @@ class ListStuffAdmin extends React.Component {
               </Table.Row>
             </Table.Header>
             <Table.Body>
-              {this.props.stuffs.map((stuff) => <StuffItemAdmin key={stuff._id} stuff={stuff} />)}
+              {this.props.stuffs.map((stuff) => <VendorItemAdmin key={stuff._id} stuff={stuff} />)}
             </Table.Body>
           </Table>
         </Container>

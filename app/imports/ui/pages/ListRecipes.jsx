@@ -1,23 +1,29 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
-import { Recipes } from '../../api/recipe/Recipes';
+import { Recipes } from '../../api/recipes/Recipes';
 
 /** Renders a table containing all of the Contact documents. */
 class ListRecipes extends React.Component {
 
+  /** Render the page once subscriptions have been received. */
   render() {
     return (this.props.ready) ? this.renderPage() : <Loader active>Getting data</Loader>;
   }
 
-  /** Render the page once subscriptions have been received. */
   renderPage() {
+
     return (
         <Container>
-          <Header as="h2" textAlign="center" inverted>List Recipes</Header>
+          <Header as="h2" textAlign="center" inverted>All Recipes</Header>
+          <Grid>
+            <Grid.Column width={16}>
+              <Search fluid size='large'/>
+            </Grid.Column>
+          </Grid>
           <Card.Group>
             {this.props.recipes.map((recipe, index) => <RecipeCard
                 key={index}

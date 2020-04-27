@@ -3,10 +3,20 @@ html,body{
   margin:0;
   color:#fff;
   text-align:center;
-  /*background: rgb(193,7,7);*/
-  /*background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;*/
-  background: url('images/gb2.jpg') !important;
+  background: rgb(193,7,7);
+  background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;
+  /*background: url('images/gb2.jpg') !important;*/
 }
+
+.recipe-modal-top {
+  /*background: url(https://corp.roblox.com/wp-content/uploads/2019/04/home-hero-updated.jpg) no-repeat center center;*/
+  /*background-size: cover;*/
+  color: black;
+  /*border-style: dotted;*/
+  /*border-color: red;*/
+  /*border-radius: 25px;*/
+}
+
 
 .linediv {
   margin: 1rem 0rem;
@@ -55,8 +65,9 @@ h1.ui.header {
 }
 
 /* Add font and change menu display settings */
-.ui.borderless.top.attached.menu{
-  background-color: whitesmoke !important;
+.ui.inverted.borderless.top.attached.menu{
+  /*background-color: whitesmoke !important;*/
+  background-color: rgba(0,0,0,0.8) !important;
   border-radius: 0;
   height: 25px;
   font-family: 'Indie Flower', cursive;
@@ -78,4 +89,74 @@ h1.ui.header {
 
 .buttons {
   width: 100%;
+}
+
+
+
+.text-over {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.text-over > * {
+  flex: 1 1 100px;
+  align-self: flex-start;
+  padding: .1rem;
+}
+
+.text-over figure::before {
+  /*display: block;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(0deg, #9f99a0 0%, rgba(248, 248, 248, 0.91) 100%);
+  content: '';
+  border-radius: 50px 5px 50px 5px !important;
+}
+
+.text-over figure:hover img {
+  opacity: 0.15;
+}
+
+.text-over figure:hover figcaption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.text-over figure {
+  position: relative;
+  padding: 30% 0;
+  margin: 0;
+}
+
+.text-over figcaption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition: all 0.3s ease-in-out;
+}
+
+.text-over img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  mix-blend-mode: multiply;
+  filter: saturate(1.5);
+  border-radius: 50px 5px 50px 5px !important;
+  transition: all 0.3s ease-in-out;
 }

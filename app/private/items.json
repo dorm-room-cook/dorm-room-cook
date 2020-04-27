@@ -1,10 +1,11 @@
 {
-  "fooditems": [
+  "items": [
     {
       "name": "Chives",
       "price": 2.00,
       "size": "medium",
       "vendor": "Safeway",
+      "owner": "safeway@foo.com",
       "availability": true,
       "qty": 3
     },
@@ -13,6 +14,7 @@
       "price": 2.50,
       "size": "medium",
       "vendor": "Foodland",
+      "owner": "foodland@foo.com",
       "availability": true,
       "qty": 3
     },
@@ -21,6 +23,7 @@
       "price": 2.50,
       "size": "medium",
       "vendor": "Foodland",
+      "owner": "foodland@foo.com",
       "availability": true,
       "qty": 3
     },    {
@@ -28,6 +31,7 @@
       "price": 2.50,
       "size": "medium",
       "vendor": "Foodland",
+      "owner": "foodland@foo.com",
       "availability": true,
       "qty": 3
     },    {
@@ -35,6 +39,7 @@
       "price": 2.50,
       "size": "medium",
       "vendor": "Foodland",
+      "owner": "foodland@foo.com",
       "availability": true,
       "qty": 3
     }
