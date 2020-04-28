@@ -12,7 +12,6 @@ const ItemSchema = new SimpleSchema({
   size: String,
   vendor: String,
   availability: Boolean,
-  qty: Number,
   owner: String,
 }, { tracker: Tracker });
 

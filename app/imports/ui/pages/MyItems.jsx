@@ -1,15 +1,17 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Container, Table, Header, Loader } from 'semantic-ui-react';
+import { Container, Table, Header, Loader, Button, Icon, Modal, Card,
+} from 'semantic-ui-react';
 import swal from 'sweetalert';
+import { AutoForm } from 'uniforms-semantic';
 import 'uniforms-bridge-simple-schema-2'; // required for Uniforms
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
+import { Items, ItemSchema } from '../../api/items/Items';
 import VendorItem from '../components/VendorItem';
-import { Items } from '../../api/items/Items';
 
 /** Renders a table containing all of the Stuff documents. Use <StuffItem> to render each row. */
-class ListVendorItems extends React.Component {
+class MyItems extends React.Component {
 
   /** If the subscription(s) have been received, render the page, otherwise show a loading icon. */
   render() {
@@ -33,6 +35,7 @@ class ListVendorItems extends React.Component {
 
   /** Render the page once subscriptions have been received. */
   renderPage() {
+    let fRef = null;
     return (
         <Container>
           <Header as="h2" textAlign="center">Ingredients</Header>
@@ -43,14 +46,37 @@ class ListVendorItems extends React.Component {
                 <Table.HeaderCell>Price</Table.HeaderCell>
                 <Table.HeaderCell>Size</Table.HeaderCell>
                 <Table.HeaderCell>Vendor</Table.HeaderCell>
-                <Table.HeaderCell>Availability</Table.HeaderCell>
+                <Table.HeaderCell>In Stock</Table.HeaderCell>
                 <Table.HeaderCell>Edit</Table.HeaderCell>
                 <Table.HeaderCell>Delete</Table.HeaderCell>
               </Table.Row>
             </Table.Header>
             <Table.Body>
-              {this.props.items.map((item) => <VendorItem key={item._id} item={item}/>)}
+              {this.props.items.map((item) => <VendorItem key={item._id} item={item} />)}
             </Table.Body>
+            <Table.Footer fullWidth>
+              <Table.Row>
+                <Table.HeaderCell colSpan='7'>
+                  <Modal fluid basic closeIcon size='mini'
+                      trigger={
+                        <Button icon labelPosition='left' basic size='small'>
+                        <Icon name='spoon' color='orange' />Add Item</Button>}
+                  >
+                    <Modal.Header>Add an item</Modal.Header>
+                    <Modal.Content>
+                      <Card>
+                        <Card.Content>
+                          <AutoForm ref={ref => { fRef = ref; }}
+                                    schema={ItemSchema}
+                                    onSubmit={data => this.submit(data, fRef)} >
+                          </AutoForm>
+                        </Card.Content>
+                      </Card>
+                    </Modal.Content>
+                  </Modal>
+                </Table.HeaderCell>
+              </Table.Row>
+            </Table.Footer>
           </Table>
         </Container>
     );
@@ -58,7 +84,7 @@ class ListVendorItems extends React.Component {
 }
 
 /** Require an array of Stuff documents in the props. */
-ListVendorItems.propTypes = {
+MyItems.propTypes = {
   items: PropTypes.array.isRequired,
   ready: PropTypes.bool.isRequired,
 };
@@ -66,9 +92,9 @@ ListVendorItems.propTypes = {
 /** withTracker connects Meteor data to React components. https://guide.meteor.com/react.html#using-withTracker */
 export default withTracker(() => {
   // Get access to Stuff documents.
-  const subscription = Meteor.subscribe('Items');
+  const subscription = Meteor.subscribe('MyItems');
   return {
     items: Items.find({}).fetch(),
     ready: subscription.ready(),
   };
-})(ListVendorItems);
+})(MyItems);

@@ -15,8 +15,10 @@ import Signout from '../pages/Signout';
 import ListRecipes from '../pages/ListRecipes';
 import AddVendorItem from '../pages/AddVendorItem';
 import ListVendorItems from '../pages/ListVendorItems';
-import VendorHome from '../pages/VendorHome';
-
+import ListVendorItemsAdmin from '../pages/ListVendorItemsAdmin';
+import MyRecipes from '../pages/MyRecipes';
+import MyItems from '../pages/MyItems';
+import EditItem from '../pages/EditItem';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 class App extends React.Component {
@@ -26,16 +28,27 @@ class App extends React.Component {
           <div>
             <NavBar/>
             <Switch>
+              { /* The main landing page - everyone sees this */}
               <Route exact path="/" component={Landing}/>
-              <Route path="/listallrecipes" component={ListRecipes}/>
-              {/* <Route path="/vendors" component={VendorHome}/> */}
+              { /* The page that displays all recipe cards - everyone has access */}
+              <Route path="/recipes" component={ListRecipes}/>
+              { /* The page that displays all vendor cards - everyone sees this */}
+              {/* <Route path="/vendors" component={ListVendors}/> -- not yet implemented */}
+              { /* Sign-in/Sign-up - everyone can do this */}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
-              <ProtectedRoute path="/vendors" component={VendorHome}/>
-              <ProtectedRoute path="/add" component={AddRecipe}/>
-              <ProtectedRoute path="/additem" component={AddVendorItem}/>
-              <ProtectedRoute path="/listallitems" component={ListVendorItems}/>
+              <ProtectedRoute path="/myrecipes" component={MyRecipes}/>
+              <ProtectedRoute path="/myitems" component={MyItems}/>
+              <ProtectedRoute path="/edititem/:_id" component={EditItem}/>
+              {/*<ProtectedRoute path="/editprofile" component={EditProfile}/>*/}
+              <ProtectedRoute path="/addrecipe" component={AddRecipe}/>
+              {/*<ProtectedRoute path="/editrecipe" component={EditRecipe}/>*/}
+              {/* <ProtectedRoute path="/add" component={AddRecipe}/> -- this should show up in my-recipes */}
+              {/* <ProtectedRoute path="/additem" component={AddVendorItem}/> */}
+              <ProtectedRoute path="/items" component={ListVendorItems}/>
+              <AdminProtectedRoute path="/adminitems" component={ListVendorItemsAdmin}/>
               <ProtectedRoute path="/signout" component={Signout}/>
+              {/* <VendorProtectedRoute path="/signout" component={Signout}/> */}
               <Route component={NotFound}/>
             </Switch>
             <Footer/>
