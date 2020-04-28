@@ -83,6 +83,36 @@
     "phone": "(808) 947-7678",
     "priceindex": "$$",
     "likes": 0
+  },
+  {
+    "name": "Longs Drugs",
+    "image": "/images/longs-honolulu.png",
+    "owner": "longsdrugs@foo.com",
+    "address": "2470 S King St, Honolulu, HI 96826",
+    "hours": "24 Hours",
+    "phone": "(808) 947-2651 ",
+    "priceindex": "$",
+    "likes": 0
+  },
+  {
+    "name": "Walmart",
+    "image": "/images/walmart-honolulu.png",
+    "owner": "walmart@foo.com",
+    "address": "700 Keeaumoku St Honolulu, HI 96814",
+    "hours": "24 Hours",
+    "phone": "(808) 955-8441",
+    "priceindex": "$",
+    "likes": 0
+  },
+  {
+    "name": "Sam’s Club",
+    "image": "/images/samsclub-honolulu.png",
+    "owner": "samsclub@foo.com",
+    "address": "750 Ke'eaumoku St Honolulu, HI 96814",
+    "hours": "9AM-8PM Mon-Sat, 10AM-6PM Sun",
+    "phone": "(808) 945-9841",
+    "priceindex": "$$",
+    "likes": 0
   }
 ]
 }
