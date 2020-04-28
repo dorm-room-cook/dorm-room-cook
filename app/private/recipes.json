@@ -1538,6 +1538,562 @@
       "notes": [],
       "created":"2020-04-15",
       "updated":"2020-04-15"
-    }
-  ]
+    },
+    {
+      "title": "Two Minute Thai Peanut Noodles",
+      "image": "/images/Noodles.png",
+      "description": "Quick and inexpensive way to create delicious meal",
+      "owner": "john@foo.com",
+      "time": 2,
+      "items": 3,
+      "cost": 4.00,
+      "ingredients": [
+        "ramen noodles",
+        "peanut butter",
+        "spicy sauce"
+      ],
+      "type": [
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Microwave",
+        "Spoon",
+        "Bowl"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Prepare ramen noodles as normal.",
+        "Add 2 Tbsp peanut butter and 1 tsp spicy sauce.",
+        "Drain all until 1/4 cup of liquid from noodles.",
+        "Stir together well, add side ingredients of your choice if you want."
+      ],
+      "source": "https://www.favfamilyrecipes.com/two-minute-thai-peanut-noodles/",
+      "views": 0,
+      "notes": ["Make sure it is properly drained in order to taste better."],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Make Ahead Breakfast Parfaits",
+      "image": "/images/parfait.png",
+      "description": "Quick, healthy breakfast for busy mornings.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 5,
+      "cost": 6.00,
+      "ingredients": [
+        "yogurt",
+        "strawberries",
+        "raspberries",
+        "blueberries",
+        "granola"
+      ],
+      "type": [
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Snack-size ziploc bag",
+        "Spoon",
+        "Cup",
+        "Plastic wrap"
+      ],
+      "servings": 1,
+      "instructions": [
+        "Layer 1/4 cup mixed berries into bottom of cup.",
+        "Next 1/4 cup yogurt on top of berries.",
+        "Fill ziploc bag with granolas and seal.",
+        "Place on each cup with plastic wrap to cover them."
+      ],
+      "source": "https://www.favfamilyrecipes.com/make-ahead-breakfast-parfaits/",
+      "views": 0,
+      "notes": ["can make multiple if needed."],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Easy Smores",
+      "image": "/images/easysmore.jpg",
+      "description": "Fast alternative to campfire smores.",
+      "owner": "john@foo.com",
+      "time": 1,
+      "items": 3,
+      "cost": 4.00,
+      "ingredients": [
+        "graham cracker squares",
+        "chocolate bar of choice",
+        "large marshmallows"
+      ],
+      "type": [
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Microwave"
+      ],
+      "servings": 1,
+      "instructions": [
+        "On paper towel place 1 cracker square.",
+        "Add chocolate bar piece and marshmallow on top.",
+        "Microwave on high for 15 seconds.",
+        "Remove from microwave and let it cool down.",
+        "Eat like a sandwich."
+      ],
+      "source": "https://www.food.com/recipe/smores-microwave-55045",
+      "views": 0,
+      "notes": ["Make sure to cool down before eating."],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Ram n' Cheese",
+      "image": "/images/ramncheese.png",
+      "description": "A nice mix of ramen and classic mac n' cheese for an fast and amazing meal.",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 4,
+      "cost": 8.00,
+      "ingredients": [
+        "cheddar cheese",
+        "corn starch",
+        "milk",
+        "ramen noodles"
+      ],
+      "type": [
+        "Munchies",
+        "Snack"
+      ],
+      "tools": [
+        "Measuring spoon",
+        "grater",
+        "mixing bowl",
+        "saucepan",
+        "stove"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Grate cheddar cheese and add cornstarch to the bowl.",
+        "Combine the cheese with milk to a saucepan and stir on medium low heat.",
+        "Seperate pan boil ramen noodles, set aside flavor packets.",
+        "drain noodles and mix with the cheese and mac n' cheese."
+      ],
+      "source": "https://spoonuniversity.com/recipe/ramen-macaroni-and-cheese",
+      "views": 0,
+      "notes": ["You may use a wisk to make things a bit easier."],
+      "created":"2020-04-27",
+      "updated":"2020-04-27"
+    },
+    {
+      "title": "Veggie Breakfast Burrito",
+      "image": "/images/burrito.png",
+      "description": "A healthy burrito alternative for everyone.",
+      "owner": "john@foo.com",
+      "time": 13,
+      "items": 11,
+      "cost": 10.00,
+      "ingredients": [
+        "zucchini",
+        "squash",
+        "cherry tomatoes",
+        "eggs",
+        "shredded cheese",
+        "avocados",
+        "tortilla",
+        "salsa",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "type": [
+        "Munchies",
+        "Breakfast"
+      ],
+      "tools": [
+        "Knife",
+        "pan",
+        "stove"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Slice zucchini and squash into half circles and cut cherry tomatoes in half, add to pan.",
+        "saute zucchini and squash in olive oil until soft, add the tomatoes.",
+        "beat eggs into the mix, stir ingredients well .",
+        "Add in cheese and salsa and stir till eggs are cooked.",
+        "Add this mix onto the tortilla and wrap up."
+      ],
+      "source": "https://spoonuniversity.com/recipe/meat-lovers-veggie-breakfast-burrito",
+      "views": 0,
+      "notes": ["Add in more ingredients based on how much you want to make in advanced Portions may varyburrito.png."],
+      "created":"2020-04-27",
+      "updated":"2020-04-27"
+    },
+    {
+      "title": "Healthy Avocado Toast",
+      "image": "/images/avocado-toast.png",
+      "description": "Fast and easy recipe for a simple meal in the morning",
+      "owner": "john@foo.com",
+      "time": 5.00,
+      "items": 7,
+      "cost": 6.00,
+      "ingredients": [
+        "avocado",
+        "cilantro",
+        "lime",
+        "red pepper flakes",
+        "salt and pepper",
+        "bread",
+        "egg"
+      ],
+      "type": [
+        "snack",
+        "breakfast"
+      ],
+      "tools": [
+        "measuring spoon",
+        "toaster"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Toast 2 slices of bread.",
+        "Mash avocado, 2 Tbsp cilantro,1/2 lime juice, red pepper flakes, and salt and pepper into a small bowl.",
+        "Spread top of toast with the avocado mix you just made.",
+        "Add in eggs of your choice to top it off."
+      ],
+      "source": "https://gimmedelicious.com/how-to-make-the-best-avocado-toast-with-eggs/",
+      "views": 0,
+      "notes": ["Eggs can go on the side as well."],
+      "created":"2020-04-27",
+      "updated":"2020-04-27"
+    },
+    {
+      "title": "Peanut butter, krispies, and chocolate sandwhich",
+      "image": "/images/chocolate-sandwhich.png",
+      "description": "This snack is like a saturday-morning cartoon breakfast without the bowl.",
+      "owner": "john@foo.com",
+      "time": 2,
+      "items": 4,
+      "cost": 5.00,
+      "ingredients": [
+        "peanut butter",
+        "white bread",
+        "rice krispies",
+        "dark chocolate candy bar"
+      ],
+      "type": [
+        "snack",
+        "breakfast"
+      ],
+      "tools": [
+        "measuring spoon",
+        "spreading knife"
+      ],
+      "servings": 1,
+      "instructions": [
+        "Spread 1 Tbsp peanut butter over bread",
+        "Add 2 Tbsp rice krispies on the top.",
+        "Finish with 1 tsp chocolate bar."
+      ],
+      "source": "https://www.tasteofhome.com/recipes/peanut-butter-krispies-and-chocolate-sandwich/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-27",
+      "updated":"2020-04-27"
+    },
+    {
+      "title": "Homemade frozen mini pizza",
+      "image": "/images/mini-pizza.png",
+      "description": "They bake up all nice and are the perfect mini size.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 4,
+      "cost": 4.00,
+      "ingredients": [
+        "english muffin",
+        "pizza sauce",
+        "mozzarella",
+        "salad bar vegetables"
+        ],
+        "type": [
+          "munchies",
+          "dinner",
+          "lunch"
+        ],
+        "tools": [
+          "baking sheet",
+          "oven",
+          "measuring cups",
+          "parchment paper"
+        ],
+        "servings": 12,
+        "instructions": [
+          "Line baking sheet with parchment paper and add the english muffins onto the sheet.",
+          "Add 1tbsp pizza sauce on the surface of enlgish muffin.",
+          "Chop salad bar vegetables into small pieces and add them too pizza",
+          "Freeze pizza overnight.",
+          "Bake pizza when needed at 400 degrees fahrenheit for 7 minutes."
+        ],
+        "source": "https://www.budgetbytes.com/freezer-ready-mini-pizzas/",
+        "views": 0,
+        "notes": ["Please wait for pizza to cool down in order to eat."],
+        "created":"2020-04-27",
+        "updated":"2020-04-27"
+        },
+        {
+          "title": "Easy fruit salad",
+          "image": "/images/fruit-salad.png",
+          "description": "Make this fruit salad in 10 minutes! So easy!",
+          "owner": "john@foo.com",
+          "time": 10,
+          "items": 5,
+          "cost": 7.00,
+          "ingredients": [
+            "strawberries",
+            "grapes",
+            "kiwis",
+            "bananas",
+            "peach pie filling"
+          ],
+          "type": [
+            "snack",
+            "breakfast"
+          ],
+          "tools": [
+            "Big bowl",
+            "refrigerator"
+          ],
+          "servings": 2,
+          "instructions": [
+            "Add 1 pint of sliced strawberries to big bowl",
+            "Add 1 pound seedless halved grapes.",
+            "Add 3 sliced bananas.",
+            "Add 21 ounces of peach pie filling into the mix and stir them around.",
+            "Refrigerate to preserve the salad."
+          ],
+          "source": "https://www.allrecipes.com/recipe/14147/very-easy-fruit-salad/",
+          "views": 0,
+          "notes": ["."],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        },
+        {
+          "title": "Quick Oatmeal",
+          "image": "/images/oatmeal-snack.png",
+          "description": "Quick and easy to make and you can customize it any way you want.",
+          "owner": "john@foo.com",
+          "time": 10.00,
+          "items": 4,
+          "cost": 5.00,
+          "ingredients": [
+            "Old fashion oats",
+            "milk",
+            "water",
+            "salt"
+          ],
+          "type": [
+            "snack",
+            "breakfast"
+          ],
+          "tools": [
+            "measuring spoon",
+            "microwave"
+          ],
+          "servings": 1,
+          "instructions": [
+            "Add 1/2 cup of oats into a bowl",
+            "Add 1 cup of water and milk to and mix together.",
+            "Microwave on high for 2 minutes with a cover on top.",
+            "Add a dash of a salt at the end for final touches."
+          ],
+          "source": "https://feelgoodfoodie.net/recipe/how-to-make-oatmeal/",
+          "views": 0,
+          "notes": [],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        },
+        {
+          "title": "Peanut butter toast",
+          "image": "/images/peanut-butter-toast.png",
+          "description": "Need a quick and healthy breakfast? toast up a slice of bread and spread some peanut butter on top wiht favorite toppings.",
+          "owner": "john@foo.com",
+          "time": 10,
+          "items": 6,
+          "cost": 5.00,
+          "ingredients": [
+            "bread",
+            "peanut butter",
+            "banana",
+            "berries",
+            "chia seeds",
+            "chocolate chip"
+          ],
+          "type": [
+            "breakfast",
+            "snack"
+          ],
+          "tools": [
+            "toaster"
+          ],
+          "servings": 1,
+          "instructions": [
+            "Toast bread to fluffy brown and ready",
+            "Add in toppings of choice on top and spread the peanut butter."
+          ],
+          "source": "https://www.eatingbirdfood.com/peanut-butter-breakfast-toast-4-ways/",
+          "views": 0,
+          "notes": [],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        },
+        {
+          "title": "Easy french toast",
+          "image": "/images/french-toast.png",
+          "description": "The classic in the moring item to add to your cup of coffee.",
+          "owner": "john@foo.com",
+          "time": 5,
+          "items": 5,
+          "cost": 4.00,
+          "ingredients": [
+            "egg",
+            "vanilla extract",
+            "cinnamon",
+            "milk",
+            "bread"
+          ],
+          "type": [
+            "breakfast"
+          ],
+          "tools": [
+            "measuring cup",
+            "mixing bowl",
+            "skillet"
+          ],
+          "servings": 4,
+          "instructions": [
+            "Beat egg into mixing bowl, add in 1 tsp vanilla extract",
+            "Stir in 1/4 cup milk into bowl.",
+            "Mix 1/2 tsp cinnamon into bowl.",
+            "Dip bread into egg mixture and fully coat it.",
+            "Cook bread on skillet on both sides on medium heat till browned on both sides."
+          ],
+          "source": "https://www.mccormick.com/recipes/breakfast-brunch/quick-and-easy-french-toast",
+          "views": 0,
+          "notes": ["Add in your own syrup if needed."],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        },
+        {
+          "title": "Mango Madness",
+          "image": "/images/frozen-mango-smoothie.png",
+          "description": "Sip on summers fruitest flavors with these easy to make recipe.",
+          "owner": "john@foo.com",
+          "time": 5,
+          "items": 4,
+          "cost": 6.00,
+          "ingredients": [
+            "orange juice",
+            "coconut yogurt",
+            "frozen mango",
+            "carrot"
+          ],
+          "type": [
+            "drink",
+            "snack"
+          ],
+          "tools": [
+            "blender",
+            "measuring cup"
+          ],
+          "servings": 2,
+          "instructions": [
+            "Add 1 cup orange juice to blender.",
+            "add 1/2 cup coconut yugurt to mix.",
+            "add 1 and a half cup frozen mangos to mix.",
+            "add 1 medium carrot that has been coarsly grated.",
+            "puree the mix and serve."
+          ],
+          "source": "https://www.goodhousekeeping.com/food-recipes/healthy/a21946699/summer-smoothies-recipe/",
+          "views": 0,
+          "notes": ["."],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        },
+        {
+          "title": "Chocolate wild blueberry mousse",
+          "image": "/images/mousse.png",
+          "description": "Fast and easy mousse snack that can easily be prepared in 1 minute!",
+          "owner": "john@foo.com",
+          "time": 1,
+          "items": 6,
+          "cost": 10.00,
+          "ingredients": [
+            "cashews",
+            "coconut milk",
+            "sweetener",
+            "wild blueberries",
+            "vanilla extract",
+            "cacoa powder"
+          ],
+          "type": [
+            "dessert"
+          ],
+          "tools": [
+            "measuring cups",
+            "blender"
+          ],
+          "servings": 1,
+          "instructions": [
+            "Blend 3/4 cup cashews, 2/3 cups milk, 5 tbsp sweetener, 3/4 cup blueberries, and 1 tsp vanilla extract in the blender",
+            "Add 1/4 cup cacoa powder to and blend again till the mousse is thicken."
+          ],
+          "source": "https://janeshealthykitchen.com/dark-chocolate-mousse-with-wild-blueberries/",
+          "views": 0,
+          "notes": ["."],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        },
+        {
+          "title": "Garlic bacon bok choy",
+          "image": "/images/bok-choy.png",
+          "description": "Can be used as an apetizer or amazing side dish!",
+          "owner": "john@foo.com",
+          "time": 10,
+          "items": 9,
+          "cost": 10.00,
+          "ingredients": [
+            "bacon",
+            "bok choy",
+            "vegetable oil",
+            "garlic",
+            "ginger",
+            "red pepper",
+            "soy sauce",
+            "sesame oil",
+            "salt"
+          ],
+          "type": [
+            "side dish",
+            "appetizer"
+          ],
+          "tools": [
+            "skillet",
+            "pan"
+          ],
+          "servings": 2,
+          "instructions": [
+            "Heat 2 bacon strips on skillet unitl crispy, set these aside.",
+            "Add 2 tbsp vegetable oil and allow pan to heat up.",
+            "Slice 2 lbs bok choy in half and add 4 cloves of garlic and 1 tsp ginger to oil.",
+            "Add bok choy to oil mix and cook for 1 minute on each side.",
+            "Add 1/4 tsp redd pepper, 2 tbsp soy sauce, and 1/2 tsp sesame oil to mix.",
+            "Once complete sprinkle onto cooked bok choy with added bacon."
+          ],
+          "source": "https://www.littlethings.com/5-minute-meals/3",
+          "views": 0,
+          "notes": [],
+          "created":"2020-04-27",
+          "updated":"2020-04-27"
+        }
+
+      ]
 }
