@@ -24,3 +24,19 @@ Meteor.publish('ItemAdmin', function publish() {
 Meteor.publish('Recipes', function publish() {
   return Recipes.find();
 });
+
+Meteor.publish('MyRecipes', function publish() {
+  if (this.userId) {
+    const username = Meteor.users.findOne(this.userId).username;
+    return Recipes.find({ owner: username });
+  }
+  return this.ready();
+});
+
+Meteor.publish('MyItems', function publish() {
+  if (this.userId) {
+    const username = Meteor.users.findOne(this.userId).username;
+    return Items.find({ owner: username });
+  }
+  return this.ready();
+});
