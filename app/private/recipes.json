@@ -40,6 +40,706 @@
       "updated":"2020-04-15"
     },
     {
+      "title": "Banana Pancakes",
+      "image": "/images/banana-pancakes.jpg",
+      "description": "The perfect way to use up overripe bananas! These taste like banana bread but in tender and fluffy, syrup covered pancake form. Delicious!",
+      "owner": "john@foo.com",
+      "time": 20,
+      "items": 11,
+      "ingredients": [
+        "1 1/4 cups (295ml) milk",
+        "1 Tbsp (15 ml) lemon juice or plain vinegar",
+        "1 1/2 cups (212g) all-purpose flour (scoop and level to measure)",
+        "2 Tbsp (24g) granulated sugar",
+        "1 1/2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp ground cinnamon (optional)",
+        "1/4 tsp (heaping) salt",
+        "3 Tbsp (42g) melted butter",
+        "2 large eggs",
+        "1 1/4 cups (310g) mashed overripe bananas"
+      ],
+      "type": [
+        "Breakfast"
+      ],
+      "tools": [
+        "Bowl",
+        "Whisk",
+        "Spatula"
+      ],
+      "servings": 12,
+      "instructions": [
+        "In a medium mixing bowl whisk together milk and lemon or vinegar, let rest 3 minutes.",
+        "Preheat an electric griddle or large non-stick skillet over medium-high heat.",
+        "In a mixing bowl whisk together flour, sugar, baking powder, baking soda and salt. Make a well in the center of mixture, set aside.",
+        "To milk mixture add eggs, melted butter, and mashed bananas and mix to combined.",
+        "Pour milk mixture into center of flour mixture. Whisk just until combined, batter will be lumpy and that's good (that means it's not over-mixed).",
+        "Scoop batter at 1/3 cup at a time and pour onto lightly greased griddle. If batter is thick you can spread round out slightly using bottom of the measuring cup.",
+        "Cook until bubbles begin to appear on the top surface and bottom is golden brown. Flip and continue to cook until opposite side is golden brown. Transfer to a cooling rack (if needed you can keep warm in a 200 degree oven, though they are fluffiest served just after cooking).",
+        "Serve warm with toppings of choice."
+      ],
+      "source": "https://www.cookingclassy.com/banana-pancakes/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Goulash(One Pot American Style)",
+      "image": "/images/goulash.jpg",
+      "description": "This delicious, easy goulash recipe is made with hearty beef, tender macaroni pasta, lots of vegetables and a savory tomato based sauce. Makes about 7 cups.",
+      "owner": "john@foo.com",
+      "time": 40,
+      "items": 16,
+      "ingredients": [
+        "1 Tbsp olive oil",
+        "1 medium yellow onion, chopped (1 1/2 cups)",
+        "1 cup chopped red bell pepper",
+        "1 medium carrot, thinly diced (1/2 cup)",
+        "1 lb. lean ground beef",
+        "3 garlic cloves, minced (1 Tbsp)",
+        "1 1/4 cups low-sodium chicken broth, plus more as needed",
+        "2 Tbsp tomato paste",
+        "1 (15 oz) can tomato sauce",
+        "1 (14.5 oz) can petite diced tomatoes",
+        "1 Tbsp Worcestershire sauce",
+        "1 Tbsp Italian seasoning",
+        "1 tsp paprika",
+        "Salt and pepper, to taste",
+        "1 2/3 cups (6.7 oz) macaroni pasta",
+        "1/4 cup chopped parsley"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Spoon",
+        "Stovetop"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Saute veggies: Heat a large pot over medium-high heat. Add onion, bell pepper and carrot and saute 6 minutes. Scoot to one far side.",
+        "Brown beef: Add beef in about 5 chunks and let brown on bottom, about 2 - 3 minutes then break up beef and toss with veggies. Cook beef through, tossing occasionally.",
+        "Drain fat, saute garlic: Drain off excess fat as needed*. Add garlic and saute 1 minute longer.",
+        "Add canned ingredients and seasonings, simmer: Pour in chicken broth, tomato paste, tomato sauce, diced tomatoes, Worcestershire sauce, Italian seasoning and paprika. Season with salt and pepper to taste. Bring mixture to a simmer.",
+        "Add pasta and cook to al dente: Add pasta and stir. Reduce to medium-low cover and let simmer, stirring occasionally until pasta is nearly tender, about 10 - 12 minutes. If needed add a little more broth to thin.",
+        "Let rest: Remove from heat and let rest a few minutes until pasta is tender and sauce has thickened.",
+        "Garnish: Stir in parsley. Serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/goulash-recipe/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Garlic Butter Chicken Bites",
+      "image": "/images/garlic-butter-chicken.jpg",
+      "description": "The easiest 15 minute recipe that requires minimal prep and a few basic ingredients, yet it wows with flavor! A new weeknight dinner staple!",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 8,
+      "ingredients": [
+        "1 1/4 lbs. boneless skinless chicken breasts, cut into 1 1/4-inch pieces",
+        "2 Tbsp all-purpose flour",
+        "1 1/2 tsp Italian seasoning",
+        "Salt and freshly ground black pepper",
+        "1 Tbsp olive oil",
+        "3 Tbsp unsalted butter, divided",
+        "1 1/2 Tbsp minced fresh garlic (4 cloves)",
+        "2 Tbsp finely chopped fresh parsley*"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Paper Towels",
+        "Stovetop"
+      ],
+      "servings": 3,
+      "instructions": [
+        "Preheat a 12-inch non-stick skillet over medium-high heat.",
+        "Dab chicken on all sides dry with paper towels.",
+        "Sprinkle flour, Italian seasoning, and desired amount of salt and pepper (I use about 1 scant tsp salt and 1/2 tsp pepper) over chicken. Toss well to evenly coat (all flour should stick to chicken and not be left behind on cutting board, keep tossing if needed).",
+        "Add 1 Tbsp olive oil and 1 Tbsp butter to skillet, butter should melt quickly. Tilt pan to evenly coat.",
+        "Add chicken in an even layer, work to leave some space between pieces so they'll brown rather than steam.",
+        "Let cook until nicely golden brown on bottom, about 3 minutes then flip to opposite side and cook 2 minutes longer, or until nearly cooked through.",
+        "Add remaining 2 Tbsp butter in small pieces, along with garlic and parsley. Cook 1 minute longer (chicken should be 165 in center and no longer be pink)."
+      ],
+      "source": "https://www.cookingclassy.com/garlic-butter-chicken-bites/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Small Batch Brownies",
+      "image": "/images/brownies.jpg",
+      "description": "This is my go-to brownie recipe! It only makes a few so I'm not tempted by an entire batch of brownies sitting around for days. They're so easy to make, perfectly rich, deliciously fudgy and they're sure to satisfy those chocolate cravings.",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 7,
+      "ingredients": [
+        "1/4 cup (56g) salted butter, cut into 4 pieces",
+        "1/2 cup (100g) granulated sugar",
+        "1 large egg",
+        "1/2 tsp vanilla extract",
+        "1/4 cup (36g) all-purpose flour* (scoop and level to measure)",
+        "3 Tbsp (18g) unsweetened cocoa powder",
+        "1/4 cup (42g) chocolate chip or 3 Tbsp mini chocolate chips**"
+      ],
+      "type": [
+        "Dessert"
+      ],
+      "tools": [
+        "Oven",
+        "Bread Pan",
+        "Bowl"
+      ],
+      "servings": 3,
+      "instructions": [
+        "Preheat oven to 300 degrees. Spray a 8 by 4-inch bread pan*** with non-stick cooking spray (or grease with some butter).",
+        "Place butter in a microwave safe bowl, cover and heat in microwave until melted, about 30+ seconds. Let cool slightly while measuring out remaining ingredients.",
+        "Mix in sugar, then mix in egg and vanilla extract.",
+        "Add flour and cocoa powder and mix just until combined, if adding chocolate chips then add them once dry ingredients are almost blended in.",
+        "Pour into prepared baking dish and spread into an even layer. Bake in preheated oven until set, about 19 - 23 minutes.",
+        "Let cool about 15 - 20 minutes before cutting and serving."
+      ],
+      "source": "https://www.cookingclassy.com/small-batch-brownies-makes-3-4-brownies/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Honey Mustard Pecan Crusted Chicken",
+      "image": "/images/pecan-chicken.jpg",
+      "description": "Protein rich chicken breasts are coated in a crisp pecan and panko mixture and oven baked, then they are finished with a sweet and tangy honey mustard glaze. A flavorful, easy recipe that's sure to satisfy!",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 9,
+      "ingredients": [
+        "3/4 cup Fisher Pecans, finely chopped*",
+        "2/3 cup panko breadcrumbs",
+        "1 1/4 tsp paprika",
+        "3/4 tsp garlic powder**",
+        "Salt and freshly ground black pepper",
+        "2 1/2 Tbsp dijon mustard, divided",
+        "2 1/2 Tbsp mayonnaise, divided",
+        "2 Tbsp honey, divided",
+        "4 (6 - 7 oz) boneless skinless chicken breasts"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Oven",
+        "Baking Sheet",
+        "Bowl"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Preheat oven to 425 degrees. Line a 18 by 13-inch baking sheet with foil, place an oven safe cooling rack over on baking sheet and spray with non-stick cooking spray. Set aside.",
+        "In a shallow dish toss together pecans, breadcrumbs, paprika, garlic powder and season with pepper to taste.",
+        "In a small mixing bowl stir together 1 Tbsp dijon mustard, 1 Tbsp mayonnaise and 1/2 Tbsp honey",
+        "Pound chicken to even the thickness (about 1/2-inch). Dab dry with paper towels then brush top side of chicken with honey mustard mixture and season with salt.",
+        "Transfer one piece of chicken to panko mixture, honey mustard side down, press firm to get mixture to adhere on bottom. Brush top side of chicken piece with honey mustard mixture, season with salt then turn chicken and press to coat. Chicken should be very well covered with mixture, turn and press again on each side to coat well.",
+        "Transfer coated chicken to wire rack, repeat process with remaining pieces of chicken, leaving space between them on rack. Add any extra pecan mixture to tops of chicken and press down even. If you have olive oil cooking spray then spray tops of chicken with it (this is optional, just encourages browning of panko).",
+        "Bake chicken in oven until cooked through, center should register 165 degrees, about 20 - 25 minutes. If you find pecans are browning too quickly during baking then tent chicken with foil.",
+        "Meanwhile in a clean small mixing bowl stir together remaining 1 1/2 dijon mustard, 1 1/2 Tbsp mayonnaise and 1 1/2 Tbsp honey.",
+        "Drizzle chicken with honey mustard mixture and serve warm. Optionally you can garnish chicken with chopped parsley (about 1 1/2 tsp)."
+      ],
+      "source": "https://www.cookingclassy.com/honey-mustard-pecan-crusted-chicken/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Fried Rice",
+      "image": "/images/fried-rice.jpg",
+      "description": "A classic, easy to make fried rice recipe! This is filled with tender rice, colorful vegetables, hearty eggs, tender (optional) ham and it's all fried with a delicious, robustly seasoned sauce.",
+      "owner": "john@foo.com",
+      "time": 20,
+      "items": 14,
+      "ingredients": [
+        "4 cups cooked jasmine rice* or long grain white rice, day old chilled",
+        "1 Tbsp soy sauce, then more to taste",
+        "1 Tbsp oyster sauce, or more to taste",
+        "1 1/2 tsp sesame oil",
+        "1 tsp sriracha, or more to taste",
+        "3 large eggs, lightly beaten with a fork in a bowl",
+        "3 1/2 Tbsp light olive oil or vegetable oil",
+        "3/4 cup small diced carrots",
+        "2/3 cup finely chopped yellow onion",
+        "1 Tbsp minced garlic (3 cloves)",
+        "1 1/2 tsp peeled and minced fresh ginger",
+        "3/4 cup frozen peas, thawed under hot water and drained well",
+        "1 cup small diced ham,** (optional)",
+        "1/4 cup chopped green onions (optional)"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Bowl",
+        "Stovetop"
+      ],
+      "servings": 5,
+      "instructions": [
+        "Make sauce: In a small mixing bowl stir together soy sauce, oyster sauce, sesame oil and sriracha. Set aside.",
+        "Cook eggs: Heat a 12-inch non-stick skillet over medium-low heat. Add 1 1/2 tsp oil add eggs and cook, folding constantly until eggs are just set. Break up eggs, transfer to a plate and set aside.",
+        "Clean skillet: Off heat wipe pan clean using tongs and a ball of damp paper towels.",
+        "Saute vegetables: Heat 1 Tbsp oil in same skillet over medium-high heat. Add carrots and onion and saute until nearly tender about 6 minutes. Add garlic and ginger and saute 30 seconds longer. Scoot to the far side of the pan.",
+        "Fry rice: Pour in remaining 2 Tbsp oil. Add rice and spread even (I like to even sort of fold that carrot mixture at the edge up over the top). Let fry, stirring only occasionally (about every 1 minute), for about 4 minutes.",
+        "Heat ham and peas: Add ham and peas. Fry 1 minute longer.",
+        "Return eggs, cook fried rice with sauce: Add in eggs and drizzle in sauce. Toss and let cook 1 minute. Season with more soy sauce to taste.",
+        "Cook a little longer if needed: If mixture still seems a little to wet you can reduce heat to medium-low and continue to cook a few minutes longer to dry the rice a little. Toss in green onions and serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/fried-rice-recipe/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Chicken Pot Pie Soup",
+      "image": "/images/chicken-potpie-soup.jpg",
+      "description": "All the classic flavors of pot pie but in rich and creamy, perfectly comforting and cozy soup form! This soup is a lot less work than a standard pot pie yet it's equally as delicious! It's brimming with chicken and veggies and a hearty broth. Makes about 10 cups.",
+      "owner": "john@foo.com",
+      "time": 60,
+      "items": 18,
+      "ingredients": [
+        "6 Tbsp butter, divided",
+        "1 1/4 cups chopped yellow onion (1 medium)",
+        "1 Tbsp minced garlic",
+        "1 cup diced celery (about 3 ribs)",
+        "1 cup peeled and diced carrots (about 2 carrots)",
+        "2 1/2 cups low-sodium chicken broth",
+        "2 cups (heaping) peeled and diced russet potatoes, 1/2-inch dice (2 medium potatoes)",
+        "2 tsp minced fresh thyme (or 1 tsp dried)",
+        "2 tsp minced fresh rosemary (or 1 tsp dried)",
+        "2 bay leaves",
+        "Salt and freshly ground black pepper",
+        "6 Tbsp all-purpose flour",
+        "2 cups milk",
+        "1/2 cup heavy cream",
+        "1 cup frozen or fresh peas",
+        "1 cup frozen corn (optional)",
+        "3 cups cooked shredded chicken (preferably bone-in cooked or rotisserie)",
+        "3 Tbsp chopped fresh parsley"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Stovetop",
+        "Skillet"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Melt 1 Tbsp butter in a large pot over medium-high heat. Add in onion, carrot and celery and saute 3 minutes. Add garlic and saute 1 minute longer.",
+        "Add chicken broth, potatoes, thyme, rosemary, bay leaves and season with salt and pepper to taste.",
+        "Cover and bring soup to a low boil then reduce heat to medium-low, (press veggies down into broth) and allow to simmer, stirring occasionally, until potatoes are almost fully tender, about 15 minutes.",
+        "Meanwhile in a medium saucepan set over medium heat, melt remaining 5 Tbsp butter. Stir in flour and cook mixture, stirring constantly for 1 1/2 minutes. While whisking slowly pour in milk into flour mixture.",
+        "Season with salt and pepper to taste. Cook mixture, stirring constantly until thickened (don't boil). Stir in cream then remove from heat, cover with lid.",
+        "Add peas and corn to soup mixture with vegetables (once potatoes are almost fully tender) and heat through for a few minutes.",
+        "Stir milk mixture and chicken into soup. If desired you can thin soup with a little chicken broth if needed.",
+        "Remove bay leaves, stir in parsley and serve warm, with biscuits if desired (not included in nutritional estimate)."
+      ],
+      "source": "https://www.cookingclassy.com/chicken-pot-pie-soup-parmesan-drop-biscuits/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Lasagna",
+      "image": "/images/lasagna.jpg",
+      "description": "Truly the easiest lasagna recipe you'll ever make! No pre-cooking lasagna noodles, no grating cheeses, no homemade sauces. Yet it's so perfectly delicious!!",
+      "owner": "john@foo.com",
+      "time": 73,
+      "items": 8,
+      "ingredients": [
+        "1 lb. 91% lean ground beef*",
+        "1 (25 oz) jar marinara sauce, preferably Rao's tomato basil**",
+        "1/2 cup vegetable broth",
+        "6 uncooked lasagna noodles (not no boil)",
+        "1 (15 oz) container ricotta cheese (whole or part skim)",
+        "1 (8 oz) pkg. shredded mozzarella cheese***",
+        "1/2 cup grated or finely shredded parmesan cheese",
+        "2 Tbsp Chopped fresh basil or parsley (optional)"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Spoon",
+        "Skillet"
+      ],
+      "servings": 7,
+      "instructions": [
+        "Preheat oven to 375 degrees. Spray a 12 by 8-inch baking dish with non-stick cooking spray.",
+        "Heat a 12-inch non-stick skillet over medium-high heat. Crumble in beef and cook and break up beef until cooked through.",
+        "Remove from heat and stir in marinara sauce and vegetable broth (I like to swish the vegetable broth around in the empty jar of marinara sauce to remove any excess, totally optional).",
+        "To assemble lasagna, spread 1/3 of the marinara sauce (about 1 1/2 cups) into bottom of baking dish. Top with 3 uncooked lasagna noodles.",
+        "Spread 1/2 of the ricotta over the noodles using the back of a spoon. Top evenly with 1/2 of the mozzarella (1 cup) and 1/2 of the parmesan (1/4 cup). Top with another 1/3 of the sauce.",
+        "Add 3 more uncooked lasagna noodles then spread evenly with with remaining 1/2 of the ricotta. Pour and spread over last 1/3 of the sauce. Top with remaining 1/2 of the mozzarella and parmesan.",
+        "Cover tightly with foil (you can grease first if the top of the lasagna will be touching the foil so cheese doesn't stick), bake 35 minutes.",
+        "Remove foil then continue to bake uncovered 10 minutes, or until lasagna is just tender (not soggy. There will seem to be a little liquid on the sides still). Let rest 5 minutes before slicing. Garnish with fresh basil or parsley if desired."
+      ],
+      "source": "https://www.cookingclassy.com/easy-lasagna/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Chicken Marsala",
+      "image": "/images/chicken-marsala.jpg",
+      "description": "This classic Italian-American chicken recipe includes tender, perfectly pan seared chicken cutlets, and flavor enhancing browned mushrooms, and it's all covered with a richly seasoned marsala wine, garlic and herb sauce.",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 14,
+      "ingredients": [
+        "1 1/4 cups dry marsala wine*",
+        "1 1/4 cups unsalted chicken broth",
+        "2 (10 - 11 oz) boneless skinless chicken breasts, butterflied and halved, pounded to an even thickness",
+        "Salt and freshly ground black pepper",
+        "1/3 cup all-purpose flour",
+        "2 Tbsp unsalted butter",
+        "2 Tbsp olive oil",
+        "8 oz. cremini mushrooms, sliced",
+        "3 garlic cloves, minced (1 Tbsp)",
+        "1 tsp minced fresh thyme (or scant 1/2 tsp dried)",
+        "1 tsp minced fresh oregano (or scant 1/2 tsp dried)",
+        "1 1/2 tsp cornstarch whisked with 1 Tbsp chicken broth (in a small bowl until well combined)",
+        "1/3 cup heavy cream",
+        "1 Tbsp minced fresh parsley"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Saucepan",
+        "Spoon",
+        "Stovetop"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Add marsala wine and chicken broth to a medium saucepan. Heat over medium-high heat, bring to a boil, then reduce heat to medium and let gently boil until reduced to 1 cup**, about 15 minutes.",
+        "Meanwhile season both sides of chicken with salt and pepper. Dredge each side in flour mixture.",
+        "Melt 1 Tbsp butter with 1 Tbsp olive oil in a 12-inch skillet over medium-high heat. Add chicken pieces and let sear until cooked through (165 in center), turning once halfway through, about 10 - 12 minutes.",
+        "Transfer chicken to a plate. Tent with foil.",
+        "Reduce burner temperature to medium heat. Melt remaining 1 Tbsp butter with 1 Tbsp olive oil, add mushrooms.",
+        "Sauté mushrooms, just tossing occasionally (and increasing burner temp slightly as needed to encourage browning), until mushrooms have shrunk and are golden brown, about 8 minutes. Add garlic during last 1 minute of sautéing.",
+        "Remove pan from heat then pour in marsala reduction***, thyme and oregano.",
+        "Return to heat, bring to a simmer, while scraping up browned bits from the bottom, then stir in cornstarch chicken broth mixture. Stir until thickened****.",
+        "Off heat stir in heavy cream, season sauce with salt and pepper to taste. Return chicken breasts to pan, spoon sauce over top.",
+        "Sprinkle with parsley and serve immediately."
+      ],
+      "source": "https://www.cookingclassy.com/chicken-marsala/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Chicken Piccata",
+      "image": "/images/chicken-piccata.jpg",
+      "description": "An over-the-top delicious chicken piccata! Perfectly pan seared chicken breasts are topped with a rich and creamy, tangy piccata sauce and little bits of salty capers. Such a satisfying dish!",
+      "owner": "john@foo.com",
+      "time": 30,
+      "items": 12,
+      "ingredients": [
+        "2 (10 - 11 oz each) chicken breasts, butterflied and halved",
+        "1/3 cup all-purpose flour",
+        "Salt and freshly ground black pepper",
+        "2 1/2 Tbsp olive oil",
+        "1 Tbsp minced garlic",
+        "1 1/4 cups + 1 Tbsp low-sodium chicken broth",
+        "1 1/2 tsp cornstarch",
+        "2 Tbsp fresh lemon juice",
+        "1 Tbsp butter",
+        "1/4 cup heavy cream",
+        "3 Tbsp chopped fresh parsley",
+        "2 Tbsp capers, rinsed"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Stovetop"
+      ],
+      "servings": 4,
+      "instructions": [
+        "After cutting chicken let it rest at room temperature 10 minutes. In a shallow dish whisk together flour, 1/4 tsp salt and 1/4 tsp pepper.",
+        "Heat olive oil in a 12-inch skillet over medium-high heat. Dredge both sides of chicken cutlets in flour mixture then add to skillet.",
+        "Sear chicken, without moving, until browned on bottom, about 4 - 5 minutes then flip chicken and cook opposite side until golden brown on bottom and chicken has cooked through (reducing burner temperature slightly as needed and tilting pan slightly to redistribute oil) about 4 - 5 minutes longer (chicken should register 165 degrees in center). Transfer chicken to a plate and keep warm.",
+        "Add garlic to remaining oil in pan (there should be about 1 tsp oil left if not just add a tsp), saute just until slightly golden.",
+        "Pour in 1 1/4 cups chicken broth and bring to a boil, while scraping up browned bits from bottom of pan. Allow broth to simmer until reduced by half, about 4 - 5 minutes.",
+        "Whisk together remaining 1 Tbsp chicken broth with cornstarch, then pour mixture into broth in skillet along with lemon juice. Allow to simmer until thickened slightly then remove from heat.",
+        "Stir in butter and pour in cream. Season with salt if needed and pepper.",
+        "Return chicken to skillet. Spoon sauce over chicken, sprinkle with capers and parsley. Serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/creamy-chicken-piccata/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Cannoli",
+      "image": "/images/cannoli.jpg",
+      "description": "",
+      "owner": "john@foo.com",
+      "time": 105,
+      "items": 13,
+      "ingredients": [
+        "1 3/4 cups (250g) unbleached all-purpose flour (scoop and level to measure)",
+        "1 1/2 Tbsp (18g) granulated sugar",
+        "1/4 tsp salt",
+        "3 Tbsp (43g) unsalted butter, diced into small pieces",
+        "1/3 cup marsala wine*, then more as needed",
+        "1 large egg",
+        "1 egg white",
+        "Vegetable oil or shortening, for frying (about 8 cups)",
+        "32 oz. whole milk ricotta, strained**",
+        "1 1/2 cups (180g) powdered sugar***",
+        "3/4 cup (126g) mini chocolate chips",
+        "1/4 tsp ground cinnamon****",
+        "Chopped unsalted pistachios, optional"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Food Processor",
+        "Bowl",
+        "Oven",
+        "Pot"
+      ],
+      "servings": 28,
+      "instructions": [
+        "To a food processor add flour, sugar and salt. Pulse in short bursts about 10 times. Add butter and pulse in short bursts just until there aren't clumps of butter.",
+        "Add in marsala wine and whole egg. Pulse to mix well, while adding additional wine to bring dough together in a soft shaggy mass (you shouldn't need more than a few Tbsp extra wine).",
+        "Shape into a round, transfer to an oiled bowl. Cover and let rest at room temperature at least 30 minutes and up to 2 hours.",
+        "Heat a large pot with 1 1/2-inches vegetable oil to 345 - 355 degrees. Working with half the dough at a time (and keeping other half covered in the bowl) roll dough out very thinly onto a well floured surface (nearly 1/16-inch).",
+        "Using a 3 1/2 to 4-inch cookie cutter, cut dough into rounds. Spray cannoli forms with cooking spray then wrap individual dough circles around each cannoli form, while brushing about 3/4-inch of one end lightly with egg white (use a pastry brush or just your fingertip). Press edge to to opposite side.",
+        "Using metal tongs, carefully immerse shell in preheated oil and fry until golden brown and crisp, about 1 - 2 minutes (be sure to watch oil temp so oil doesn't get too hot and burn shells. You can fry up to 6 at a time).",
+        "Remove from oil using metal tongs to grasp the cannoli shell (let oil from inside forms drain back into pot), transfer to paper towels to drain. Use metal tongs to hold mold (or folded layers of paper towels) and wrap a paper towel around shell to carefully slide off of form.",
+        "Let forms cool and repeat process with remaining dough circles. You can shake excess flour from scraps, press back together, cover in bowl and let relax at least 10 minutes then reuse.",
+        "Allow to cool on a wire rack then fill with cannoli filling and decorate as desired (with melted chocolate on edges, chopped pistachios, mini chocolate chips or dust tops with powdered sugar)."
+      ],
+      "source": "https://www.cookingclassy.com/cannoli/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Twice Baked Potatoes",
+      "image": "/images/twice-baked-potatoes.jpg",
+      "description": "One of the ultimate side dish recipes! These are seriously comforting, extra cheesy, deliciously creamy, mashed potato loaded, hearty stuffed potato skins and they never disappoint! A family favorite recipe!",
+      "owner": "john@foo.com",
+      "time": 105,
+      "items": 9,
+      "ingredients": [
+        "4 (13 - 14 oz. each) large baker russet potatoes",
+        "1/2 cup half and half, then up to 1/4 cup more if needed (heavy cream can be substituted for a richer option)",
+        "1/2 cup sour cream",
+        "4 Tbsp butter, melted",
+        "Salt and freshly ground black pepper",
+        "1/4 tsp each paprika, garlic powder, onion powder",
+        "6 oz. freshly shredded medium cheddar cheese",
+        "6 slices bacon, chopped small and cooked until crisp (optional)",
+        "2 green onions, sliced (optional)"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Oven",
+        "Whisk",
+        "Potato Masher"
+      ],
+      "servings": 8,
+      "instructions": [
+        "Preheat oven and prep potatoes: Preheat oven to 400 degrees. Scrub and rinse potatoes clean and pierce potatoes several times on each side with a fork.",
+        "Bake whole potatoes until softened through: Place potatoes in preheated oven and bake 75 - 80 minutes until fully cooked through (they should be fairly soft when squeezed). Remove potatoes from oven and reduce oven temperature to 350 degrees.",
+        "Scoop out flesh of potatoes: Slice potatoes into halves. Use an oven mitt to hold potato halves and scoop potato flesh into a large mixing bowl (while leaving about 1/6-inch potato intact with the peel). Transfer empty potato peels to a 13 by 9-inch baking dish or baking sheet (see note*).",
+        "Mash: Mash potatoes with a potato masher until no longer lumpy (or pass through a potato ricer or food mill into bowl for seriously smooth potatoes).",
+        "Add liquids and season, stir: Add in half and half, sour cream, butter and season with salt and pepper to taste. Blend mixture together with a spoon (or with just briefly with an electric hand mixer) while adding more half and half as needed to thin.",
+        "Fill potato skins: Scoop mixture into potato peels. Sprinkle with cheddar.",
+        "Stir seasonings and sprinkle over potatoes: In a small bowl whisk together paprika, onion powder, garlic powder, 1/4 tsp salt and 1/4 tsp pepper. Sprinkle seasoning evenly over potatoes.",
+        "Bake to heat through and melt cheese: Bake in preheated oven until cheese has melted and potatoes are heated through, about 10 - 15 minutes. Sprinkle with bacon and green onions and serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/twice-baked-potatoes/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Stuffed Mushrooms",
+      "image": "/images/stuffed-mushrooms.jpg",
+      "description": "Hearty stuffed mushrooms filled with rich cream cheese, tender spinach, melty mozzarella and parmesan, and vibrant garlic then topped with crispy panko bread crumbs. An appetizer or party snack recipe that's sure to impress! They're easy to make and perfect for entertaining. ",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 10,
+      "ingredients": [
+        "22 large cremini mushrooms or button mushrooms, cleaned, stems removed",
+        "Olive oil cooking spray",
+        "1 (10 - 12 oz.) bag frozen spinach, thawed",
+        "8 oz. cream cheese, softened",
+        "3/4 cup finely shredded parmesan cheese, divided",
+        "1/2 cup finely shredded mozzarella cheese",
+        "1 large garlic clove, minced (1 1/2 tsp)",
+        "Salt and freshly ground black pepper",
+        "1/3 cup panko bread crumbs",
+        "1 1/2 tsp olive oil"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Oven",
+        "Paper Towels",
+        "Baking Sheet"
+      ],
+      "servings": 12,
+      "instructions": [
+        "Preheat oven and prepare baking sheet: Preheat oven to 400 degrees. Optionally you can line a baking sheet with aluminum foil for easier clean up.",
+        "Squeeze moisture from spinach: Place spinach on several layer of paper towels, spread it out a little then fold paper towels over and squeeze most of the excess moisture from spinach. Place in a medium mixing bowl.",
+        "Mix cheeses and seasoning: Add in cream cheese, 1/2 cup parmesan cheese, mozzarella cheese, garlic and season with salt and pepper to taste. Stir mixture to blend.",
+        "Oil mushrooms: Place mushroom caps on a baking sheet and spray top and bottom sides with non-stick cooking spray.",
+        "Fill mushrooms: Scoop out a spoonful at a time and stuff into mushrooms. Set on baking sheet, filling upright.",
+        "Prepare topping, add to mushrooms: In a small mixing bowl stir together panko, remaining 1/4 cup parmesan cheese and 1 1/2 tsp olive oil. Sprinkle over each mushroom.",
+        "Bake: Bake in preheated oven until filling is hot, mushrooms have softened and topping is golden brown, about 20 - 24 minutes (if topping didn't brown enough you can broil just briefly). Serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/stuffed-mushrooms/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Eggnog Cookies",
+      "image": "/images/eggnog-cookies",
+      "description": "With their tender cake-like texture and generous coating of eggnog frosting they are likely to become a new favorite holiday cookie!",
+      "owner": "john@foo.com",
+      "time": 42,
+      "items": 15,
+      "ingredients": [
+        "2 cups (283g) all-purpose flour (scoop and level to measure*)",
+        "2 tsp baking powder",
+        "1/2 tsp salt",
+        "1/2 tsp ground nutmeg, plus more for topping",
+        "1/2 tsp ground cinnamon",
+        "3/4 cup (170g) unsalted butter, at room temperature",
+        "1/2 cup (100g) granulated sugar",
+        "1/2 cup (100g) packed light-brown sugar",
+        "2 large egg yolks",
+        "1 tsp vanilla extract",
+        "1/2 tsp rum extract",
+        "1/2 cup eggnog (not low fat)",
+        "1/2 cup (113g) butter, at room temperature (I used 1/4 cup salted and 1/4 cup unsalted butter)",
+        "3 - 5 Tbsp eggnog",
+        "1/2 tsp rum extract",
+        "3 cups (360g) powdered sugar"
+      ],
+      "type": [
+        "Dessert"
+      ],
+      "tools": [
+        "Oven",
+        "Bowl",
+        "Whisk",
+        "Baking Sheet"
+      ],
+      "servings": 32,
+      "instructions": [
+        "Preheat oven to 350°F (180°C). In a mixing bowl, whisk together flour, baking powder, salt, nutmeg and cinnamon for 30 seconds, set aside. ",
+        "In the bowl of an electric stand mixer fitted with the paddle attachment, whip together butter, granulated sugar and brown sugar until pale and fluffy. ",
+        "Mix in egg yolks one at a time, blending just until combined after each addition. Mix in vanilla extract, rum extract and egg nog. With mixer set on low speed, slowly add in dry ingredients and mix just until combined. ",
+        "Scoop dough out by the heaping tablespoonfuls and drop onto Silpat or parchment paper lined baking sheets, spacing cookies 2-inches apart. ",
+        "Bake in preheated oven 11 - 13 minutes. Allow to rest on baking sheet several minutes before transferring to a wire rack to cool. Cool completely then frost with Eggnog Frosting and sprinkle tops lightly with nutmeg."
+      ],
+      "source": "https://www.cookingclassy.com/melt-mouth-eggnog-cookies/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Yellow Squash Casserole",
+      "image": "/images/yellow-squash-casserole.jpg",
+      "description": "Made with tender yellow squash, a cheesy, creamy coating and it's finished with crispy toasted panko bread crumbs. It's a delicious, homestyle side dish that's perfect for holidays. Plus it's a great way to use up the abundance of summertime squash.",
+      "owner": "john@foo.com",
+      "time": 60,
+      "items": 12,
+      "ingredients": [
+        "4 lbs. yellow squash (preferably small to medium), sliced into rounds about 1/3-inch thick",
+        "1 cup sour cream",
+        "1 large egg",
+        "3/4 cup + 1/3 cup panko breadcrumbs, divided",
+        "1 1/4 cups shredded sharp cheddar cheese",
+        "1/2 cup chopped parsley",
+        "2 Tbsp dried chives",
+        "3 Tbsp butter, divided",
+        "1 medium yellow onion, chopped",
+        "2 garlic cloves, minced (2 tsp)",
+        "1 cup finely shredded parmesan cheese, divided",
+        "Salt and freshly ground black pepper"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Oven",
+        "Baking Dish",
+        "Pot",
+        "Stovetop"
+      ],
+      "servings": 12,
+      "instructions": [
+        "Preheat oven to 350 degrees. Spray a 13 by 9-inch baking dish with non-stick cooking spray.",
+        "Bring a large pot of water to a boil. Add squash and let boil just until nearly tender, about 5 - 6 minutes. Drain into a colander, set aside to drain well.",
+        "While squash is boiling in a mixing bowl stir together sour cream, egg, 1/3 cup breadcrumbs, cheddar cheese, 1/2 cup parmesan cheese, parsley and chives. Set aside.",
+        "Melt 1 Tbsp butter in a 12-inch saute pan or deep skillet over medium heat. Add onion and saute until slightly golden brown and tender, about 7 minutes. Add garlic and saute 1 minute longer. Remove from heat.",
+        "Add squash to pan along with sour cream mixture and season with salt and pepper to taste. Toss mixture to evenly coat the pour into prepared baking dish and spread even. Cover with foil and bake in preheated oven 20 minutes.",
+        "Melt remaining 2 Tbsp butter in a small mixing bowl. Add in 3/4 cup panko and 1/2 cup parmesan cheese and toss to evenly coat mixture. Remove casserole from oven after the 20 minutes and sprinkle mixture evenly over top.",
+        "Move oven rack to upper third of the oven, return casserole to oven. Bake 10 minutes longer or until cheese has melted and casserole is heated through.",
+        "Turn on broiler and broil just briefly to make topping golden brown, about 1 - 2 minutes (don't walk away from it, it will brown quickly!). Serve casserole warm garnished with a little chopped parsley if desired."
+      ],
+      "source": "https://www.cookingclassy.com/squash-casserole-recipe/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
       "title": "Superfood salad",
       "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
