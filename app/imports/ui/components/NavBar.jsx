@@ -24,7 +24,12 @@ class NavBar extends React.Component {
                      exact to='/listallrecipes'
                      key='listallrecipes'
                      content='ListRecipes'/>
-          {this.props.currentUser ? (
+          <Menu.Item as={NavLink}
+                     activeClassName="active"
+                     exact to='/listVendoritems'
+                     key='listallitems'
+                     content='ListVendorItems'/>
+                     {this.props.currentUser ? (
               [<Menu.Item as={NavLink}
                           activeClassName="active"
                           exact to="/add"
@@ -38,7 +43,7 @@ class NavBar extends React.Component {
                            content='My Recipes'/>,
               ]
           ) : ''}
-          {Roles.userIsInRole(Meteor.userId(), 'vendor') ? ([
+          {(Roles.userIsInRole(Meteor.userId(), 'vendor') || Roles.userIsInRole(Meteor.userId(), 'admin')) ? ([
               <Menu.Item as={NavLink}
                          activeClassName="active"
                          exact to="/vendors"
