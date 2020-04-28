@@ -29,6 +29,60 @@
       "phone": "(808) 988-2058",
       "priceindex": "$$$",
       "likes": 0
-    }
-  ]
+    },
+  {
+    "name": "Don Quijote",
+    "image": "/images/donki-honolulu.png",
+    "owner": "donquijote@foo.com",
+    "address": "801 Kaheka St., Honolulu, HI 96814",
+    "hours": "24 Hours Daily",
+    "phone": "(808) 973-4800",
+    "priceindex": "$",
+    "likes": 0
+  },
+
+  {
+    "name": "Times",
+    "image": "/images/times-honolulu.png",
+    "owner": "times@foo.com",
+    "address": "1290 S Beretania St, Honolulu, HI 96814",
+    "hours": "5AM-12AM Daily",
+    "phone": "(808) 532-5400",
+    "priceindex": "$",
+    "likes": 0
+  },
+
+  {
+    "name": "Nijiya",
+    "image": "/images/nijiya-honolulu.png",
+    "owner": "nijiya@foo.com",
+    "address": "1009 University Ave #101, Honolulu, HI 96826",
+    "hours": "10AM-6PM Daily",
+    "phone": "(808) 979-8977",
+    "priceindex": "$$",
+    "likes": 0
+  },
+
+  {
+    "name": "Whole Foods",
+    "image": "/images/wholefoods-honolulu.png",
+    "owner": "wholefoods@foo.com",
+    "address": "388 Kamakee St Ste 100, Honolulu, HI 96814",
+    "hours": "8AM-9PM Daily",
+    "phone": "(808) 379-1800",
+    "priceindex": "$$$",
+    "likes": 0
+  },
+
+  {
+    "name": "Down to Earth",
+    "image": "/images/downtoearth-honolulu.png",
+    "owner": "downtoearth@foo.com",
+    "address": "2525 S King St, Honolulu, HI 96826",
+    "hours": "6AM-9PM Daily",
+    "phone": "(808) 947-7678",
+    "priceindex": "$$",
+    "likes": 0
+  }
+]
 }

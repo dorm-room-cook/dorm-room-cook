@@ -237,6 +237,607 @@
       ],
       "created":"2020-04-26",
       "updated":"2020-04-26"
+    },
+    {
+      "title": "Curried Chickpeas with Spinach",
+      "image": "/images/curried-chickpeas.jpg",
+      "description": "These super fast Curried Chickpeas with spinach are packed with flavor and nutrients, vegan, gluten-free, and filling! Plus they freeze great!",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 8,
+      "ingredients": [
+        "2 Tbsp Olive Oil",
+        "1 Yellow Onion",
+        "2 Cloves Garlic",
+        "1 inch Ginger",
+        "1 1/2 Tbsp Curry Powder",
+        "8 oz. Spinach",
+        "15 oz. Tomato Sauce",
+        "2 15 oz. cans Chickpeas"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Stovetop",
+        "Spoon",
+        "Skillet"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Dice the onion, mince the garlic, and grate the ginger on a small holed cheese grater. Sauté the onion, garlic, and ginger in a large skillet with the olive oil over medium heat until the onions have softened (3-5 minutes).",
+        "Add the curry powder and continue to sauté with the onion mixture for one minute more. Add about 1/4 cup of water to the skillet along with the fresh spinach and continue to sauté until the spinach has wilted. The water will help steam and wilt the spinach (no water needed if using frozen spinach).",
+        "Drain and rinse the chickpeas. Add them to the skillet along with the tomato sauce. Stir well to distribute the spices in the sauce and heat through (5 minutes). Serve over rice or with bread."
+      ],
+      "source": "https://www.budgetbytes.com/curried-chickpeas-spinach/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Pork and Peanut Dragon Noodles",
+      "image": "/images/pork-dragon-noodles.jpg",
+      "description": "Sweet, salty, rich, and crunchy, these Pork and Peanut Dragon Noodles hit all the bases. It’s fast, easy comfort food for busy nights! ",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 7,
+      "ingredients": [
+        "1/4 cup Chili Garlic Sauce",
+        "1/4 cup Soy Sauce",
+        "1/4 cup Brown Sugar",
+        "1/2 lb. Ground Pork",
+        "6 oz. Ramen Noodles",
+        "3 Green Onions",
+        "1/4 cup Unsalted Peanuts"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Spoon",
+        "Bowl"
+      ],
+      "servings": 3,
+      "instructions": [
+        "Combine the chili garlic sauce, soy sauce, and brown sugar in a bowl.",
+        "Add the ground pork to a skillet and cook over medium heat until it is fully browned*. Once browned, add the prepared dragon sauce and chopped peanuts. Allow the pork and peanuts to simmer in the sauce for another 5 minutes, or until the sauce has reduced by half.",
+        "While the pork is browning, begin boiling water for your noodles. Once boiling, add your noodles and cook according to the package directions. Drain the noodles in a colander.",
+        "Once the sauce has reduced and the noodles have drained, add the noodles to the skillet and toss until everything is combined and coated in sauce. Top with sliced green onions and serve!"
+      ],
+      "source": "https://www.budgetbytes.com/pork-peanut-dragon-noodles/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "One Pot Chili Pasta",
+      "image": "/images/chili-pasta.jpg",
+      "description": "This super hearty One Pot Chili Pasta is bursting with southwest chili flavor, protein, and fiber. It's a meal in a bowl that the whole family will love.",
+      "owner": "john@foo.com",
+      "time": 40,
+      "items": 15,
+      "ingredients": [
+        "1 Tbsp Olive Oil",
+        "1 Yellow Onion",
+        "2 cloves Garlic",
+        "1/2 lb. Ground Beef",
+        "2 Tbsp. All-purpose flour",
+        "2 Tbsp. Chili Powder",
+        "15 oz. Tomato Sauce",
+        "15 oz. Diced Tomatoes",
+        "15 oz. Black Beans",
+        "15 oz. Kidney Beans",
+        "1 cup Corn Kernels",
+        "2 cups Elbow Macaroni",
+        "2 cups Beef Broth",
+        "1 cup Shredded Cheese"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Spoon",
+        "Stovetop"
+      ],
+      "servings": 9,
+      "instructions": [
+        "Dice the onion and mince the garlic. Cook both in a large pot with olive oil over medium heat for 1-2 minutes, or until soft and transparent. Add the ground beef and continue to stir and cook until it is fully browned. If using a high fat ground beef, drain off the excessive after it is browned.",
+        "Add the flour and chili powder to the pot and stir to coat the meat. Continue to stir and cook the coated meat for 1-2 minutes more. The flour and chili powder may coat the bottom of the pot, but that's okay. Just be careful to not let it burn.",
+        "Drain and rinse the black and kidney beans. Add the beans, tomato sauce, diced tomato, and corn kernels to the pot. Stir well and dissolve the flour/chili powder mixture from the bottom of the pot.",
+        "Add the dry macaroni and two cups of beef broth to the pot and stir to combine. Place a lid on top, turn the heat up to high, and let the pot come to a boil. Once it reaches a boil, give it a quick stir to loosen any pasta stuck to the bottom of the pot, replace the lid, and turn the heat down to medium-low. Let the pot simmer on medium-low for about 15 minutes, or until the pasta is soft and has absorbed most of the liquid. Stir the pot one or two times during the 15 minutes to loosen any pasta stuck to the bottom.",
+        "Once the pasta is fully cooked, turn the heat off and add the cheese. Stir the cheese into the pasta until it has melted in and become slightly creamy. Serve hot."
+      ],
+      "source": "https://www.budgetbytes.com/snap-challenge-one-pot-chili-pasta/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Beef and Cabbage Stir Fry",
+      "image": "/images/beefcabbage-stirfry.jpg",
+      "description": "This fast and easy Beef and Cabbage Stir Fry is a filling low carb dinner with big flavor and endless possibilities for customization. ",
+      "owner": "john@foo.com",
+      "time": 30,
+      "items": 15,
+      "ingredients": [
+        "2 Tbsp Soy Sauce",
+        "1 Tbsp Toasted Sesame Oil",
+        "1 Tbsp Sriracha",
+        "1/2 Tbsp Brown Sugar",
+        "1/2 head Green Cabbage",
+        "2 Carrots",
+        "3 Green Onions",
+        "1/2 Tbsp Neutral Cooking Oil",
+        "1/2 lb. Ground Beef",
+        "2 cloves Garlic",
+        "1 Tbsp. Ginger",
+        "Pinch of Salt",
+        "Pinch of Pepper"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Stovetop",
+        "Spoon",
+        "Bowl"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Prepare the stir fry sauce first. In a small bowl stir together the soy sauce, toasted sesame oil, sriracha, and brown sugar. Set the sauce aside.",
+        "Shred the vegetables so they are ready to go when you need them. Cut one small cabbage in half, remove the core, and then finely shred the leaves of one half the cabbage (4-6 cups once shredded, save the other half for another recipe). Peel two carrots, then use a cheese grater to shred them (1 cup shredded). Slice three green onions. Mince two cloves of garlic. Peel a knob of ginger using either a vegetable peeler or by scraping with the side of a spoon, then grate it using a small-holed cheese grater.",
+        "Heat a large skillet over medium heat. Once hot add the cooking oil, ground beef, garlic, ginger, and a pinch of salt and pepper. Cook the beef until browned (about five minutes).",
+        "Add the cabbage and carrots to the skillet and continue to stir and cook until the cabbage is slightly wilted (or fully wilted, if you prefer). Stir in the prepared sauce and the green onions. Top with a sprinkle of sesame seeds and a drizzle of sriracha, then serve."
+      ],
+      "source": "https://www.budgetbytes.com/beef-cabbage-stir-fry/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Bowties and Broccoli",
+      "image": "/images/bowties-broccoli.jpg",
+      "description": "This insanely simple dinner cheat is ready in minutes and will keep you full for hours. Bowties and Broccoli is my go-to lazy weeknight dinner.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 7,
+      "ingredients": [
+        "12 oz. Pasta",
+        "1 lb. Frozen Broccoli Florets",
+        "3 Tbsp. Butter",
+        "3 Tbsp. Grated Parmesan",
+        "Salt to taste",
+        "Pepper to taste",
+        "Crushed Red Pepper"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Stovetop",
+        "Pot",
+        "Colander"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Bring a pot of water to a boil, then add the pasta. Boil until the pasta is al dente (7-10 minutes). Add the frozen broccoli florets to the boiling pasta water, turn off the heat, and let sit for 1-2 minutes, or until the broccoli is tender-crisp. Drain the pasta and broccoli in a colander.",
+        "Transfer the pasta and broccoli back to the pot (with the heat off) or to a bowl and add the butter. Toss until the butter has melted and coated everything. Add the Parmesan, salt, freshly cracked pepper, and red pepper flakes, then toss to coat again. Taste and adjust seasoning as needed. Serve immediately."
+      ],
+      "source": "https://www.budgetbytes.com/bowties-and-broccoli/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Poor Man's Burrito Bowls",
+      "image": "/images/burrito-bowl.jpg",
+      "description": "These easy no-frills burrito bowls are super fast and affordable. They're the perfect satisfying weeknight meal for times when money is tight!",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 9,
+      "ingredients": [
+        "2 cups White Rice",
+        "1/2 Tsp. Salt",
+        "2 15 oz. cans Black Beans",
+        "1/2 Tsp. Ground Cumin",
+        "1/4 Tsp. Garlic Powder",
+        "16oz. Salsa",
+        "6 oz. Shredded Cheese",
+        "1 Green Onions",
+        "1 Jalapeno"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Stovetop",
+        "Bowl"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Add the rice, salt, and 3 cups water to a medium sauce pot. Place a lid on top, turn the heat on to high, and allow the water to come up to a full boil. Once boiling, turn the heat down to low and let it continue to simmer for 15 minutes. After 15 minutes, turn the heat off and let it sit, with the lid in place, for an additional five minutes. Fluff just before serving.",
+        "While the rice is cooking, make the beans. Add both cans of black beans (undrained) to a small sauce pot, along with the cumin, and garlic powder. Heat over medium, stirring often, until heated through.",
+        "Slice the green onions and jalapeño (if using).",
+        "Once the rice is cooked, build the bowls. Add one cup cooked rice, 1/2 cup warm black beans, 1/3 cup salsa, and 1 oz. shredded cheese (about 1/4 cup) to each bowl. Top with a few sliced green onions and jalapeños, then serve."
+      ],
+      "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Creamy Tuna Pasta with Peas and Parmesan",
+      "image": "/images/tuna-pasta.jpg",
+      "description": "This quick and comforting Creamy Tuna Pasta with Peas and Parmesan is a fast and easy weeknight dinner that only requires a few simple ingredients.",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 7,
+      "ingredients": [
+        "8 oz. Pasta",
+        "2 Tbsp. Butter",
+        "2 cloves Garlic",
+        "1 cup Frozen Peas",
+        "1 cup Half and Half",
+        "1/2 cup Shredded Parmesan",
+        "12 oz. Solid Albicore Tuna"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Skillet",
+        "Stovetop",
+        "Colander"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Bring a pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until the pasta is tender. Drain the pasta in a colander.",
+        "While the pasta is cooking, prepare the rest of the dish. Add the butter and minced garlic to a large skillet. Sauté the garlic over medium heat for about one minute, or just until it is soft and fragrant, but not browned.",
+        "Add the frozen peas and season with a pinch of salt and pepper. Sauté for a couple minutes more, or until the peas are heated through.",
+        "Add the half and half to the skillet and allow it to come up to a simmer, stirring frequently to keep a skin from forming on the surface or the bottom from scorching. Let the half and half simmer for about 3-5 minutes, or just until it reduces slightly.",
+        "At this point the pasta should be finished and drained. Add the drained pasta to the skillet and stir to combine. Sprinkle the Parmesan over the pasta and stir to combine again. Allow the heat to melt the Parmesan as you stir. Once melted, turn the heat off. Taste the pasta and add a pinch of salt and pepper, if needed.",
+        "Finally, add the drained tuna and fold it into the pasta. If you are using whole tuna chunks, break them up slightly as you stir. If you are using chunk light tuna that is already in small pieces, fold gently to avoid breaking the tuna up too much. Serve warm!"
+      ],
+      "source": "https://www.budgetbytes.com/creamy-tuna-pasta-with-peas-and-parmesan/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Weeknight Black Bean Chili",
+      "image": "/images/blackbean-chili.jpg",
+      "description": "This easy and comforting black bean chili is rich, full of warm chili spices, and fast enough to pull together on a busy weeknight.",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 12,
+      "ingredients": [
+        "1 Tbsp. Olive Oil",
+        "1 Yellow Onion",
+        "4 cloves Garlic",
+        "1/2 lb. Ground Turkey",
+        "3 15 oz. cans Black Beans",
+        "15 oz. Green Chiles",
+        "3 oz. Tomato Paste",
+        "1 Tbsp. Chili Powder",
+        "1/2 Tsp. Ground Cumin",
+        "1/2 Tsp. Smoked Paprika",
+        "1/2 Tsp. Dried Oregano",
+        "1/4 Tsp. Salt"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Stovetop",
+        "Skillet",
+        "Bowl"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Dice the onion and mince the garlic. Add the onion and garlic to a large pot with 1 Tbsp olive oil and cook over medium-low heat just until softened (2-3 minutes).",
+        "Add the ground turkey to the pot and continue to sauté until the turkey is cooked through (5-7 minutes). Break the turkey up into small crumbles with your spoon as it cooks.",
+        "Add the three cans of beans (undrained), the diced tomatoes (undrained), tomato paste, chili powder, cumin, smoked paprika, and oregano. Stir everything to combine.",
+        "Let the chili simmer for about 10 minutes to let the flavors blend and help the liquid thicken slightly. Taste the chili and add salt as needed (this will depend on the salt content of your canned goods. I added about 1/4 tsp). Serve with your favorite chili toppings."
+      ],
+      "source": "https://www.budgetbytes.com/weeknight-black-bean-chili/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Dragon Noodles",
+      "image": "/images/spicy-dragon-noodles.jpg",
+      "description": "These sweet, tangy, and spicy Dragon Noodles take only a few minutes to whip up and will kill your craving for take-out.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 9,
+      "ingredients": [
+        "4 oz. Mein Noodles",
+        "2 Tbsp. Butter",
+        "1/4 Tsp. Crushed Red Pepper",
+        "1 Egg",
+        "1 Tbsp. Brown Sugar",
+        "1 Tbsp. Soy Sauce",
+        "1 Tbsp. Sriracha Rooster Sauce",
+        "1 handful Cilantro",
+        "1 Green Onion"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Pot",
+        "Bowl",
+        "Colander"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Begin to boil water for the noodles. Once the water reaches a full boil, add the noodles and cook according to the package directions (boil for 5-7 minutes).",
+        "While waiting for the water to boil, prepare the sauce. In a small bowl stir together the brown sugar, soy sauce, and sriracha.",
+        "In a large skillet melt 2 tablespoons of butter over medium-low heat. Add the red pepper to the butter as it melts. Whisk an egg in a bowl and then add to the melted butter. Stir gently and cook through. Once the egg is done cooking, turn off the heat.",
+        "When the noodles are tender, drain the water and then add them to the skillet with the cooked egg. Also add the prepared sauce. Turn the heat on to low to evaporate excess moisture, and stir until everything is coated well with the sauce. Sprinkle the sliced green onions and cilantro leaves (whole) on top and serve!"
+      ],
+      "source": "https://www.budgetbytes.com/spicy-noodles/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "One Pot Bacon Broccoli Mac and Cheese",
+      "image": "/images/baconbroccoli-macncheese.jpg",
+      "description": "This One Pot Bacon Broccoli Mac and Cheese is fast, easy, and absolutely fool proof. This sauce stays smooth and creamy!",
+      "owner": "john@foo.com",
+      "time": 45,
+      "items": 9,
+      "ingredients": [
+        "1/2 lb. Frozen Broccoli Florets",
+        "4 oz. Bacon",
+        "8 oz. Medium Cheddar",
+        "1/2 lb. Pasta",
+        "1 cup Evaporated Milk",
+        "1/2 tsp. Smoked Paprika",
+        "1/2 tsp. Hot Sauce",
+        "1/2 tsp. Dijon Mustard",
+        "1/4 tsp. Salt"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Cheese Grater",
+        "Colander",
+        "Pot",
+        "Stovetop",
+        "Spoon"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Prepare the ingredients before beginning because the process goes quickly once it's begun. Thaw the broccoli florets and chop them into small bite-sized pieces. Slice the bacon into small pieces. Shred the cheddar cheese.",
+        "Cook the pasta according to the package directions (boil 7-10 minutes, or until al dente). Drain the pasta in a colander and set it aside.",
+        "Return the pot to the stove, add the bacon, and cook over medium to medium-low heat until the bacon is brown and crispy (about 5 minutes). Use a slotted spoon to remove the bacon from the pot, leaving the grease behind.",
+        "Add the evaporated milk, smoked paprika, Dijon, hot sauce, and salt to the pot with the bacon grease. Stir to combine and allow it to heat through (it should heat quickly as the pot will be very hot from cooking the bacon).",
+        "Once the evaporated milk is hot, turn the heat to low and begin whisking in the shredded cheddar, one handful at a time, waiting until the cheese is fully melted before adding the next handful. Once all of the cheese has been melted into the sauce, taste the cheese sauce and adjust the salt or hot sauce if desired. If the sauce becomes too thick, simply stir in one to two tablespoons of the remaining evaporated milk in the can.",
+        "Return the cooked pasta, crispy bacon (crumble into smaller pieces if desired), and chopped broccoli to the pot with the cheese sauce. Stir to combine. Serve immediately."
+      ],
+      "source": "https://www.budgetbytes.com/one-pot-bacon-broccoli-mac-cheese/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Hearty Black Bean Quesadillas",
+      "image": "/images/blackbean-quesadillas.jpg",
+      "description": "Black beans, corn, cilantro, cheese, and plenty of spices make these vegetarian black bean quesadillas big on flavor and surprisingly filling.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 8,
+      "ingredients": [
+        "15 oz. Black Beans",
+        "1 cup Corn Kernals",
+        "1/2 Red Onion",
+        "1 clove Garlic",
+        "1/4 bunch Cilantro",
+        "2 cups Shredded Cheese",
+        "1 batch Taco Seasoning",
+        "10 Taco Sized Tortillas"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Stovetop",
+        "Skillet",
+        "Bowl"
+      ],
+      "servings": 10,
+      "instructions": [
+        "Drain the can of beans and rinse lightly. Place the beans in a large bowl along with the corn (no need to thaw).",
+        "Rinse the cilantro, remove the leaves, and chop roughly. Dice the onion and mince the garlic. Add the cilantro, onion, garlic, and shredded cheese to the bowl with the beans and corn. Lastly, mix up a batch of taco seasoning and add to the bowl. Stir everything until evenly mixed.",
+        "Place a half cup of the filling on one side of each tortilla and fold over. Cook in a skillet on both sides over medium heat until brown and crispy and the cheesy filling has melted.",
+        "To freeze the quesadillas, simply fill each one and place on a baking sheet lined with parchment paper. Place in the freezer for one hour to solidify the quesadillas and then transfer to a freezer bag. To reheat either microwave (for a soft quesadilla) or cook in a skillet on low heat (make sure to use low heat so that the filling has time to thaw and melt before the outside burns)."
+      ],
+      "source": "https://www.budgetbytes.com/hearty-black-bean-quesadillas/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Spinach Feta Grilled Cheese",
+      "image": "/images/spinach-grilledcheese.jpg",
+      "description": "Take your grilled cheese game to the next level with this Spinach Feta Grilled Cheese, featuring garlic, red pepper, and TWO cheeses!",
+      "owner": "john@foo.com",
+      "time": 30,
+      "items": 9,
+      "ingredients": [
+        "1/2 Tbsp. Olive Oil",
+        "1 clove Garlic",
+        "1/4 lb Spinach",
+        "Pinch of Salt",
+        "Pinch of Pepper",
+        "2 Ciabatta Rolls",
+        "1 cup Mozzarella Cheese",
+        "1 oz. Feta Cheese",
+        "Pinch of Red Pepper Flakes"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Skillet",
+        "Stovetop",
+        "Cheese Grater"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Mince the garlic and add it to a skillet with the olive oil. Cook over medium-low heat for 1-2 minutes, or until it begins to soften. Add the frozen spinach, turn the heat up to medium, and cook for about 5 minutes, or until heated through and most of the excess moisture has evaporated away. Season lightly with salt and pepper.",
+        "Cut the rolls in half. Add about 1/4 cup of shredded mozzarella and 1/2 oz. of feta to the bottom half of each roll. Divide the cooked spinach between the two sandwiches, then top with a pinch of red pepper flakes, plus 1/4 more shredded mozzarella on each.",
+        "Place the top half of the ciabatta roll on the sandwiches and transfer them to a large non-stick skillet. Fill a large pot with a few inches of water to create weight, then place the pot on top of the sandwiches to press them down like a panini press. Turn the heat on to medium-low and cook until the sandwiches are crispy on the bottom. Carefully flip the sandwiches, place the weighted pot back on top, and cook until crispy on the other side and the cheese is melted. Serve warm."
+      ],
+      "source": "https://www.budgetbytes.com/spinach-feta-grilled-cheese/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Pizzadillas",
+      "image": "/images/pizzadillas.jpg",
+      "description": "All the cheesy toppings of a pizza stuffed into a fast, easy, and crispy quesadilla. Perfect for dipping in pizza sauce!",
+      "owner": "john@foo.com",
+      "time": 20,
+      "items": 6,
+      "ingredients": [
+        "6 Tortillas",
+        "2 cups Mozzarella",
+        "30 Pepperroni Slices",
+        "1 Bell Pepper",
+        "1/2 Red Onion",
+        "2.25 oz. Black Olives",
+        "1 can Mushrooms",
+        "1/2 batch Pizza Sauce"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Cheese Grater",
+        "Skillet",
+        "Stovetop"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Prep the ingredients by thinly slicing the vegetables and draining the olives and mushrooms.",
+        "For each pizzadilla: Measure 1/3 cup of shredded cheese. Sprinkle half of the cheese over one half of the tortilla, add toppings and then sprinkle the rest of the cheese on top. Fold the empty side of the tortilla over the toppings.",
+        "Place the pizzadilla in a prewarmed skillet (medium heat) and cook until brown and crispy on the bottom. Carefully flip the pizzadilla over and cook until brown and crispy on the second side. Once both sides are crisp and the cheese is melted inside, slice into thirds with a pizza cutter. Dip in the pizza sauce prior to eating."
+      ],
+      "source": "https://www.budgetbytes.com/pizzadillas/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Caramelized Banana and Peanut Butter Quesadilla",
+      "image": "/images/banana-pnb-quesadilla.jpg",
+      "description": "Tired of banana bread? Here's a fun new way to use up those over ripe bananas! Caramelized banana, peanut butter, and cinnamon make a warm, delicious treat.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 6,
+      "ingredients": [
+        "1 Banana",
+        "1 Tortilla",
+        "1 Tbsp. Peanut Butter",
+        "1/2 Tbsp. Butter",
+        "1/2 Tbsp. Brown Sugar",
+        "Dash of Cinnamon"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Skillet",
+        "Knife",
+        "Stovetop"
+      ],
+      "servings": 1,
+      "instructions": [
+        "Slice the banana. Melt the butter in a small skillet over medium heat. Once melted, add the sliced banana and brown sugar. Cook the banana in the butter and brown sugar until the slices turn golden brown and slightly sticky. Remove the skillet from the heat.",
+        "Spread the peanut butter over half of the quesadilla. Scoop the caramelized banana slices onto the peanut butter. Sprinkle a dash of cinnamon on top. Fold the empty half of the tortilla over the filled side.",
+        "Place the quesadilla in a clean dry skillet and cook over medium heat until golden brown and crispy on both sides. Slice the quesadilla into triangles using a large knife or pizza cutter, then serve."
+      ],
+      "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Pizza Roll Ups",
+      "image": "/images/pizza-roll-ups.jpg",
+      "description": "Forget frozen pizza rolls! These Pizza Roll Ups are the perfect last minute appetizer or indulgent snack on busy days!",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 5,
+      "ingredients": [
+        "8 Tortillas",
+        "40 slices Pepperoni",
+        "4 Mozzarella cheese sticks",
+        "Oil",
+        "1/2 cup Pizza Sauce"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Oven",
+        "Baking Sheet",
+        "Cheese Grater"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Preheat the oven to 400ºF. Lightly spritz a baking sheet with spray oil or brush a thin layer of your favorite cooking oil onto the baking sheet.",
+        "Stack about 4 tortillas at a time on a plate and cover with a damp paper towel. Microwave for 20-30 seconds, or until they are steamy and pliable. Microwave the second batch when you're ready to roll more.",
+        "Slice each of the mozzarella sticks in half, lengthwise. Place about 5 pepperoni on each tortilla in the bottom 1/3 o the circle, then place the halved mozzarella stick on top. Fold the sides of the tortilla in to cover the ends, then roll them up tight light a burrito.",
+        "Place the tightly rolled Pizza Roll Ups on the baking sheet, seam side down. Leave them slightly apart from one another to allow hot air to surround the rolls. Either spritz the top with spray oil, or brush a thin layer of oil on top of the roll ups.",
+        "Bake the Pizza Roll Ups for 12-15 minutes, or until they're lightly browned and the cheese is just beginning to ooze. Because every oven is different, begin checking on the Pizza Roll Ups at about 10 minutes, then check ever two minutes or so until they're done.",
+        "Serve immediately, with pizza sauce for dipping."
+      ],
+      "source": "https://www.budgetbytes.com/pizza-roll-ups/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
     }
   ]
 }
