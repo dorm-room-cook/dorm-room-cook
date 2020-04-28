@@ -40,6 +40,706 @@
       "updated":"2020-04-15"
     },
     {
+      "title": "Banana Pancakes",
+      "image": "/images/banana-pancakes.jpg",
+      "description": "The perfect way to use up overripe bananas! These taste like banana bread but in tender and fluffy, syrup covered pancake form. Delicious!",
+      "owner": "john@foo.com",
+      "time": 20,
+      "items": 11,
+      "ingredients": [
+        "1 1/4 cups (295ml) milk",
+        "1 Tbsp (15 ml) lemon juice or plain vinegar",
+        "1 1/2 cups (212g) all-purpose flour (scoop and level to measure)",
+        "2 Tbsp (24g) granulated sugar",
+        "1 1/2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp ground cinnamon (optional)",
+        "1/4 tsp (heaping) salt",
+        "3 Tbsp (42g) melted butter",
+        "2 large eggs",
+        "1 1/4 cups (310g) mashed overripe bananas"
+      ],
+      "type": [
+        "Breakfast"
+      ],
+      "tools": [
+        "Bowl",
+        "Whisk",
+        "Spatula"
+      ],
+      "servings": 12,
+      "instructions": [
+        "In a medium mixing bowl whisk together milk and lemon or vinegar, let rest 3 minutes.",
+        "Preheat an electric griddle or large non-stick skillet over medium-high heat.",
+        "In a mixing bowl whisk together flour, sugar, baking powder, baking soda and salt. Make a well in the center of mixture, set aside.",
+        "To milk mixture add eggs, melted butter, and mashed bananas and mix to combined.",
+        "Pour milk mixture into center of flour mixture. Whisk just until combined, batter will be lumpy and that's good (that means it's not over-mixed).",
+        "Scoop batter at 1/3 cup at a time and pour onto lightly greased griddle. If batter is thick you can spread round out slightly using bottom of the measuring cup.",
+        "Cook until bubbles begin to appear on the top surface and bottom is golden brown. Flip and continue to cook until opposite side is golden brown. Transfer to a cooling rack (if needed you can keep warm in a 200 degree oven, though they are fluffiest served just after cooking).",
+        "Serve warm with toppings of choice."
+      ],
+      "source": "https://www.cookingclassy.com/banana-pancakes/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Goulash(One Pot American Style)",
+      "image": "/images/goulash.jpg",
+      "description": "This delicious, easy goulash recipe is made with hearty beef, tender macaroni pasta, lots of vegetables and a savory tomato based sauce. Makes about 7 cups.",
+      "owner": "john@foo.com",
+      "time": 40,
+      "items": 16,
+      "ingredients": [
+        "1 Tbsp olive oil",
+        "1 medium yellow onion, chopped (1 1/2 cups)",
+        "1 cup chopped red bell pepper",
+        "1 medium carrot, thinly diced (1/2 cup)",
+        "1 lb. lean ground beef",
+        "3 garlic cloves, minced (1 Tbsp)",
+        "1 1/4 cups low-sodium chicken broth, plus more as needed",
+        "2 Tbsp tomato paste",
+        "1 (15 oz) can tomato sauce",
+        "1 (14.5 oz) can petite diced tomatoes",
+        "1 Tbsp Worcestershire sauce",
+        "1 Tbsp Italian seasoning",
+        "1 tsp paprika",
+        "Salt and pepper, to taste",
+        "1 2/3 cups (6.7 oz) macaroni pasta",
+        "1/4 cup chopped parsley"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Spoon",
+        "Stovetop"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Saute veggies: Heat a large pot over medium-high heat. Add onion, bell pepper and carrot and saute 6 minutes. Scoot to one far side.",
+        "Brown beef: Add beef in about 5 chunks and let brown on bottom, about 2 - 3 minutes then break up beef and toss with veggies. Cook beef through, tossing occasionally.",
+        "Drain fat, saute garlic: Drain off excess fat as needed*. Add garlic and saute 1 minute longer.",
+        "Add canned ingredients and seasonings, simmer: Pour in chicken broth, tomato paste, tomato sauce, diced tomatoes, Worcestershire sauce, Italian seasoning and paprika. Season with salt and pepper to taste. Bring mixture to a simmer.",
+        "Add pasta and cook to al dente: Add pasta and stir. Reduce to medium-low cover and let simmer, stirring occasionally until pasta is nearly tender, about 10 - 12 minutes. If needed add a little more broth to thin.",
+        "Let rest: Remove from heat and let rest a few minutes until pasta is tender and sauce has thickened.",
+        "Garnish: Stir in parsley. Serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/goulash-recipe/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Garlic Butter Chicken Bites",
+      "image": "/images/garlic-butter-chicken.jpg",
+      "description": "The easiest 15 minute recipe that requires minimal prep and a few basic ingredients, yet it wows with flavor! A new weeknight dinner staple!",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 8,
+      "ingredients": [
+        "1 1/4 lbs. boneless skinless chicken breasts, cut into 1 1/4-inch pieces",
+        "2 Tbsp all-purpose flour",
+        "1 1/2 tsp Italian seasoning",
+        "Salt and freshly ground black pepper",
+        "1 Tbsp olive oil",
+        "3 Tbsp unsalted butter, divided",
+        "1 1/2 Tbsp minced fresh garlic (4 cloves)",
+        "2 Tbsp finely chopped fresh parsley*"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Paper Towels",
+        "Stovetop"
+      ],
+      "servings": 3,
+      "instructions": [
+        "Preheat a 12-inch non-stick skillet over medium-high heat.",
+        "Dab chicken on all sides dry with paper towels.",
+        "Sprinkle flour, Italian seasoning, and desired amount of salt and pepper (I use about 1 scant tsp salt and 1/2 tsp pepper) over chicken. Toss well to evenly coat (all flour should stick to chicken and not be left behind on cutting board, keep tossing if needed).",
+        "Add 1 Tbsp olive oil and 1 Tbsp butter to skillet, butter should melt quickly. Tilt pan to evenly coat.",
+        "Add chicken in an even layer, work to leave some space between pieces so they'll brown rather than steam.",
+        "Let cook until nicely golden brown on bottom, about 3 minutes then flip to opposite side and cook 2 minutes longer, or until nearly cooked through.",
+        "Add remaining 2 Tbsp butter in small pieces, along with garlic and parsley. Cook 1 minute longer (chicken should be 165 in center and no longer be pink)."
+      ],
+      "source": "https://www.cookingclassy.com/garlic-butter-chicken-bites/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Small Batch Brownies",
+      "image": "/images/brownies.jpg",
+      "description": "This is my go-to brownie recipe! It only makes a few so I'm not tempted by an entire batch of brownies sitting around for days. They're so easy to make, perfectly rich, deliciously fudgy and they're sure to satisfy those chocolate cravings.",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 7,
+      "ingredients": [
+        "1/4 cup (56g) salted butter, cut into 4 pieces",
+        "1/2 cup (100g) granulated sugar",
+        "1 large egg",
+        "1/2 tsp vanilla extract",
+        "1/4 cup (36g) all-purpose flour* (scoop and level to measure)",
+        "3 Tbsp (18g) unsweetened cocoa powder",
+        "1/4 cup (42g) chocolate chip or 3 Tbsp mini chocolate chips**"
+      ],
+      "type": [
+        "Dessert"
+      ],
+      "tools": [
+        "Oven",
+        "Bread Pan",
+        "Bowl"
+      ],
+      "servings": 3,
+      "instructions": [
+        "Preheat oven to 300 degrees. Spray a 8 by 4-inch bread pan*** with non-stick cooking spray (or grease with some butter).",
+        "Place butter in a microwave safe bowl, cover and heat in microwave until melted, about 30+ seconds. Let cool slightly while measuring out remaining ingredients.",
+        "Mix in sugar, then mix in egg and vanilla extract.",
+        "Add flour and cocoa powder and mix just until combined, if adding chocolate chips then add them once dry ingredients are almost blended in.",
+        "Pour into prepared baking dish and spread into an even layer. Bake in preheated oven until set, about 19 - 23 minutes.",
+        "Let cool about 15 - 20 minutes before cutting and serving."
+      ],
+      "source": "https://www.cookingclassy.com/small-batch-brownies-makes-3-4-brownies/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Honey Mustard Pecan Crusted Chicken",
+      "image": "/images/pecan-chicken.jpg",
+      "description": "Protein rich chicken breasts are coated in a crisp pecan and panko mixture and oven baked, then they are finished with a sweet and tangy honey mustard glaze. A flavorful, easy recipe that's sure to satisfy!",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 9,
+      "ingredients": [
+        "3/4 cup Fisher Pecans, finely chopped*",
+        "2/3 cup panko breadcrumbs",
+        "1 1/4 tsp paprika",
+        "3/4 tsp garlic powder**",
+        "Salt and freshly ground black pepper",
+        "2 1/2 Tbsp dijon mustard, divided",
+        "2 1/2 Tbsp mayonnaise, divided",
+        "2 Tbsp honey, divided",
+        "4 (6 - 7 oz) boneless skinless chicken breasts"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Oven",
+        "Baking Sheet",
+        "Bowl"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Preheat oven to 425 degrees. Line a 18 by 13-inch baking sheet with foil, place an oven safe cooling rack over on baking sheet and spray with non-stick cooking spray. Set aside.",
+        "In a shallow dish toss together pecans, breadcrumbs, paprika, garlic powder and season with pepper to taste.",
+        "In a small mixing bowl stir together 1 Tbsp dijon mustard, 1 Tbsp mayonnaise and 1/2 Tbsp honey",
+        "Pound chicken to even the thickness (about 1/2-inch). Dab dry with paper towels then brush top side of chicken with honey mustard mixture and season with salt.",
+        "Transfer one piece of chicken to panko mixture, honey mustard side down, press firm to get mixture to adhere on bottom. Brush top side of chicken piece with honey mustard mixture, season with salt then turn chicken and press to coat. Chicken should be very well covered with mixture, turn and press again on each side to coat well.",
+        "Transfer coated chicken to wire rack, repeat process with remaining pieces of chicken, leaving space between them on rack. Add any extra pecan mixture to tops of chicken and press down even. If you have olive oil cooking spray then spray tops of chicken with it (this is optional, just encourages browning of panko).",
+        "Bake chicken in oven until cooked through, center should register 165 degrees, about 20 - 25 minutes. If you find pecans are browning too quickly during baking then tent chicken with foil.",
+        "Meanwhile in a clean small mixing bowl stir together remaining 1 1/2 dijon mustard, 1 1/2 Tbsp mayonnaise and 1 1/2 Tbsp honey.",
+        "Drizzle chicken with honey mustard mixture and serve warm. Optionally you can garnish chicken with chopped parsley (about 1 1/2 tsp)."
+      ],
+      "source": "https://www.cookingclassy.com/honey-mustard-pecan-crusted-chicken/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Fried Rice",
+      "image": "/images/fried-rice.jpg",
+      "description": "A classic, easy to make fried rice recipe! This is filled with tender rice, colorful vegetables, hearty eggs, tender (optional) ham and it's all fried with a delicious, robustly seasoned sauce.",
+      "owner": "john@foo.com",
+      "time": 20,
+      "items": 14,
+      "ingredients": [
+        "4 cups cooked jasmine rice* or long grain white rice, day old chilled",
+        "1 Tbsp soy sauce, then more to taste",
+        "1 Tbsp oyster sauce, or more to taste",
+        "1 1/2 tsp sesame oil",
+        "1 tsp sriracha, or more to taste",
+        "3 large eggs, lightly beaten with a fork in a bowl",
+        "3 1/2 Tbsp light olive oil or vegetable oil",
+        "3/4 cup small diced carrots",
+        "2/3 cup finely chopped yellow onion",
+        "1 Tbsp minced garlic (3 cloves)",
+        "1 1/2 tsp peeled and minced fresh ginger",
+        "3/4 cup frozen peas, thawed under hot water and drained well",
+        "1 cup small diced ham,** (optional)",
+        "1/4 cup chopped green onions (optional)"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Bowl",
+        "Stovetop"
+      ],
+      "servings": 5,
+      "instructions": [
+        "Make sauce: In a small mixing bowl stir together soy sauce, oyster sauce, sesame oil and sriracha. Set aside.",
+        "Cook eggs: Heat a 12-inch non-stick skillet over medium-low heat. Add 1 1/2 tsp oil add eggs and cook, folding constantly until eggs are just set. Break up eggs, transfer to a plate and set aside.",
+        "Clean skillet: Off heat wipe pan clean using tongs and a ball of damp paper towels.",
+        "Saute vegetables: Heat 1 Tbsp oil in same skillet over medium-high heat. Add carrots and onion and saute until nearly tender about 6 minutes. Add garlic and ginger and saute 30 seconds longer. Scoot to the far side of the pan.",
+        "Fry rice: Pour in remaining 2 Tbsp oil. Add rice and spread even (I like to even sort of fold that carrot mixture at the edge up over the top). Let fry, stirring only occasionally (about every 1 minute), for about 4 minutes.",
+        "Heat ham and peas: Add ham and peas. Fry 1 minute longer.",
+        "Return eggs, cook fried rice with sauce: Add in eggs and drizzle in sauce. Toss and let cook 1 minute. Season with more soy sauce to taste.",
+        "Cook a little longer if needed: If mixture still seems a little to wet you can reduce heat to medium-low and continue to cook a few minutes longer to dry the rice a little. Toss in green onions and serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/fried-rice-recipe/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Chicken Pot Pie Soup",
+      "image": "/images/chicken-potpie-soup.jpg",
+      "description": "All the classic flavors of pot pie but in rich and creamy, perfectly comforting and cozy soup form! This soup is a lot less work than a standard pot pie yet it's equally as delicious! It's brimming with chicken and veggies and a hearty broth. Makes about 10 cups.",
+      "owner": "john@foo.com",
+      "time": 60,
+      "items": 18,
+      "ingredients": [
+        "6 Tbsp butter, divided",
+        "1 1/4 cups chopped yellow onion (1 medium)",
+        "1 Tbsp minced garlic",
+        "1 cup diced celery (about 3 ribs)",
+        "1 cup peeled and diced carrots (about 2 carrots)",
+        "2 1/2 cups low-sodium chicken broth",
+        "2 cups (heaping) peeled and diced russet potatoes, 1/2-inch dice (2 medium potatoes)",
+        "2 tsp minced fresh thyme (or 1 tsp dried)",
+        "2 tsp minced fresh rosemary (or 1 tsp dried)",
+        "2 bay leaves",
+        "Salt and freshly ground black pepper",
+        "6 Tbsp all-purpose flour",
+        "2 cups milk",
+        "1/2 cup heavy cream",
+        "1 cup frozen or fresh peas",
+        "1 cup frozen corn (optional)",
+        "3 cups cooked shredded chicken (preferably bone-in cooked or rotisserie)",
+        "3 Tbsp chopped fresh parsley"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Stovetop",
+        "Skillet"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Melt 1 Tbsp butter in a large pot over medium-high heat. Add in onion, carrot and celery and saute 3 minutes. Add garlic and saute 1 minute longer.",
+        "Add chicken broth, potatoes, thyme, rosemary, bay leaves and season with salt and pepper to taste.",
+        "Cover and bring soup to a low boil then reduce heat to medium-low, (press veggies down into broth) and allow to simmer, stirring occasionally, until potatoes are almost fully tender, about 15 minutes.",
+        "Meanwhile in a medium saucepan set over medium heat, melt remaining 5 Tbsp butter. Stir in flour and cook mixture, stirring constantly for 1 1/2 minutes. While whisking slowly pour in milk into flour mixture.",
+        "Season with salt and pepper to taste. Cook mixture, stirring constantly until thickened (don't boil). Stir in cream then remove from heat, cover with lid.",
+        "Add peas and corn to soup mixture with vegetables (once potatoes are almost fully tender) and heat through for a few minutes.",
+        "Stir milk mixture and chicken into soup. If desired you can thin soup with a little chicken broth if needed.",
+        "Remove bay leaves, stir in parsley and serve warm, with biscuits if desired (not included in nutritional estimate)."
+      ],
+      "source": "https://www.cookingclassy.com/chicken-pot-pie-soup-parmesan-drop-biscuits/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Lasagna",
+      "image": "/images/lasagna.jpg",
+      "description": "Truly the easiest lasagna recipe you'll ever make! No pre-cooking lasagna noodles, no grating cheeses, no homemade sauces. Yet it's so perfectly delicious!!",
+      "owner": "john@foo.com",
+      "time": 73,
+      "items": 8,
+      "ingredients": [
+        "1 lb. 91% lean ground beef*",
+        "1 (25 oz) jar marinara sauce, preferably Rao's tomato basil**",
+        "1/2 cup vegetable broth",
+        "6 uncooked lasagna noodles (not no boil)",
+        "1 (15 oz) container ricotta cheese (whole or part skim)",
+        "1 (8 oz) pkg. shredded mozzarella cheese***",
+        "1/2 cup grated or finely shredded parmesan cheese",
+        "2 Tbsp Chopped fresh basil or parsley (optional)"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Spoon",
+        "Skillet"
+      ],
+      "servings": 7,
+      "instructions": [
+        "Preheat oven to 375 degrees. Spray a 12 by 8-inch baking dish with non-stick cooking spray.",
+        "Heat a 12-inch non-stick skillet over medium-high heat. Crumble in beef and cook and break up beef until cooked through.",
+        "Remove from heat and stir in marinara sauce and vegetable broth (I like to swish the vegetable broth around in the empty jar of marinara sauce to remove any excess, totally optional).",
+        "To assemble lasagna, spread 1/3 of the marinara sauce (about 1 1/2 cups) into bottom of baking dish. Top with 3 uncooked lasagna noodles.",
+        "Spread 1/2 of the ricotta over the noodles using the back of a spoon. Top evenly with 1/2 of the mozzarella (1 cup) and 1/2 of the parmesan (1/4 cup). Top with another 1/3 of the sauce.",
+        "Add 3 more uncooked lasagna noodles then spread evenly with with remaining 1/2 of the ricotta. Pour and spread over last 1/3 of the sauce. Top with remaining 1/2 of the mozzarella and parmesan.",
+        "Cover tightly with foil (you can grease first if the top of the lasagna will be touching the foil so cheese doesn't stick), bake 35 minutes.",
+        "Remove foil then continue to bake uncovered 10 minutes, or until lasagna is just tender (not soggy. There will seem to be a little liquid on the sides still). Let rest 5 minutes before slicing. Garnish with fresh basil or parsley if desired."
+      ],
+      "source": "https://www.cookingclassy.com/easy-lasagna/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Chicken Marsala",
+      "image": "/images/chicken-marsala.jpg",
+      "description": "This classic Italian-American chicken recipe includes tender, perfectly pan seared chicken cutlets, and flavor enhancing browned mushrooms, and it's all covered with a richly seasoned marsala wine, garlic and herb sauce.",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 14,
+      "ingredients": [
+        "1 1/4 cups dry marsala wine*",
+        "1 1/4 cups unsalted chicken broth",
+        "2 (10 - 11 oz) boneless skinless chicken breasts, butterflied and halved, pounded to an even thickness",
+        "Salt and freshly ground black pepper",
+        "1/3 cup all-purpose flour",
+        "2 Tbsp unsalted butter",
+        "2 Tbsp olive oil",
+        "8 oz. cremini mushrooms, sliced",
+        "3 garlic cloves, minced (1 Tbsp)",
+        "1 tsp minced fresh thyme (or scant 1/2 tsp dried)",
+        "1 tsp minced fresh oregano (or scant 1/2 tsp dried)",
+        "1 1/2 tsp cornstarch whisked with 1 Tbsp chicken broth (in a small bowl until well combined)",
+        "1/3 cup heavy cream",
+        "1 Tbsp minced fresh parsley"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Saucepan",
+        "Spoon",
+        "Stovetop"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Add marsala wine and chicken broth to a medium saucepan. Heat over medium-high heat, bring to a boil, then reduce heat to medium and let gently boil until reduced to 1 cup**, about 15 minutes.",
+        "Meanwhile season both sides of chicken with salt and pepper. Dredge each side in flour mixture.",
+        "Melt 1 Tbsp butter with 1 Tbsp olive oil in a 12-inch skillet over medium-high heat. Add chicken pieces and let sear until cooked through (165 in center), turning once halfway through, about 10 - 12 minutes.",
+        "Transfer chicken to a plate. Tent with foil.",
+        "Reduce burner temperature to medium heat. Melt remaining 1 Tbsp butter with 1 Tbsp olive oil, add mushrooms.",
+        "Sauté mushrooms, just tossing occasionally (and increasing burner temp slightly as needed to encourage browning), until mushrooms have shrunk and are golden brown, about 8 minutes. Add garlic during last 1 minute of sautéing.",
+        "Remove pan from heat then pour in marsala reduction***, thyme and oregano.",
+        "Return to heat, bring to a simmer, while scraping up browned bits from the bottom, then stir in cornstarch chicken broth mixture. Stir until thickened****.",
+        "Off heat stir in heavy cream, season sauce with salt and pepper to taste. Return chicken breasts to pan, spoon sauce over top.",
+        "Sprinkle with parsley and serve immediately."
+      ],
+      "source": "https://www.cookingclassy.com/chicken-marsala/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Chicken Piccata",
+      "image": "/images/chicken-piccata.jpg",
+      "description": "An over-the-top delicious chicken piccata! Perfectly pan seared chicken breasts are topped with a rich and creamy, tangy piccata sauce and little bits of salty capers. Such a satisfying dish!",
+      "owner": "john@foo.com",
+      "time": 30,
+      "items": 12,
+      "ingredients": [
+        "2 (10 - 11 oz each) chicken breasts, butterflied and halved",
+        "1/3 cup all-purpose flour",
+        "Salt and freshly ground black pepper",
+        "2 1/2 Tbsp olive oil",
+        "1 Tbsp minced garlic",
+        "1 1/4 cups + 1 Tbsp low-sodium chicken broth",
+        "1 1/2 tsp cornstarch",
+        "2 Tbsp fresh lemon juice",
+        "1 Tbsp butter",
+        "1/4 cup heavy cream",
+        "3 Tbsp chopped fresh parsley",
+        "2 Tbsp capers, rinsed"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Stovetop"
+      ],
+      "servings": 4,
+      "instructions": [
+        "After cutting chicken let it rest at room temperature 10 minutes. In a shallow dish whisk together flour, 1/4 tsp salt and 1/4 tsp pepper.",
+        "Heat olive oil in a 12-inch skillet over medium-high heat. Dredge both sides of chicken cutlets in flour mixture then add to skillet.",
+        "Sear chicken, without moving, until browned on bottom, about 4 - 5 minutes then flip chicken and cook opposite side until golden brown on bottom and chicken has cooked through (reducing burner temperature slightly as needed and tilting pan slightly to redistribute oil) about 4 - 5 minutes longer (chicken should register 165 degrees in center). Transfer chicken to a plate and keep warm.",
+        "Add garlic to remaining oil in pan (there should be about 1 tsp oil left if not just add a tsp), saute just until slightly golden.",
+        "Pour in 1 1/4 cups chicken broth and bring to a boil, while scraping up browned bits from bottom of pan. Allow broth to simmer until reduced by half, about 4 - 5 minutes.",
+        "Whisk together remaining 1 Tbsp chicken broth with cornstarch, then pour mixture into broth in skillet along with lemon juice. Allow to simmer until thickened slightly then remove from heat.",
+        "Stir in butter and pour in cream. Season with salt if needed and pepper.",
+        "Return chicken to skillet. Spoon sauce over chicken, sprinkle with capers and parsley. Serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/creamy-chicken-piccata/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Cannoli",
+      "image": "/images/cannoli.jpg",
+      "description": "",
+      "owner": "john@foo.com",
+      "time": 105,
+      "items": 13,
+      "ingredients": [
+        "1 3/4 cups (250g) unbleached all-purpose flour (scoop and level to measure)",
+        "1 1/2 Tbsp (18g) granulated sugar",
+        "1/4 tsp salt",
+        "3 Tbsp (43g) unsalted butter, diced into small pieces",
+        "1/3 cup marsala wine*, then more as needed",
+        "1 large egg",
+        "1 egg white",
+        "Vegetable oil or shortening, for frying (about 8 cups)",
+        "32 oz. whole milk ricotta, strained**",
+        "1 1/2 cups (180g) powdered sugar***",
+        "3/4 cup (126g) mini chocolate chips",
+        "1/4 tsp ground cinnamon****",
+        "Chopped unsalted pistachios, optional"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Food Processor",
+        "Bowl",
+        "Oven",
+        "Pot"
+      ],
+      "servings": 28,
+      "instructions": [
+        "To a food processor add flour, sugar and salt. Pulse in short bursts about 10 times. Add butter and pulse in short bursts just until there aren't clumps of butter.",
+        "Add in marsala wine and whole egg. Pulse to mix well, while adding additional wine to bring dough together in a soft shaggy mass (you shouldn't need more than a few Tbsp extra wine).",
+        "Shape into a round, transfer to an oiled bowl. Cover and let rest at room temperature at least 30 minutes and up to 2 hours.",
+        "Heat a large pot with 1 1/2-inches vegetable oil to 345 - 355 degrees. Working with half the dough at a time (and keeping other half covered in the bowl) roll dough out very thinly onto a well floured surface (nearly 1/16-inch).",
+        "Using a 3 1/2 to 4-inch cookie cutter, cut dough into rounds. Spray cannoli forms with cooking spray then wrap individual dough circles around each cannoli form, while brushing about 3/4-inch of one end lightly with egg white (use a pastry brush or just your fingertip). Press edge to to opposite side.",
+        "Using metal tongs, carefully immerse shell in preheated oil and fry until golden brown and crisp, about 1 - 2 minutes (be sure to watch oil temp so oil doesn't get too hot and burn shells. You can fry up to 6 at a time).",
+        "Remove from oil using metal tongs to grasp the cannoli shell (let oil from inside forms drain back into pot), transfer to paper towels to drain. Use metal tongs to hold mold (or folded layers of paper towels) and wrap a paper towel around shell to carefully slide off of form.",
+        "Let forms cool and repeat process with remaining dough circles. You can shake excess flour from scraps, press back together, cover in bowl and let relax at least 10 minutes then reuse.",
+        "Allow to cool on a wire rack then fill with cannoli filling and decorate as desired (with melted chocolate on edges, chopped pistachios, mini chocolate chips or dust tops with powdered sugar)."
+      ],
+      "source": "https://www.cookingclassy.com/cannoli/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Twice Baked Potatoes",
+      "image": "/images/twice-baked-potatoes.jpg",
+      "description": "One of the ultimate side dish recipes! These are seriously comforting, extra cheesy, deliciously creamy, mashed potato loaded, hearty stuffed potato skins and they never disappoint! A family favorite recipe!",
+      "owner": "john@foo.com",
+      "time": 105,
+      "items": 9,
+      "ingredients": [
+        "4 (13 - 14 oz. each) large baker russet potatoes",
+        "1/2 cup half and half, then up to 1/4 cup more if needed (heavy cream can be substituted for a richer option)",
+        "1/2 cup sour cream",
+        "4 Tbsp butter, melted",
+        "Salt and freshly ground black pepper",
+        "1/4 tsp each paprika, garlic powder, onion powder",
+        "6 oz. freshly shredded medium cheddar cheese",
+        "6 slices bacon, chopped small and cooked until crisp (optional)",
+        "2 green onions, sliced (optional)"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Oven",
+        "Whisk",
+        "Potato Masher"
+      ],
+      "servings": 8,
+      "instructions": [
+        "Preheat oven and prep potatoes: Preheat oven to 400 degrees. Scrub and rinse potatoes clean and pierce potatoes several times on each side with a fork.",
+        "Bake whole potatoes until softened through: Place potatoes in preheated oven and bake 75 - 80 minutes until fully cooked through (they should be fairly soft when squeezed). Remove potatoes from oven and reduce oven temperature to 350 degrees.",
+        "Scoop out flesh of potatoes: Slice potatoes into halves. Use an oven mitt to hold potato halves and scoop potato flesh into a large mixing bowl (while leaving about 1/6-inch potato intact with the peel). Transfer empty potato peels to a 13 by 9-inch baking dish or baking sheet (see note*).",
+        "Mash: Mash potatoes with a potato masher until no longer lumpy (or pass through a potato ricer or food mill into bowl for seriously smooth potatoes).",
+        "Add liquids and season, stir: Add in half and half, sour cream, butter and season with salt and pepper to taste. Blend mixture together with a spoon (or with just briefly with an electric hand mixer) while adding more half and half as needed to thin.",
+        "Fill potato skins: Scoop mixture into potato peels. Sprinkle with cheddar.",
+        "Stir seasonings and sprinkle over potatoes: In a small bowl whisk together paprika, onion powder, garlic powder, 1/4 tsp salt and 1/4 tsp pepper. Sprinkle seasoning evenly over potatoes.",
+        "Bake to heat through and melt cheese: Bake in preheated oven until cheese has melted and potatoes are heated through, about 10 - 15 minutes. Sprinkle with bacon and green onions and serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/twice-baked-potatoes/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Stuffed Mushrooms",
+      "image": "/images/stuffed-mushrooms.jpg",
+      "description": "Hearty stuffed mushrooms filled with rich cream cheese, tender spinach, melty mozzarella and parmesan, and vibrant garlic then topped with crispy panko bread crumbs. An appetizer or party snack recipe that's sure to impress! They're easy to make and perfect for entertaining. ",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 10,
+      "ingredients": [
+        "22 large cremini mushrooms or button mushrooms, cleaned, stems removed",
+        "Olive oil cooking spray",
+        "1 (10 - 12 oz.) bag frozen spinach, thawed",
+        "8 oz. cream cheese, softened",
+        "3/4 cup finely shredded parmesan cheese, divided",
+        "1/2 cup finely shredded mozzarella cheese",
+        "1 large garlic clove, minced (1 1/2 tsp)",
+        "Salt and freshly ground black pepper",
+        "1/3 cup panko bread crumbs",
+        "1 1/2 tsp olive oil"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Oven",
+        "Paper Towels",
+        "Baking Sheet"
+      ],
+      "servings": 12,
+      "instructions": [
+        "Preheat oven and prepare baking sheet: Preheat oven to 400 degrees. Optionally you can line a baking sheet with aluminum foil for easier clean up.",
+        "Squeeze moisture from spinach: Place spinach on several layer of paper towels, spread it out a little then fold paper towels over and squeeze most of the excess moisture from spinach. Place in a medium mixing bowl.",
+        "Mix cheeses and seasoning: Add in cream cheese, 1/2 cup parmesan cheese, mozzarella cheese, garlic and season with salt and pepper to taste. Stir mixture to blend.",
+        "Oil mushrooms: Place mushroom caps on a baking sheet and spray top and bottom sides with non-stick cooking spray.",
+        "Fill mushrooms: Scoop out a spoonful at a time and stuff into mushrooms. Set on baking sheet, filling upright.",
+        "Prepare topping, add to mushrooms: In a small mixing bowl stir together panko, remaining 1/4 cup parmesan cheese and 1 1/2 tsp olive oil. Sprinkle over each mushroom.",
+        "Bake: Bake in preheated oven until filling is hot, mushrooms have softened and topping is golden brown, about 20 - 24 minutes (if topping didn't brown enough you can broil just briefly). Serve warm."
+      ],
+      "source": "https://www.cookingclassy.com/stuffed-mushrooms/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Eggnog Cookies",
+      "image": "/images/eggnog-cookies",
+      "description": "With their tender cake-like texture and generous coating of eggnog frosting they are likely to become a new favorite holiday cookie!",
+      "owner": "john@foo.com",
+      "time": 42,
+      "items": 15,
+      "ingredients": [
+        "2 cups (283g) all-purpose flour (scoop and level to measure*)",
+        "2 tsp baking powder",
+        "1/2 tsp salt",
+        "1/2 tsp ground nutmeg, plus more for topping",
+        "1/2 tsp ground cinnamon",
+        "3/4 cup (170g) unsalted butter, at room temperature",
+        "1/2 cup (100g) granulated sugar",
+        "1/2 cup (100g) packed light-brown sugar",
+        "2 large egg yolks",
+        "1 tsp vanilla extract",
+        "1/2 tsp rum extract",
+        "1/2 cup eggnog (not low fat)",
+        "1/2 cup (113g) butter, at room temperature (I used 1/4 cup salted and 1/4 cup unsalted butter)",
+        "3 - 5 Tbsp eggnog",
+        "1/2 tsp rum extract",
+        "3 cups (360g) powdered sugar"
+      ],
+      "type": [
+        "Dessert"
+      ],
+      "tools": [
+        "Oven",
+        "Bowl",
+        "Whisk",
+        "Baking Sheet"
+      ],
+      "servings": 32,
+      "instructions": [
+        "Preheat oven to 350°F (180°C). In a mixing bowl, whisk together flour, baking powder, salt, nutmeg and cinnamon for 30 seconds, set aside. ",
+        "In the bowl of an electric stand mixer fitted with the paddle attachment, whip together butter, granulated sugar and brown sugar until pale and fluffy. ",
+        "Mix in egg yolks one at a time, blending just until combined after each addition. Mix in vanilla extract, rum extract and egg nog. With mixer set on low speed, slowly add in dry ingredients and mix just until combined. ",
+        "Scoop dough out by the heaping tablespoonfuls and drop onto Silpat or parchment paper lined baking sheets, spacing cookies 2-inches apart. ",
+        "Bake in preheated oven 11 - 13 minutes. Allow to rest on baking sheet several minutes before transferring to a wire rack to cool. Cool completely then frost with Eggnog Frosting and sprinkle tops lightly with nutmeg."
+      ],
+      "source": "https://www.cookingclassy.com/melt-mouth-eggnog-cookies/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Yellow Squash Casserole",
+      "image": "/images/yellow-squash-casserole.jpg",
+      "description": "Made with tender yellow squash, a cheesy, creamy coating and it's finished with crispy toasted panko bread crumbs. It's a delicious, homestyle side dish that's perfect for holidays. Plus it's a great way to use up the abundance of summertime squash.",
+      "owner": "john@foo.com",
+      "time": 60,
+      "items": 12,
+      "ingredients": [
+        "4 lbs. yellow squash (preferably small to medium), sliced into rounds about 1/3-inch thick",
+        "1 cup sour cream",
+        "1 large egg",
+        "3/4 cup + 1/3 cup panko breadcrumbs, divided",
+        "1 1/4 cups shredded sharp cheddar cheese",
+        "1/2 cup chopped parsley",
+        "2 Tbsp dried chives",
+        "3 Tbsp butter, divided",
+        "1 medium yellow onion, chopped",
+        "2 garlic cloves, minced (2 tsp)",
+        "1 cup finely shredded parmesan cheese, divided",
+        "Salt and freshly ground black pepper"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Oven",
+        "Baking Dish",
+        "Pot",
+        "Stovetop"
+      ],
+      "servings": 12,
+      "instructions": [
+        "Preheat oven to 350 degrees. Spray a 13 by 9-inch baking dish with non-stick cooking spray.",
+        "Bring a large pot of water to a boil. Add squash and let boil just until nearly tender, about 5 - 6 minutes. Drain into a colander, set aside to drain well.",
+        "While squash is boiling in a mixing bowl stir together sour cream, egg, 1/3 cup breadcrumbs, cheddar cheese, 1/2 cup parmesan cheese, parsley and chives. Set aside.",
+        "Melt 1 Tbsp butter in a 12-inch saute pan or deep skillet over medium heat. Add onion and saute until slightly golden brown and tender, about 7 minutes. Add garlic and saute 1 minute longer. Remove from heat.",
+        "Add squash to pan along with sour cream mixture and season with salt and pepper to taste. Toss mixture to evenly coat the pour into prepared baking dish and spread even. Cover with foil and bake in preheated oven 20 minutes.",
+        "Melt remaining 2 Tbsp butter in a small mixing bowl. Add in 3/4 cup panko and 1/2 cup parmesan cheese and toss to evenly coat mixture. Remove casserole from oven after the 20 minutes and sprinkle mixture evenly over top.",
+        "Move oven rack to upper third of the oven, return casserole to oven. Bake 10 minutes longer or until cheese has melted and casserole is heated through.",
+        "Turn on broiler and broil just briefly to make topping golden brown, about 1 - 2 minutes (don't walk away from it, it will brown quickly!). Serve casserole warm garnished with a little chopped parsley if desired."
+      ],
+      "source": "https://www.cookingclassy.com/squash-casserole-recipe/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
       "title": "Superfood salad",
       "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
@@ -237,6 +937,607 @@
       ],
       "created":"2020-04-26",
       "updated":"2020-04-26"
+    },
+    {
+      "title": "Curried Chickpeas with Spinach",
+      "image": "/images/curried-chickpeas.jpg",
+      "description": "These super fast Curried Chickpeas with spinach are packed with flavor and nutrients, vegan, gluten-free, and filling! Plus they freeze great!",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 8,
+      "ingredients": [
+        "2 Tbsp Olive Oil",
+        "1 Yellow Onion",
+        "2 Cloves Garlic",
+        "1 inch Ginger",
+        "1 1/2 Tbsp Curry Powder",
+        "8 oz. Spinach",
+        "15 oz. Tomato Sauce",
+        "2 15 oz. cans Chickpeas"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Stovetop",
+        "Spoon",
+        "Skillet"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Dice the onion, mince the garlic, and grate the ginger on a small holed cheese grater. Sauté the onion, garlic, and ginger in a large skillet with the olive oil over medium heat until the onions have softened (3-5 minutes).",
+        "Add the curry powder and continue to sauté with the onion mixture for one minute more. Add about 1/4 cup of water to the skillet along with the fresh spinach and continue to sauté until the spinach has wilted. The water will help steam and wilt the spinach (no water needed if using frozen spinach).",
+        "Drain and rinse the chickpeas. Add them to the skillet along with the tomato sauce. Stir well to distribute the spices in the sauce and heat through (5 minutes). Serve over rice or with bread."
+      ],
+      "source": "https://www.budgetbytes.com/curried-chickpeas-spinach/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Pork and Peanut Dragon Noodles",
+      "image": "/images/pork-dragon-noodles.jpg",
+      "description": "Sweet, salty, rich, and crunchy, these Pork and Peanut Dragon Noodles hit all the bases. It’s fast, easy comfort food for busy nights! ",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 7,
+      "ingredients": [
+        "1/4 cup Chili Garlic Sauce",
+        "1/4 cup Soy Sauce",
+        "1/4 cup Brown Sugar",
+        "1/2 lb. Ground Pork",
+        "6 oz. Ramen Noodles",
+        "3 Green Onions",
+        "1/4 cup Unsalted Peanuts"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Spoon",
+        "Bowl"
+      ],
+      "servings": 3,
+      "instructions": [
+        "Combine the chili garlic sauce, soy sauce, and brown sugar in a bowl.",
+        "Add the ground pork to a skillet and cook over medium heat until it is fully browned*. Once browned, add the prepared dragon sauce and chopped peanuts. Allow the pork and peanuts to simmer in the sauce for another 5 minutes, or until the sauce has reduced by half.",
+        "While the pork is browning, begin boiling water for your noodles. Once boiling, add your noodles and cook according to the package directions. Drain the noodles in a colander.",
+        "Once the sauce has reduced and the noodles have drained, add the noodles to the skillet and toss until everything is combined and coated in sauce. Top with sliced green onions and serve!"
+      ],
+      "source": "https://www.budgetbytes.com/pork-peanut-dragon-noodles/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "One Pot Chili Pasta",
+      "image": "/images/chili-pasta.jpg",
+      "description": "This super hearty One Pot Chili Pasta is bursting with southwest chili flavor, protein, and fiber. It's a meal in a bowl that the whole family will love.",
+      "owner": "john@foo.com",
+      "time": 40,
+      "items": 15,
+      "ingredients": [
+        "1 Tbsp Olive Oil",
+        "1 Yellow Onion",
+        "2 cloves Garlic",
+        "1/2 lb. Ground Beef",
+        "2 Tbsp. All-purpose flour",
+        "2 Tbsp. Chili Powder",
+        "15 oz. Tomato Sauce",
+        "15 oz. Diced Tomatoes",
+        "15 oz. Black Beans",
+        "15 oz. Kidney Beans",
+        "1 cup Corn Kernels",
+        "2 cups Elbow Macaroni",
+        "2 cups Beef Broth",
+        "1 cup Shredded Cheese"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Spoon",
+        "Stovetop"
+      ],
+      "servings": 9,
+      "instructions": [
+        "Dice the onion and mince the garlic. Cook both in a large pot with olive oil over medium heat for 1-2 minutes, or until soft and transparent. Add the ground beef and continue to stir and cook until it is fully browned. If using a high fat ground beef, drain off the excessive after it is browned.",
+        "Add the flour and chili powder to the pot and stir to coat the meat. Continue to stir and cook the coated meat for 1-2 minutes more. The flour and chili powder may coat the bottom of the pot, but that's okay. Just be careful to not let it burn.",
+        "Drain and rinse the black and kidney beans. Add the beans, tomato sauce, diced tomato, and corn kernels to the pot. Stir well and dissolve the flour/chili powder mixture from the bottom of the pot.",
+        "Add the dry macaroni and two cups of beef broth to the pot and stir to combine. Place a lid on top, turn the heat up to high, and let the pot come to a boil. Once it reaches a boil, give it a quick stir to loosen any pasta stuck to the bottom of the pot, replace the lid, and turn the heat down to medium-low. Let the pot simmer on medium-low for about 15 minutes, or until the pasta is soft and has absorbed most of the liquid. Stir the pot one or two times during the 15 minutes to loosen any pasta stuck to the bottom.",
+        "Once the pasta is fully cooked, turn the heat off and add the cheese. Stir the cheese into the pasta until it has melted in and become slightly creamy. Serve hot."
+      ],
+      "source": "https://www.budgetbytes.com/snap-challenge-one-pot-chili-pasta/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Beef and Cabbage Stir Fry",
+      "image": "/images/beefcabbage-stirfry.jpg",
+      "description": "This fast and easy Beef and Cabbage Stir Fry is a filling low carb dinner with big flavor and endless possibilities for customization. ",
+      "owner": "john@foo.com",
+      "time": 30,
+      "items": 15,
+      "ingredients": [
+        "2 Tbsp Soy Sauce",
+        "1 Tbsp Toasted Sesame Oil",
+        "1 Tbsp Sriracha",
+        "1/2 Tbsp Brown Sugar",
+        "1/2 head Green Cabbage",
+        "2 Carrots",
+        "3 Green Onions",
+        "1/2 Tbsp Neutral Cooking Oil",
+        "1/2 lb. Ground Beef",
+        "2 cloves Garlic",
+        "1 Tbsp. Ginger",
+        "Pinch of Salt",
+        "Pinch of Pepper"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Stovetop",
+        "Spoon",
+        "Bowl"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Prepare the stir fry sauce first. In a small bowl stir together the soy sauce, toasted sesame oil, sriracha, and brown sugar. Set the sauce aside.",
+        "Shred the vegetables so they are ready to go when you need them. Cut one small cabbage in half, remove the core, and then finely shred the leaves of one half the cabbage (4-6 cups once shredded, save the other half for another recipe). Peel two carrots, then use a cheese grater to shred them (1 cup shredded). Slice three green onions. Mince two cloves of garlic. Peel a knob of ginger using either a vegetable peeler or by scraping with the side of a spoon, then grate it using a small-holed cheese grater.",
+        "Heat a large skillet over medium heat. Once hot add the cooking oil, ground beef, garlic, ginger, and a pinch of salt and pepper. Cook the beef until browned (about five minutes).",
+        "Add the cabbage and carrots to the skillet and continue to stir and cook until the cabbage is slightly wilted (or fully wilted, if you prefer). Stir in the prepared sauce and the green onions. Top with a sprinkle of sesame seeds and a drizzle of sriracha, then serve."
+      ],
+      "source": "https://www.budgetbytes.com/beef-cabbage-stir-fry/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Bowties and Broccoli",
+      "image": "/images/bowties-broccoli.jpg",
+      "description": "This insanely simple dinner cheat is ready in minutes and will keep you full for hours. Bowties and Broccoli is my go-to lazy weeknight dinner.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 7,
+      "ingredients": [
+        "12 oz. Pasta",
+        "1 lb. Frozen Broccoli Florets",
+        "3 Tbsp. Butter",
+        "3 Tbsp. Grated Parmesan",
+        "Salt to taste",
+        "Pepper to taste",
+        "Crushed Red Pepper"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Stovetop",
+        "Pot",
+        "Colander"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Bring a pot of water to a boil, then add the pasta. Boil until the pasta is al dente (7-10 minutes). Add the frozen broccoli florets to the boiling pasta water, turn off the heat, and let sit for 1-2 minutes, or until the broccoli is tender-crisp. Drain the pasta and broccoli in a colander.",
+        "Transfer the pasta and broccoli back to the pot (with the heat off) or to a bowl and add the butter. Toss until the butter has melted and coated everything. Add the Parmesan, salt, freshly cracked pepper, and red pepper flakes, then toss to coat again. Taste and adjust seasoning as needed. Serve immediately."
+      ],
+      "source": "https://www.budgetbytes.com/bowties-and-broccoli/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Poor Man's Burrito Bowls",
+      "image": "/images/burrito-bowl.jpg",
+      "description": "These easy no-frills burrito bowls are super fast and affordable. They're the perfect satisfying weeknight meal for times when money is tight!",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 9,
+      "ingredients": [
+        "2 cups White Rice",
+        "1/2 Tsp. Salt",
+        "2 15 oz. cans Black Beans",
+        "1/2 Tsp. Ground Cumin",
+        "1/4 Tsp. Garlic Powder",
+        "16oz. Salsa",
+        "6 oz. Shredded Cheese",
+        "1 Green Onions",
+        "1 Jalapeno"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Stovetop",
+        "Bowl"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Add the rice, salt, and 3 cups water to a medium sauce pot. Place a lid on top, turn the heat on to high, and allow the water to come up to a full boil. Once boiling, turn the heat down to low and let it continue to simmer for 15 minutes. After 15 minutes, turn the heat off and let it sit, with the lid in place, for an additional five minutes. Fluff just before serving.",
+        "While the rice is cooking, make the beans. Add both cans of black beans (undrained) to a small sauce pot, along with the cumin, and garlic powder. Heat over medium, stirring often, until heated through.",
+        "Slice the green onions and jalapeño (if using).",
+        "Once the rice is cooked, build the bowls. Add one cup cooked rice, 1/2 cup warm black beans, 1/3 cup salsa, and 1 oz. shredded cheese (about 1/4 cup) to each bowl. Top with a few sliced green onions and jalapeños, then serve."
+      ],
+      "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Creamy Tuna Pasta with Peas and Parmesan",
+      "image": "/images/tuna-pasta.jpg",
+      "description": "This quick and comforting Creamy Tuna Pasta with Peas and Parmesan is a fast and easy weeknight dinner that only requires a few simple ingredients.",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 7,
+      "ingredients": [
+        "8 oz. Pasta",
+        "2 Tbsp. Butter",
+        "2 cloves Garlic",
+        "1 cup Frozen Peas",
+        "1 cup Half and Half",
+        "1/2 cup Shredded Parmesan",
+        "12 oz. Solid Albicore Tuna"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Pot",
+        "Skillet",
+        "Stovetop",
+        "Colander"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Bring a pot of water to a boil for the pasta. Once boiling, add the pasta and continue to boil until the pasta is tender. Drain the pasta in a colander.",
+        "While the pasta is cooking, prepare the rest of the dish. Add the butter and minced garlic to a large skillet. Sauté the garlic over medium heat for about one minute, or just until it is soft and fragrant, but not browned.",
+        "Add the frozen peas and season with a pinch of salt and pepper. Sauté for a couple minutes more, or until the peas are heated through.",
+        "Add the half and half to the skillet and allow it to come up to a simmer, stirring frequently to keep a skin from forming on the surface or the bottom from scorching. Let the half and half simmer for about 3-5 minutes, or just until it reduces slightly.",
+        "At this point the pasta should be finished and drained. Add the drained pasta to the skillet and stir to combine. Sprinkle the Parmesan over the pasta and stir to combine again. Allow the heat to melt the Parmesan as you stir. Once melted, turn the heat off. Taste the pasta and add a pinch of salt and pepper, if needed.",
+        "Finally, add the drained tuna and fold it into the pasta. If you are using whole tuna chunks, break them up slightly as you stir. If you are using chunk light tuna that is already in small pieces, fold gently to avoid breaking the tuna up too much. Serve warm!"
+      ],
+      "source": "https://www.budgetbytes.com/creamy-tuna-pasta-with-peas-and-parmesan/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Weeknight Black Bean Chili",
+      "image": "/images/blackbean-chili.jpg",
+      "description": "This easy and comforting black bean chili is rich, full of warm chili spices, and fast enough to pull together on a busy weeknight.",
+      "owner": "john@foo.com",
+      "time": 35,
+      "items": 12,
+      "ingredients": [
+        "1 Tbsp. Olive Oil",
+        "1 Yellow Onion",
+        "4 cloves Garlic",
+        "1/2 lb. Ground Turkey",
+        "3 15 oz. cans Black Beans",
+        "15 oz. Green Chiles",
+        "3 oz. Tomato Paste",
+        "1 Tbsp. Chili Powder",
+        "1/2 Tsp. Ground Cumin",
+        "1/2 Tsp. Smoked Paprika",
+        "1/2 Tsp. Dried Oregano",
+        "1/4 Tsp. Salt"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Stovetop",
+        "Skillet",
+        "Bowl"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Dice the onion and mince the garlic. Add the onion and garlic to a large pot with 1 Tbsp olive oil and cook over medium-low heat just until softened (2-3 minutes).",
+        "Add the ground turkey to the pot and continue to sauté until the turkey is cooked through (5-7 minutes). Break the turkey up into small crumbles with your spoon as it cooks.",
+        "Add the three cans of beans (undrained), the diced tomatoes (undrained), tomato paste, chili powder, cumin, smoked paprika, and oregano. Stir everything to combine.",
+        "Let the chili simmer for about 10 minutes to let the flavors blend and help the liquid thicken slightly. Taste the chili and add salt as needed (this will depend on the salt content of your canned goods. I added about 1/4 tsp). Serve with your favorite chili toppings."
+      ],
+      "source": "https://www.budgetbytes.com/weeknight-black-bean-chili/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Dragon Noodles",
+      "image": "/images/spicy-dragon-noodles.jpg",
+      "description": "These sweet, tangy, and spicy Dragon Noodles take only a few minutes to whip up and will kill your craving for take-out.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 9,
+      "ingredients": [
+        "4 oz. Mein Noodles",
+        "2 Tbsp. Butter",
+        "1/4 Tsp. Crushed Red Pepper",
+        "1 Egg",
+        "1 Tbsp. Brown Sugar",
+        "1 Tbsp. Soy Sauce",
+        "1 Tbsp. Sriracha Rooster Sauce",
+        "1 handful Cilantro",
+        "1 Green Onion"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Skillet",
+        "Pot",
+        "Bowl",
+        "Colander"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Begin to boil water for the noodles. Once the water reaches a full boil, add the noodles and cook according to the package directions (boil for 5-7 minutes).",
+        "While waiting for the water to boil, prepare the sauce. In a small bowl stir together the brown sugar, soy sauce, and sriracha.",
+        "In a large skillet melt 2 tablespoons of butter over medium-low heat. Add the red pepper to the butter as it melts. Whisk an egg in a bowl and then add to the melted butter. Stir gently and cook through. Once the egg is done cooking, turn off the heat.",
+        "When the noodles are tender, drain the water and then add them to the skillet with the cooked egg. Also add the prepared sauce. Turn the heat on to low to evaporate excess moisture, and stir until everything is coated well with the sauce. Sprinkle the sliced green onions and cilantro leaves (whole) on top and serve!"
+      ],
+      "source": "https://www.budgetbytes.com/spicy-noodles/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "One Pot Bacon Broccoli Mac and Cheese",
+      "image": "/images/baconbroccoli-macncheese.jpg",
+      "description": "This One Pot Bacon Broccoli Mac and Cheese is fast, easy, and absolutely fool proof. This sauce stays smooth and creamy!",
+      "owner": "john@foo.com",
+      "time": 45,
+      "items": 9,
+      "ingredients": [
+        "1/2 lb. Frozen Broccoli Florets",
+        "4 oz. Bacon",
+        "8 oz. Medium Cheddar",
+        "1/2 lb. Pasta",
+        "1 cup Evaporated Milk",
+        "1/2 tsp. Smoked Paprika",
+        "1/2 tsp. Hot Sauce",
+        "1/2 tsp. Dijon Mustard",
+        "1/4 tsp. Salt"
+      ],
+      "type": [
+        "Dinner"
+      ],
+      "tools": [
+        "Cheese Grater",
+        "Colander",
+        "Pot",
+        "Stovetop",
+        "Spoon"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Prepare the ingredients before beginning because the process goes quickly once it's begun. Thaw the broccoli florets and chop them into small bite-sized pieces. Slice the bacon into small pieces. Shred the cheddar cheese.",
+        "Cook the pasta according to the package directions (boil 7-10 minutes, or until al dente). Drain the pasta in a colander and set it aside.",
+        "Return the pot to the stove, add the bacon, and cook over medium to medium-low heat until the bacon is brown and crispy (about 5 minutes). Use a slotted spoon to remove the bacon from the pot, leaving the grease behind.",
+        "Add the evaporated milk, smoked paprika, Dijon, hot sauce, and salt to the pot with the bacon grease. Stir to combine and allow it to heat through (it should heat quickly as the pot will be very hot from cooking the bacon).",
+        "Once the evaporated milk is hot, turn the heat to low and begin whisking in the shredded cheddar, one handful at a time, waiting until the cheese is fully melted before adding the next handful. Once all of the cheese has been melted into the sauce, taste the cheese sauce and adjust the salt or hot sauce if desired. If the sauce becomes too thick, simply stir in one to two tablespoons of the remaining evaporated milk in the can.",
+        "Return the cooked pasta, crispy bacon (crumble into smaller pieces if desired), and chopped broccoli to the pot with the cheese sauce. Stir to combine. Serve immediately."
+      ],
+      "source": "https://www.budgetbytes.com/one-pot-bacon-broccoli-mac-cheese/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Hearty Black Bean Quesadillas",
+      "image": "/images/blackbean-quesadillas.jpg",
+      "description": "Black beans, corn, cilantro, cheese, and plenty of spices make these vegetarian black bean quesadillas big on flavor and surprisingly filling.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 8,
+      "ingredients": [
+        "15 oz. Black Beans",
+        "1 cup Corn Kernals",
+        "1/2 Red Onion",
+        "1 clove Garlic",
+        "1/4 bunch Cilantro",
+        "2 cups Shredded Cheese",
+        "1 batch Taco Seasoning",
+        "10 Taco Sized Tortillas"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Stovetop",
+        "Skillet",
+        "Bowl"
+      ],
+      "servings": 10,
+      "instructions": [
+        "Drain the can of beans and rinse lightly. Place the beans in a large bowl along with the corn (no need to thaw).",
+        "Rinse the cilantro, remove the leaves, and chop roughly. Dice the onion and mince the garlic. Add the cilantro, onion, garlic, and shredded cheese to the bowl with the beans and corn. Lastly, mix up a batch of taco seasoning and add to the bowl. Stir everything until evenly mixed.",
+        "Place a half cup of the filling on one side of each tortilla and fold over. Cook in a skillet on both sides over medium heat until brown and crispy and the cheesy filling has melted.",
+        "To freeze the quesadillas, simply fill each one and place on a baking sheet lined with parchment paper. Place in the freezer for one hour to solidify the quesadillas and then transfer to a freezer bag. To reheat either microwave (for a soft quesadilla) or cook in a skillet on low heat (make sure to use low heat so that the filling has time to thaw and melt before the outside burns)."
+      ],
+      "source": "https://www.budgetbytes.com/hearty-black-bean-quesadillas/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Spinach Feta Grilled Cheese",
+      "image": "/images/spinach-grilledcheese.jpg",
+      "description": "Take your grilled cheese game to the next level with this Spinach Feta Grilled Cheese, featuring garlic, red pepper, and TWO cheeses!",
+      "owner": "john@foo.com",
+      "time": 30,
+      "items": 9,
+      "ingredients": [
+        "1/2 Tbsp. Olive Oil",
+        "1 clove Garlic",
+        "1/4 lb Spinach",
+        "Pinch of Salt",
+        "Pinch of Pepper",
+        "2 Ciabatta Rolls",
+        "1 cup Mozzarella Cheese",
+        "1 oz. Feta Cheese",
+        "Pinch of Red Pepper Flakes"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Skillet",
+        "Stovetop",
+        "Cheese Grater"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Mince the garlic and add it to a skillet with the olive oil. Cook over medium-low heat for 1-2 minutes, or until it begins to soften. Add the frozen spinach, turn the heat up to medium, and cook for about 5 minutes, or until heated through and most of the excess moisture has evaporated away. Season lightly with salt and pepper.",
+        "Cut the rolls in half. Add about 1/4 cup of shredded mozzarella and 1/2 oz. of feta to the bottom half of each roll. Divide the cooked spinach between the two sandwiches, then top with a pinch of red pepper flakes, plus 1/4 more shredded mozzarella on each.",
+        "Place the top half of the ciabatta roll on the sandwiches and transfer them to a large non-stick skillet. Fill a large pot with a few inches of water to create weight, then place the pot on top of the sandwiches to press them down like a panini press. Turn the heat on to medium-low and cook until the sandwiches are crispy on the bottom. Carefully flip the sandwiches, place the weighted pot back on top, and cook until crispy on the other side and the cheese is melted. Serve warm."
+      ],
+      "source": "https://www.budgetbytes.com/spinach-feta-grilled-cheese/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Pizzadillas",
+      "image": "/images/pizzadillas.jpg",
+      "description": "All the cheesy toppings of a pizza stuffed into a fast, easy, and crispy quesadilla. Perfect for dipping in pizza sauce!",
+      "owner": "john@foo.com",
+      "time": 20,
+      "items": 6,
+      "ingredients": [
+        "6 Tortillas",
+        "2 cups Mozzarella",
+        "30 Pepperroni Slices",
+        "1 Bell Pepper",
+        "1/2 Red Onion",
+        "2.25 oz. Black Olives",
+        "1 can Mushrooms",
+        "1/2 batch Pizza Sauce"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Cheese Grater",
+        "Skillet",
+        "Stovetop"
+      ],
+      "servings": 6,
+      "instructions": [
+        "Prep the ingredients by thinly slicing the vegetables and draining the olives and mushrooms.",
+        "For each pizzadilla: Measure 1/3 cup of shredded cheese. Sprinkle half of the cheese over one half of the tortilla, add toppings and then sprinkle the rest of the cheese on top. Fold the empty side of the tortilla over the toppings.",
+        "Place the pizzadilla in a prewarmed skillet (medium heat) and cook until brown and crispy on the bottom. Carefully flip the pizzadilla over and cook until brown and crispy on the second side. Once both sides are crisp and the cheese is melted inside, slice into thirds with a pizza cutter. Dip in the pizza sauce prior to eating."
+      ],
+      "source": "https://www.budgetbytes.com/pizzadillas/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Caramelized Banana and Peanut Butter Quesadilla",
+      "image": "/images/banana-pnb-quesadilla.jpg",
+      "description": "Tired of banana bread? Here's a fun new way to use up those over ripe bananas! Caramelized banana, peanut butter, and cinnamon make a warm, delicious treat.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 6,
+      "ingredients": [
+        "1 Banana",
+        "1 Tortilla",
+        "1 Tbsp. Peanut Butter",
+        "1/2 Tbsp. Butter",
+        "1/2 Tbsp. Brown Sugar",
+        "Dash of Cinnamon"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Skillet",
+        "Knife",
+        "Stovetop"
+      ],
+      "servings": 1,
+      "instructions": [
+        "Slice the banana. Melt the butter in a small skillet over medium heat. Once melted, add the sliced banana and brown sugar. Cook the banana in the butter and brown sugar until the slices turn golden brown and slightly sticky. Remove the skillet from the heat.",
+        "Spread the peanut butter over half of the quesadilla. Scoop the caramelized banana slices onto the peanut butter. Sprinkle a dash of cinnamon on top. Fold the empty half of the tortilla over the filled side.",
+        "Place the quesadilla in a clean dry skillet and cook over medium heat until golden brown and crispy on both sides. Slice the quesadilla into triangles using a large knife or pizza cutter, then serve."
+      ],
+      "source": "http://www.simplesweetsavory.com/mini-chocolate-fluffernutter-sandwiches/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
+    },
+
+    {
+      "title": "Pizza Roll Ups",
+      "image": "/images/pizza-roll-ups.jpg",
+      "description": "Forget frozen pizza rolls! These Pizza Roll Ups are the perfect last minute appetizer or indulgent snack on busy days!",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 5,
+      "ingredients": [
+        "8 Tortillas",
+        "40 slices Pepperoni",
+        "4 Mozzarella cheese sticks",
+        "Oil",
+        "1/2 cup Pizza Sauce"
+      ],
+      "type": [
+        "Snack"
+      ],
+      "tools": [
+        "Oven",
+        "Baking Sheet",
+        "Cheese Grater"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Preheat the oven to 400ºF. Lightly spritz a baking sheet with spray oil or brush a thin layer of your favorite cooking oil onto the baking sheet.",
+        "Stack about 4 tortillas at a time on a plate and cover with a damp paper towel. Microwave for 20-30 seconds, or until they are steamy and pliable. Microwave the second batch when you're ready to roll more.",
+        "Slice each of the mozzarella sticks in half, lengthwise. Place about 5 pepperoni on each tortilla in the bottom 1/3 o the circle, then place the halved mozzarella stick on top. Fold the sides of the tortilla in to cover the ends, then roll them up tight light a burrito.",
+        "Place the tightly rolled Pizza Roll Ups on the baking sheet, seam side down. Leave them slightly apart from one another to allow hot air to surround the rolls. Either spritz the top with spray oil, or brush a thin layer of oil on top of the roll ups.",
+        "Bake the Pizza Roll Ups for 12-15 minutes, or until they're lightly browned and the cheese is just beginning to ooze. Because every oven is different, begin checking on the Pizza Roll Ups at about 10 minutes, then check ever two minutes or so until they're done.",
+        "Serve immediately, with pizza sauce for dipping."
+      ],
+      "source": "https://www.budgetbytes.com/pizza-roll-ups/",
+      "views": 0,
+      "notes": [],
+      "created":"2020-04-15",
+      "updated":"2020-04-15"
     }
   ]
 }
