@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Search, Grid, Table } from 'semantic-ui-react';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
@@ -82,10 +82,10 @@ export default withTracker(() => {
 //                 {/* <Form.Field> */}
 //                 {/*  <Checkbox */}
 //                 {/*      radio */}
-//                 {/*      label="Recipe" */}
+//                 {/*      label="Recipes" */}
 //                 {/*      name="checkboxRadioGroup" */}
-//                 {/*      value="Recipe" */}
-//                 {/*      checked={this.state.type === 'Recipe'} */}
+//                 {/*      value="Recipes" */}
+//                 {/*      checked={this.state.type === 'Recipes'} */}
 //                 {/*      onChange={this.handleTypeChange} */}
 //                 {/*  /> */}
 //                 {/* </Form.Field> */}
@@ -141,7 +141,7 @@ export default withTracker(() => {
 //                         color='red'>
 //                       <Image size='big' src='/images/food.jpg' />
 //                       <Card.Content>
-//                         <Card.Header>Recipe</Card.Header>
+//                         <Card.Header>Recipes</Card.Header>
 //                         <Card.Meta>
 //                           <List text-align='centered' horizontal divided>
 //                             <List.Item>

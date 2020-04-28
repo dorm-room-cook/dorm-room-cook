@@ -237,6 +237,195 @@
       ],
       "created":"2020-04-26",
       "updated":"2020-04-26"
+    },
+    {
+      "title": "Two Minute Thai Peanut Noodles",
+      "image": "/images/Noodles.png",
+      "description": "Quick and inexpensive way to create delicious meal",
+      "owner": "john@foo.com",
+      "time": 2,
+      "items": 3,
+      "cost": 4.00,
+      "ingredients": [
+        "ramen noodles",
+        "peanut butter",
+        "spicy sauce"
+      ],
+      "type": [
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Microwave",
+        "Spoon",
+        "Bowl"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Prepare ramen noodles as normal.",
+        "Add 2 Tbsp peanut butter and 1 tsp spicy sauce.",
+        "Drain all until 1/4 cup of liquid from noodles.",
+        "Stir together well, add side ingredients of your choice if you want."
+      ],
+      "source": "https://www.favfamilyrecipes.com/two-minute-thai-peanut-noodles/",
+      "views": 0,
+      "notes": ["Make sure it is properly drained in order to taste better."],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Make Ahead Breakfast Parfaits",
+      "image": "/images/parfait.png",
+      "description": "Quick, healthy breakfast for busy mornings.",
+      "owner": "john@foo.com",
+      "time": 15,
+      "items": 5,
+      "cost": 6.00,
+      "ingredients": [
+        "yogurt",
+        "strawberries",
+        "raspberries",
+        "blueberries",
+        "granola"
+      ],
+      "type": [
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Snack-size ziploc bag",
+        "Spoon",
+        "Cup",
+        "Plastic wrap"
+      ],
+      "servings": 1,
+      "instructions": [
+        "Layer 1/4 cup mixed berries into bottom of cup.",
+        "Next 1/4 cup yogurt on top of berries.",
+        "Fill ziploc bag with granolas and seal.",
+        "Place on each cup with plastic wrap to cover them."
+      ],
+      "source": "https://www.favfamilyrecipes.com/make-ahead-breakfast-parfaits/",
+      "views": 0,
+      "notes": ["can make multiple if needed."],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Easy Smores",
+      "image": "/images/easysmore.jpg",
+      "description": "Fast alternative to campfire smores.",
+      "owner": "john@foo.com",
+      "time": 1,
+      "items": 3,
+      "cost": 4.00,
+      "ingredients": [
+        "graham cracker squares",
+        "chocolate bar of choice",
+        "large marshmallows"
+      ],
+      "type": [
+        "Snack",
+        "Munchies"
+      ],
+      "tools": [
+        "Microwave"
+      ],
+      "servings": 1,
+      "instructions": [
+        "On paper towel place 1 cracker square.",
+        "Add chocolate bar piece and marshmallow on top.",
+        "Microwave on high for 15 seconds.",
+        "Remove from microwave and let it cool down.",
+        "Eat like a sandwich."
+      ],
+      "source": "https://www.food.com/recipe/smores-microwave-55045",
+      "views": 0,
+      "notes": ["Make sure to cool down before eating."],
+      "created":"2020-04-26",
+      "updated":"2020-04-26"
+    },
+    {
+      "title": "Ram n' Cheese",
+      "image": "/images/ramncheese.png",
+      "description": "A nice mix of ramen and classic mac n' cheese for an fast and amazing meal.",
+      "owner": "john@foo.com",
+      "time": 25,
+      "items": 4,
+      "cost": 8.00,
+      "ingredients": [
+        "cheddar cheese",
+        "corn starch",
+        "milk",
+        "ramen noodles"
+      ],
+      "type": [
+        "Munchies",
+        "Snack"
+      ],
+      "tools": [
+        "Measuring spoon",
+        "grater",
+        "mixing bowl",
+        "saucepan",
+        "stove"
+      ],
+      "servings": 2,
+      "instructions": [
+        "Grate cheddar cheese and add cornstarch to the bowl.",
+        "Combine the cheese with milk to a saucepan and stir on medium low heat.",
+        "Seperate pan boil ramen noodles, set aside flavor packets.",
+        "drain noodles and mix with the cheese and mac n' cheese."
+      ],
+      "source": "https://spoonuniversity.com/recipe/ramen-macaroni-and-cheese",
+      "views": 0,
+      "notes": ["You may use a wisk to make things a bit easier."],
+      "created":"2020-04-27",
+      "updated":"2020-04-27"
+    },
+    {
+      "title": "Veggie Breakfast Burrito",
+      "image": "/images/burrito.png",
+      "description": "A healthy burrito alternative for everyone.",
+      "owner": "john@foo.com",
+      "time": 13,
+      "items": 11,
+      "cost": 10.00,
+      "ingredients": [
+        "zucchini",
+        "squash",
+        "cherry tomatoes",
+        "eggs",
+        "shredded cheese",
+        "avocados",
+        "tortilla",
+        "salsa",
+        "olive oil",
+        "salt",
+        "pepper"
+      ],
+      "type": [
+        "Munchies",
+        "Breakfast"
+      ],
+      "tools": [
+        "Knife",
+        "pan",
+        "stove"
+      ],
+      "servings": 4,
+      "instructions": [
+        "Slice zucchini and squash into half circles and cut cherry tomatoes in half, add to pan.",
+        "saute zucchini and squash in olive oil until soft, add the tomatoes.",
+        "beat eggs into the mix, stir ingredients well .",
+        "Add in cheese and salsa and stir till eggs are cooked.",
+        "Add this mix onto the tortilla and wrap up."
+      ],
+      "source": "https://spoonuniversity.com/recipe/meat-lovers-veggie-breakfast-burrito",
+      "views": 0,
+      "notes": ["Add in more ingredients based on how much you want to make in advanced Portions may varyburrito.png."],
+      "created":"2020-04-27",
+      "updated":"2020-04-27"
     }
   ]
 }

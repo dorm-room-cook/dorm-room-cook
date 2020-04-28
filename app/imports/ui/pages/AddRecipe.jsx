@@ -47,7 +47,7 @@ class AddRecipe extends React.Component {
             {/* div for the form elements */}
             {/* todo change the inputs to forms */}
             <div style={{ flex: 3, margin: '5px' }}>
-              <Input placeholder='Add Recipe Name' size='massive' fluid/>
+              <Input placeholder='Add Recipes Name' size='massive' fluid/>
               <div style={quickInfo}>
                 <Input placeholder='total time' size='large'/>
                 <Input placeholder='total cost' size='large'/>
@@ -74,7 +74,7 @@ class AddRecipe extends React.Component {
             </div>
           </div>
           <div>
-            <Button content='Upload Recipe' fluid/>
+            <Button content='Upload Recipes' fluid/>
           </div>
         </div>
     );

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { _ } from 'meteor/underscore';
 
-/** Component for layout out a Recipe Card. */
+/** Component for layout out a Recipes Card. */
 class RecipeCard extends React.Component {
 
     render() {

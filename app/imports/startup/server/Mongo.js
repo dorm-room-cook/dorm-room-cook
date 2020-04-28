@@ -50,7 +50,7 @@ function addVendors(data) {
  * Note that settings.development.json is limited to 64,000 characters.
  * We use the "Assets" capability in Meteor.
  * For more info on assets, see https://docs.meteor.com/api/assets.html
- * Recipe count check is to make sure we don't load the file twice, which would generate errors due to duplicate info.
+ * Recipes count check is to make sure we don't load the file twice, which would generate errors due to duplicate info.
  */
 if ((Meteor.settings.loadAssetsFile) && (Recipes.find().count() < 3)
 // && (Vendors.find().count() < 3)
