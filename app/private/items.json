@@ -6,8 +6,7 @@
       "size": "medium",
       "vendor": "Safeway",
       "owner": "safeway@foo.com",
-      "availability": true,
-      "qty": 3
+      "availability": true
     },
     {
       "name": "Chives",
@@ -15,8 +14,7 @@
       "size": "medium",
       "vendor": "Foodland",
       "owner": "foodland@foo.com",
-      "availability": true,
-      "qty": 3
+      "availability": true
     },
     {
       "name": "Salt",
@@ -24,24 +22,21 @@
       "size": "medium",
       "vendor": "Foodland",
       "owner": "foodland@foo.com",
-      "availability": true,
-      "qty": 3
+      "availability": true
     },    {
       "name": "Red Chili",
       "price": 2.50,
       "size": "medium",
       "vendor": "Foodland",
       "owner": "foodland@foo.com",
-      "availability": true,
-      "qty": 3
+      "availability": true
     },    {
       "name": "Broccoli",
       "price": 2.50,
       "size": "medium",
       "vendor": "Foodland",
       "owner": "foodland@foo.com",
-      "availability": true,
-      "qty": 3
+      "availability": true
     }
   ]
 }

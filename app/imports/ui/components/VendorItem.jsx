@@ -3,6 +3,7 @@ import { Button, Icon, Table } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import swal from 'sweetalert';
 import { withRouter, Link } from 'react-router-dom';
+import { Items } from '../../api/items/Items';
 
 /** Renders a single row in the List Stuff table. See pages/ListStuff.jsx. */
 class VendorItem extends React.Component {
@@ -17,7 +18,7 @@ class VendorItem extends React.Component {
     })
         .then((willDelete) => {
           if (willDelete) {
-            this.props.Items.remove(docID);
+            Items.remove(docID);
             swal(`Poof! ${this.props.item.name} has been deleted!`, {
               icon: 'success',
             });

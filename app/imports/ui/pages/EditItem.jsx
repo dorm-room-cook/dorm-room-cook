@@ -1,7 +1,7 @@
 import React from 'react';
-import { Grid, Loader, Header, Segment, Checkbox } from 'semantic-ui-react';
+import { Grid, Loader, Header, Segment } from 'semantic-ui-react';
 import swal from 'sweetalert';
-import { AutoForm, ErrorsField, HiddenField, NumField, SubmitField, TextField } from 'uniforms-semantic';
+import { AutoField, AutoForm, ErrorsField, HiddenField, SubmitField } from 'uniforms-semantic';
 import { Meteor } from 'meteor/meteor';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
@@ -32,11 +32,11 @@ class EditItem extends React.Component {
             <Header as="h2" textAlign="center">Edit Items</Header>
             <AutoForm schema={ItemSchema} onSubmit={data => this.submit(data)} model={this.props.doc}>
               <Segment>
-                <TextField name='name'/>
-                <NumField name='price'/>
-                <TextField name='size'/>
-                <TextField name='vendor'/>
-                <Checkbox label='availability' />
+                <AutoField name='name'/>
+                <AutoField name='price'/>
+                <AutoField name='size'/>
+                <AutoField name='vendor'/>
+                <AutoField name='availability' />
                 <SubmitField value='Submit'/>
                 <ErrorsField/>
                 <HiddenField name='owner' />
@@ -60,7 +60,7 @@ export default withTracker(({ match }) => {
   // Get the documentID from the URL field. See imports/ui/layouts/App.jsx for the route containing :_id.
   const documentId = match.params._id;
   // Get access to Stuff documents.
-  const subscription = Meteor.subscribe('Stuff');
+  const subscription = Meteor.subscribe('Items');
   return {
     doc: Items.findOne(documentId),
     ready: subscription.ready(),

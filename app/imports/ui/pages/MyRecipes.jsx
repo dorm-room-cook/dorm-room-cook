@@ -1,10 +1,12 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Grid, Modal, Button, Icon } from 'semantic-ui-react';
+import { AutoForm } from 'uniforms-semantic';
+import swal from 'sweetalert';
+import PropTypes from 'prop-types';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
-import PropTypes from 'prop-types';
-import { Recipes } from '../../api/recipes/Recipes';
+import { Recipes, RecipeSchema } from '../../api/recipes/Recipes';
 
 /** Renders a table containing all of the Contact documents. */
 class MyRecipes extends React.Component {
@@ -14,14 +16,47 @@ class MyRecipes extends React.Component {
     return (this.props.ready) ? this.renderPage() : <Loader active>Getting data</Loader>;
   }
 
-  renderPage() {
+  /** On submit, insert the data. */
+  submit(data, formRef) {
+    const { title, image, description, time, items, ingredients, type, tools, servings, instructions,
+    source, views, notes, created, updated } = data;
+    const owner = Meteor.user().username;
+    Recipes.insert({ title, image, description, time, items, ingredients, type, tools, servings, instructions,
+          source, views, notes, created, updated, owner },
+        (error) => {
+          if (error) {
+            swal('Error', error.message, 'error');
+          } else {
+            swal('Success', 'Recipe added successfully', 'success');
+            formRef.reset();
+          }
+        });
+  }
 
+  renderPage() {
+    let fRef = null;
     return (
         <Container>
           <Header as="h2" textAlign="center" inverted>All Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large'/>
+              <Modal fluid basic closeIcon size='mini'
+                     trigger={
+                       <Button icon labelPosition='left' basic size='small'>
+                         <Icon name='spoon' color='orange' />Add Recipe</Button>}
+              >
+                <Modal.Header>Add an item</Modal.Header>
+                <Modal.Content>
+                  <Card>
+                    <Card.Content>
+                      <AutoForm ref={ref => { fRef = ref; }}
+                                schema={RecipeSchema}
+                                onSubmit={data => this.submit(data, fRef)} >
+                      </AutoForm>
+                    </Card.Content>
+                  </Card>
+                </Modal.Content>
+              </Modal>
             </Grid.Column>
           </Grid>
           <Card.Group>
