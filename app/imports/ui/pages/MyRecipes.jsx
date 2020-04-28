@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Grid, Modal, Button, Icon } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Grid, Modal, Button, Icon, Segment } from 'semantic-ui-react';
 import { AutoForm } from 'uniforms-semantic';
 import swal from 'sweetalert';
 import PropTypes from 'prop-types';
@@ -37,13 +37,14 @@ class MyRecipes extends React.Component {
     let fRef = null;
     return (
         <Container>
-          <Header as="h2" textAlign="center" inverted>All Recipes</Header>
+          <Header as="h2" textAlign="center" inverted>My Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Modal fluid basic closeIcon size='mini'
+              <Grid.Row text-align='centered'>
+              <Modal fluid basic closeIcon size='small'
                      trigger={
-                       <Button icon labelPosition='left' basic size='small'>
-                         <Icon name='spoon' color='orange' />Add Recipe</Button>}
+                       <Button icon labelPosition='left' size='small'>
+                         <Icon name='add' color='red' />Add Recipe</Button>}
               >
                 <Modal.Header>Add an item</Modal.Header>
                 <Modal.Content>
@@ -57,6 +58,7 @@ class MyRecipes extends React.Component {
                   </Card>
                 </Modal.Content>
               </Modal>
+              </Grid.Row>
             </Grid.Column>
           </Grid>
           <Card.Group>
