@@ -10,10 +10,13 @@ const VendorSchema = new SimpleSchema({
   name: String,
   image: String,
   owner: String,
-  address: [String],
+  address: String,
   hours: String,
   phone: String,
   priceindex: String,
+  website: String,
+  coupons: String,
+  logo: String,
   likes: Number,
 }, { tracker: Tracker });
 
@@ -22,3 +25,16 @@ Vendors.attachSchema(VendorSchema);
 
 /** Make the collection and schema available to other code. */
 export { Vendors, VendorSchema };
+
+/** Example data */
+//     "name": "Longs Drugs",
+//     "image": "/images/stores/longs-honolulu.png",
+//     "owner": "longsdrugs@foo.com",
+//     "address": "2470 S King St\nHonolulu, HI 96826",
+//     "hours": "24 Hours",
+//     "phone": "(808) 947-2651 ",
+//     "priceindex": "$",
+//     "website": "/",
+//     "coupons": "/",
+//     "logo": "https://longs.staradvertiser.com/images/longsheader.png",
+//     "likes": 0
