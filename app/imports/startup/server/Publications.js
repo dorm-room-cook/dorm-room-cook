@@ -2,6 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import { Roles } from 'meteor/alanning:roles';
 import { Items } from '../../api/items/Items';
 import { Recipes } from '../../api/recipes/Recipes';
+import { Vendors } from '../../api/vendors/Vendors';
 
 /** This subscription publishes only the documents associated with the logged in user */
 Meteor.publish('Items', function publish() {
@@ -23,6 +24,11 @@ Meteor.publish('ItemAdmin', function publish() {
 /** This subscription publishes the recipes for all to see */
 Meteor.publish('Recipes', function publish() {
   return Recipes.find();
+});
+
+/** This subscription publishes the recipes for all to see */
+Meteor.publish('Vendors', function publish() {
+  return Vendors.find();
 });
 
 Meteor.publish('MyRecipes', function publish() {

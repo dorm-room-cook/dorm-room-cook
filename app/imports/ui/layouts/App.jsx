@@ -13,12 +13,12 @@ import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
 import ListRecipes from '../pages/ListRecipes';
-import AddVendorItem from '../pages/AddVendorItem';
 import ListVendorItems from '../pages/ListVendorItems';
 import ListVendorItemsAdmin from '../pages/ListVendorItemsAdmin';
 import MyRecipes from '../pages/MyRecipes';
 import MyItems from '../pages/MyItems';
 import EditItem from '../pages/EditItem';
+import ListVendors from '../pages/ListVendors';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 class App extends React.Component {
@@ -33,7 +33,7 @@ class App extends React.Component {
               { /* The page that displays all recipe cards - everyone has access */}
               <Route path="/recipes" component={ListRecipes}/>
               { /* The page that displays all vendor cards - everyone sees this */}
-              {/* <Route path="/vendors" component={ListVendors}/> -- not yet implemented */}
+              <Route path="/vendors" component={ListVendors}/>
               { /* Sign-in/Sign-up - everyone can do this */}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
