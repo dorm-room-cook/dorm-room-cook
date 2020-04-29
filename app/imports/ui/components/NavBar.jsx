@@ -12,7 +12,7 @@ class NavBar extends React.Component {
     return (
       <Menu inverted attached="top" borderless>
         <Menu.Item as={NavLink} activeClassName="" exact to="/">
-          <Image className='uh-green' src='/images/logo.png' size='mini' />
+          <Image className='white' src='/images/logo.png' size='mini' />
         </Menu.Item>
         { /* This is the page accessible by all to view all recipes */ }
         <Menu.Item as={NavLink} activeClassName="active" exact to='/recipes' key='recipes' content='Recipes'/>
