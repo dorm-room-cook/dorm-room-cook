@@ -18,6 +18,7 @@ import MyRecipes from '../pages/MyRecipes';
 import MyItems from '../pages/MyItems';
 import EditItem from '../pages/EditItem';
 import ListVendors from '../pages/ListVendors';
+import ListSearch from '../pages/ListSearch'; // testing search bar merge later
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 class App extends React.Component {
@@ -30,7 +31,12 @@ class App extends React.Component {
               { /* The main landing page - everyone sees this */}
               <Route exact path="/" component={Landing}/>
               { /* The page that displays all recipe cards - everyone has access */}
-              <Route path="/recipes" component={ListRecipes}/>
+
+              {/*                             testing                            */}
+              { /* <Route path="/recipes" component={ListRecipes}/> add back later */ }
+              <Route path="/recipes" component={ListSearch}/>{ /* del later */ }
+              {/*                             testing                            */}
+
               { /* The page that displays all vendor cards - everyone sees this */}
               <Route path="/vendors" component={ListVendors}/>
               { /* Sign-in/Sign-up - everyone can do this */}
