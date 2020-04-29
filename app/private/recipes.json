@@ -741,7 +741,7 @@
 
     {
       "title": "Superfood salad",
-      "image": "http://cdn.jamieoliver.com/recipe-database/oldImages/xtra_med/1460_1_1436891540.jpg",
+      "image": "/images/superfood-salad.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
       "owner": "safeway@foo.com",
       "time": 10,
@@ -798,7 +798,7 @@
     },
     {
       "title": "Pumpkin Mug Pie with Toffee and Caramel",
-      "image": "http://2.bp.blogspot.com/-KC7UT71Lxvs/UnG0CuF9NLI/AAAAAAAAICI/4EkO9SWp3Fk/s640/DSC_0071.tiff",
+      "image": "/images/Pumpkin-mug-pie.jpg",
       "description": "Making a mug pie is easy. Just throw all the ingredients in a mug and then stick it in the microwave for a few minutes.",
       "owner": "john@foo.com",
       "time": 15,
@@ -843,7 +843,7 @@
     },
     {
       "title": "Chocolate Mug Cake",
-      "image": "https://www.cookingclassy.com/wp-content/uploads/2020/02/chocolate-mug-cake-33.jpg",
+      "image": "/images/chocolate-mug-cake-33.jpg",
       "description": "Microwave Chocolate Mug Cake – the easiest and fastest dessert ever! It literally takes just minutes to prepare and cooks in a flash!",
       "owner": "safeway@foo.com",
       "time": 10,
@@ -888,7 +888,7 @@
     },
     {
       "title": "Breakfast Burrito",
-      "image": "https://www.cookingclassy.com/wp-content/uploads/2019/08/breakfast-burrito-01.jpg",
+      "image": "/images/breakfast-burrito.jpg",
       "description": "Breakfast burritos are one of my favorite splurge breakfast recipes. Though normally I don’t make them for breakfast – more often than not we actually eat them for dinner.",
       "owner": "safeway@foo.com",
       "time": 35,
