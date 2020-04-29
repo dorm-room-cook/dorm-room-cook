@@ -52,6 +52,7 @@ i:hover {
 .sepia { filter: sepia(100%); }
 .huerotate { filter: hue-rotate(180deg); }
 .rss.opacity { filter: opacity(50%); }
+.white {filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(299deg) brightness(101%) contrast(103%); }
 
 /* INTRO BLOCK */
 h1.ui.header {

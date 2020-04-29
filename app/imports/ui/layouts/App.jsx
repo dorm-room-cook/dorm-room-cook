@@ -7,14 +7,13 @@ import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import Landing from '../pages/Landing';
-import AddRecipe from '../pages/AddRecipe';
 import NotFound from '../pages/NotFound';
 import Signin from '../pages/Signin';
 import Signup from '../pages/Signup';
 import Signout from '../pages/Signout';
 import ListRecipes from '../pages/ListRecipes';
-import ListVendorItems from '../pages/ListVendorItems';
-import ListVendorItemsAdmin from '../pages/ListVendorItemsAdmin';
+// import ListVendorItems from '../pages/ListVendorItems';
+// import ListVendorItemsAdmin from '../pages/ListVendorItemsAdmin';
 import MyRecipes from '../pages/MyRecipes';
 import MyItems from '../pages/MyItems';
 import EditItem from '../pages/EditItem';
@@ -37,18 +36,15 @@ class App extends React.Component {
               { /* Sign-in/Sign-up - everyone can do this */}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
+              { /* Need to be logged in to add/edit/delete items and recipes */ }
               <ProtectedRoute path="/myrecipes" component={MyRecipes}/>
               <ProtectedRoute path="/myitems" component={MyItems}/>
               <ProtectedRoute path="/edititem/:_id" component={EditItem}/>
-              {/*<ProtectedRoute path="/editprofile" component={EditProfile}/>*/}
-              <ProtectedRoute path="/addrecipe" component={AddRecipe}/>
-              {/*<ProtectedRoute path="/editrecipe" component={EditRecipe}/>*/}
-              {/* <ProtectedRoute path="/add" component={AddRecipe}/> -- this should show up in my-recipes */}
-              {/* <ProtectedRoute path="/additem" component={AddVendorItem}/> */}
-              <ProtectedRoute path="/items" component={ListVendorItems}/>
-              <AdminProtectedRoute path="/adminitems" component={ListVendorItemsAdmin}/>
+              {/* <ProtectedRoute path="/editprofile" component={EditProfile}/> */}
+              {/* <ProtectedRoute path="/editrecipe" component={EditRecipe}/> */}
+              {/* <ProtectedRoute path="/items" component={ListVendorItems}/> */}
+              {/* <AdminProtectedRoute path="/adminitems" component={ListVendorItemsAdmin}/> */}
               <ProtectedRoute path="/signout" component={Signout}/>
-              {/* <VendorProtectedRoute path="/signout" component={Signout}/> */}
               <Route component={NotFound}/>
             </Switch>
             <Footer/>
