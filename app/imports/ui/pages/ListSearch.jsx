@@ -5,6 +5,7 @@ import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Recipes } from '../../api/recipes/Recipes';
+import SearchBar from '../components/SearchBar';
 
 /** Renders a table containing all of the Contact documents. */
 class ListRecipes extends React.Component {
@@ -27,15 +28,6 @@ class ListRecipes extends React.Component {
   * created
   */
 
-  search = (query, filters) => {
-    let resultList = [];
-    const db = this.props.recipes;
-    // search through the recipe database
-    // check query against recipe titles
-    // check against filters
-    // add each match and call setResults
-  }
-
   setResults = (results) => {
     console.log('hi there');
     if (this.state.results !== results) {
@@ -53,7 +45,7 @@ class ListRecipes extends React.Component {
           <Header as="h2" textAlign="center" inverted>Dope</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large'/>
+              <SearchBar recipes={this.props.recipes} numb={5}/>
             </Grid.Column>
           </Grid>
           <Card.Group>
