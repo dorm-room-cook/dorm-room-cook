@@ -18,10 +18,10 @@ class ListRecipes extends React.Component {
 
     return (
         <Container>
-          <Header as="h2" textAlign="center" inverted>All Recipes</Header>
+          <Header as="h2" textAlign="center">All Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large'/>
+              <Search fluid size='large' placeholder={'search by keyword(s)...'}/>
             </Grid.Column>
           </Grid>
           <Card.Group>

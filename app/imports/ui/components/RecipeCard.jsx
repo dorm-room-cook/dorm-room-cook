@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, Image, List, Modal, Grid, Header } from 'semantic-ui-react';
+import { Button, Card, Image, List, Modal, Grid, Header, Form, Checkbox } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { _ } from 'meteor/underscore';
@@ -43,30 +43,34 @@ class RecipeCard extends React.Component {
           </Card.Description>
         </Card.Content>
         <Card.Content textAlign='center' extra>
-           <Modal
+           <Modal closeIcon
                trigger={<Button inverted color='blue'>View Details</Button>}
                size='small'>
-             <article className="text-over">
-               <figure>
-                 <img src={this.props.recipe.image}/>
-                 <figcaption>
-                   <h1>
-                     {this.props.recipe.description}
-                   </h1>
-                 </figcaption>
-               </figure>
-             </article>
              <Modal.Content>
+               <article className="text-over">
+                 <figure>
+                   <img src={this.props.recipe.image}/>
+                   <figcaption>
+                     <Header as='h2'>
+                       {this.props.recipe.description}
+                     </Header>
+                   </figcaption>
+                 </figure>
+               </article>
                <Grid container divided inverted stackable>
                   <Grid.Row textAlign='centered'>
                     <Header className='baloo' as='h2' content={this.props.recipe.title} color='orange'/>
                   </Grid.Row>
                  <Grid.Column width={4}>
                    <Header as='h4' content='Ingredients' />
-                   <List bulleted>
+                   <Form>
                      {_.map(this.props.recipe.ingredients,
-                         (ingredient, index) => <List.Item key={index}>{ingredient}</List.Item>)}
-                   </List>
+                         (ingredient, index) => <Form.Field
+                             control={Checkbox}
+                             label={<label>{ingredient}</label>}
+                             key={index}>
+                     </Form.Field>)}
+                   </Form>
                  </Grid.Column>
                  <Grid.Column width={10}>
                    <Header as='h4' content='Directions' />

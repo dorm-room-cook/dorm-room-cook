@@ -7,18 +7,19 @@ const Profiles = new Mongo.Collection('Profiles');
 
 /** Define a schema to specify the structure of each document in the collection. */
 const ProfileSchema = new SimpleSchema({
-  firstName: String,
-  lastName: String,
-  bio: String,
-  major: String,
-  interests: [String],
-  recipes: [String],
-  picture: String,
-  email: String,
+  email: { type: String, index: true, unique: true },
+  firstName: { type: String, optional: true },
+  lastName: { type: String, optional: true },
+  bio: { type: String, optional: true },
+  title: { type: String, optional: true },
+  picture: { type: String, optional: true },
+  major: { type: String, optional: true },
+  interests: { type: Array, optional: true },
+  'interests.$': String,
+  recipes: { type: Array, optional: true },
+  'recipes.$': String,
   linkedIn: { type: String, optional: true },
   github: { type: String, optional: true },
-  address: { type: Array, optional: true },
-    'address.$': String,
 }, { tracker: Tracker });
 
 /** Attach this schema to the collection. */

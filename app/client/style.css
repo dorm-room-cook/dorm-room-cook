@@ -1,30 +1,39 @@
 html,body{
   height:100%;
   margin:0;
-  color:#fff;
+  color: #050505;
   text-align:center;
-  background: rgb(193,7,7);
-  background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;
+  background: #E5F9E7 !important;
+  /*background: rgba(255, 162, 0, 0.69) !important;*/
+  /*background: rgb(193,7,7);*/
+  /*background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;*/
   /*background: url('images/gb2.jpg') !important;*/
 }
 
 .recipe-modal-top {
-  /*background: url(https://corp.roblox.com/wp-content/uploads/2019/04/home-hero-updated.jpg) no-repeat center center;*/
-  /*background-size: cover;*/
   color: black;
-  /*border-style: dotted;*/
-  /*border-color: red;*/
-  /*border-radius: 25px;*/
 }
 
+/* Handles the checked Ingredients in the Recipe Modal */
+.ui.checked.checkbox label {
+  color: rgb(128, 128, 128);
+  text-decoration: line-through;
+}
+
+/*input[type=checkbox]:checked + label {*/
+/*  color: #f00 !important;*/
+/*  font-style: normal;*/
+/*  text-decoration: line-through;*/
+
+/*}*/
 
 .linediv {
   margin: 1rem 0rem;
 }
 
-footer {
-  margin-bottom: 0;
-}
+/*footer {*/
+/*  margin-bottom: 0;*/
+/*}*/
 
 .ui.inverted.vertical.segment{
   margin-bottom: 0;
@@ -65,15 +74,19 @@ h1.ui.header {
   font-size: 20px;
 }
 
+.logo {
+  margin: unset;
+  padding: unset;
+}
+
 /* Add font and change menu display settings */
-.ui.inverted.borderless.top.attached.menu{
-  /*background-color: whitesmoke !important;*/
+.ui.menu.top {
   background-color: rgba(0,0,0,0.8) !important;
   border-radius: 0;
   height: 25px;
   font-family: 'Indie Flower', cursive;
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 50px !important;
 }
 
 /* Fix highlight for item and font hover */
