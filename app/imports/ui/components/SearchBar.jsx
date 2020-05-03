@@ -1,18 +1,17 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Search, Grid } from 'semantic-ui-react';
+import { Search, Grid, Input } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
+/*import PropTypes from 'prop-types';*/
 
 const initialState = { isLoading: false, results: [], value: '', source: [] };
 
 class SearchBar extends Component {
   state = initialState;
 
-  handleResultSelect = (e, { result }) => this.setState({ value: result.title });
-
-  handleSearchChange = (e, { value }) => {
-    this.setState({ isLoading: true, value });
+  handleSearchChange = (e) => {
+    this.setState({ isLoading: true, value: e.target.value });
+    console.log('change');
 
     setTimeout(() => {
       if (this.state.value.length < 1) return this.setState(initialState);
@@ -23,10 +22,10 @@ class SearchBar extends Component {
       this.setState({
         isLoading: false,
         results: _.filter(this.state.source, isMatch),
-      })
+      });
     }, 300);
   }
-
+/*
   setResults = (results) => {
     console.log('hi there');
     if (this.state.source !== results) {
@@ -34,35 +33,34 @@ class SearchBar extends Component {
       this.setState({ source: results });
     }
   }
-
+*/
   render() {
     const { isLoading, value, results, source } = this.state;
-    this.setResults(this.props.recipes);
+    if (this.props.recipes !== source) {
+      this.setState({ source });
+    }
 
     return (
         <Grid>
           <Grid.Column>
-            <Search
-                input={{ fluid: true }}
-                loading={isLoading}
-                onResultSelect={this.handleResultSelect}
-                onSearchChange={_.debounce(this.handleSearchChange, 500, {
+            <Input
+                icon='search'
+                fluid
+                placeholder='Search for a recipe...'
+                onChange={_.debounce(this.handleSearchChange, 500, {
                   leading: true,
                 })}
-                fluid
-                results={results}
-                value={value}
-                {...this.props}
             />
           </Grid.Column>
         </Grid>
     );
   }
 }
-
+/*
 SearchBar.propTypes = {
   recipes: PropTypes.array.isRequired,
   numb: PropTypes.number.isRequired,
+  setResults: PropTypes.function.isRequired,
 };
-
+*/
 export default withRouter(SearchBar);
