@@ -7,19 +7,31 @@ import PropTypes from 'prop-types';
 const initialState = { results: [], value: '', source: [] };
 
 class SearchBar extends Component {
-  state = initialState;
+  state = {
+    results: [],
+    value: '',
+    source: [],
+    filters: {
+      filtered: false,
+      time: 0,
+      ingredients: [],
+      type: [],
+      tools: [],
+      servings: 0,
+    },
+  }
 
   handleSearchChange = (e) => {
     this.setState({ value: e.target.value });
 
     setTimeout(() => {
       if (this.state.value.length < 1) return this.setState(initialState);
+      /* if (this.state.value.length < 1) return this.setState({ results: [], value: '' }); */
 
       const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
       const isMatch = (result) => re.test(result.title);
 
       this.setState({
-        isLoading: false,
         results: _.filter(this.state.source, isMatch),
       });
 
