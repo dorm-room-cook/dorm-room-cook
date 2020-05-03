@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import { Grid, Input } from 'semantic-ui-react';
+import { Grid, Input, Dropdown } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
@@ -32,8 +32,22 @@ class SearchBar extends Component {
     }, 300);
   }
 
+  /*
+  * title
+  * time
+  * items - #of ingredients
+  * ingredients
+  * type - keyword
+  * tools - like stove etc
+  * servings
+  * views
+  * created
+  */
+
   render() {
     const { source } = this.state;
+
+    // set up source data when component first loads
     if (this.props.recipes !== source) {
       this.props.setResults(this.props.recipes);
       this.setState({ source: this.props.recipes });
@@ -50,6 +64,22 @@ class SearchBar extends Component {
                   leading: true,
                 })}
             />
+            <Dropdown
+                text='Filter'
+                icon='filter'
+                fluid
+                labeled
+                button
+                className='icon'
+            >
+              <Dropdown.Menu>
+                <Dropdown.Header icon='tags' content='Filter by tag' />
+                <Dropdown.Divider />
+                <Dropdown.Item icon='attention' text='Important' />
+                <Dropdown.Item icon='comment' text='Announcement' />
+                <Dropdown.Item icon='conversation' text='Discussion' />
+              </Dropdown.Menu>
+            </Dropdown>
           </Grid.Column>
         </Grid>
     );
