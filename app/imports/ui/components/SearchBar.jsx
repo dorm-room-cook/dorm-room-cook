@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import { Grid, Input, Dropdown } from 'semantic-ui-react';
+import { Grid, Input, Icon, Dropdown, Menu, Container } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
-
-const initialState = { results: [], value: '', source: [] };
 
 class SearchBar extends Component {
   state = {
     results: [],
     value: '',
     source: [],
+    showMore: false,
     filters: {
       filtered: false,
       time: 0,
@@ -25,8 +24,7 @@ class SearchBar extends Component {
     this.setState({ value: e.target.value });
 
     setTimeout(() => {
-      if (this.state.value.length < 1) return this.setState(initialState);
-      /* if (this.state.value.length < 1) return this.setState({ results: [], value: '' }); */
+      if (this.state.value.length < 1) return this.setState({ results: [], value: '' });
 
       const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
       const isMatch = (result) => re.test(result.title);
@@ -45,7 +43,6 @@ class SearchBar extends Component {
   }
 
   /*
-  * title
   * time
   * items - #of ingredients
   * ingredients
@@ -57,7 +54,7 @@ class SearchBar extends Component {
   */
 
   render() {
-    const { source } = this.state;
+    const { source, showMore } = this.state;
 
     // set up source data when component first loads
     if (this.props.recipes !== source) {
@@ -76,26 +73,26 @@ class SearchBar extends Component {
                   leading: true,
                 })}
             />
-            <Dropdown
-                text='Filter'
-                icon='filter'
-                fluid
-                labeled
-                button
-                className='icon'
-            >
-              <Dropdown.Menu>
-                <Dropdown.Header icon='tags' content='Filter by tag' />
-                <Dropdown.Divider />
-                <Dropdown.Item icon='attention' text='Important' />
-                <Dropdown.Item icon='comment' text='Announcement' />
-                <Dropdown.Item icon='conversation' text='Discussion' />
-              </Dropdown.Menu>
-            </Dropdown>
+            {showMore ?
+                <div style={ filterMenu }>
+                  {/* maybe use grid or flex */}
+                  <p onClick={() => this.setState({ showMore: !showMore })}>show less</p>
+                </div>
+                :
+                <div onClick={() => this.setState({ showMore: !showMore })} style={{ margin: '5px 0px' }}>
+                  <Icon size='large' name='bars'/>
+                </div>
+            }
           </Grid.Column>
         </Grid>
     );
   }
+}
+
+const filterMenu = {
+  backgroundColor: 'white',
+  width: '100%',
+  height: '150px',
 }
 
 SearchBar.propTypes = {
