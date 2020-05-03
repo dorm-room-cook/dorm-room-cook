@@ -1,38 +1,18 @@
 import React from 'react';
-import _ from 'lodash';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Search, Grid, Button, Input } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Grid } from 'semantic-ui-react';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Recipes } from '../../api/recipes/Recipes';
 import SearchBar from '../components/SearchBar';
 
-const initialState = { isLoading: false, results: [], value: '', source: [] };
+const initialState = { results: [], source: [] };
 
 /** Renders a table containing all of the Contact documents. */
 class ListRecipes extends React.Component {
 
-  /*state = { results: [] };*/
-
   state = initialState;
-
-  handleSearchChange = (e) => {
-    this.setState({ isLoading: true, value: e.target.value });
-    console.log('change');
-
-    setTimeout(() => {
-      if (this.state.value.length < 1) return this.setState(initialState);
-
-      const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
-      const isMatch = (result) => re.test(result.title);
-
-      this.setState({
-        isLoading: false,
-        results: _.filter(this.state.source, isMatch),
-      });
-    }, 300);
-  }
 
   /** Render the page once subscriptions have been received. */
   render() {
@@ -50,43 +30,18 @@ class ListRecipes extends React.Component {
   * created
   */
 
-  setResults = (results) => {
-    console.log('hi there');
-    if (this.state.results !== results) {
-      console.log('is not equals');
-      this.setState({ results });
-    }
-  }
-
   bringInResults = (results) => {
     this.setState({ results });
   }
 
   renderPage() {
-    {/*this.setResults(this.props.recipes);*/}
-
-    const { results, source } = this.state;
-    if (this.props.recipes !== source) {
-      this.setState({ source: this.props.recipes });
-    }
-
-    if (results.length === 0) {
-      this.setState({ results: source });
-    }
-
-    console.log(this.state.results);
+    const { results } = this.state;
     return (
         <Container>
           <Header as="h2" textAlign="center" inverted>Dope</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Input
-                  fluid
-                  placeholder='Search for a recipe...'
-                  onChange={_.debounce(this.handleSearchChange, 500, {
-                    leading: true,
-                  })}
-              />
+              <SearchBar recipes={this.props.recipes} setResults={this.bringInResults}/>
             </Grid.Column>
           </Grid>
           <Card.Group>
