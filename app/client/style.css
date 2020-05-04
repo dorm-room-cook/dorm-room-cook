@@ -3,10 +3,9 @@ html,body{
   margin:0;
   color: #050505;
   text-align:center;
-  background: #E5F9E7 !important;
+  /*background: #E5F9E7 !important;*/
   /*background: rgba(255, 162, 0, 0.69) !important;*/
-  /*background: rgb(193,7,7);*/
-  /*background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;*/
+  background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;
   /*background: url('images/gb2.jpg') !important;*/
 }
 
