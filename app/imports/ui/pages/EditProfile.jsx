@@ -26,10 +26,10 @@ class EditProfile extends React.Component {
 
   /** Render the form. Use Uniforms: https://github.com/vazco/uniforms */
   renderPage() {
-    const segmentStyle = { backgroundColor: 'rgba(0,0,0,0.2)', width: '100%' };
+    const segmentStyle = { backgroundColor: 'rgba(0,0,0,0.5)', width: '100%' };
     const cardContentStyle1 = { backgroundColor: 'rgba(0,0,0,0.8)', width: '100%', height: '40px' };
-    const cardContentStyle2 = { backgroundColor: 'rgba(0,0,0,0.2', width: '100%' };
-    const cardContentStyle3 = { backgroundColor: 'rgba(0,0,0,0.1', width: '100%' };
+    const cardContentStyle2 = { backgroundColor: 'rgba(0,0,0,0.01', width: '100%' };
+    const cardContentStyle3 = { backgroundColor: 'rgba(0,0,0,0.05', width: '100%' };
     const iconStyle = { color: 'darkGreen' };
 
     return (
@@ -41,14 +41,14 @@ class EditProfile extends React.Component {
           </Grid.Row>
           <Grid.Row>
             <Grid.Column width={6}>
-              <Card centered size='tiny' raised='true'>
+              <Card color='olive' centered size='tiny' raised='true'>
                 <Card.Content style={ cardContentStyle1 }>
                   <Header as="h4" style={{ color: 'white' }} textAlign="center">Profile View</Header>
                 </Card.Content>
                 <Image src={this.props.profile.picture}/>
                 <Card.Content extra style={ cardContentStyle2 }>
                   <Card.Header>{this.props.profile.firstName} {this.props.profile.lastName}</Card.Header>
-                  <Card.Meta>Student, {this.props.profile.major}</Card.Meta>
+                  <Card.Meta>{this.props.profile.major}</Card.Meta>
                   <Card.Description>
                     {this.props.profile.bio}
                   </Card.Description>
@@ -73,7 +73,7 @@ class EditProfile extends React.Component {
               <Segment style={ segmentStyle }>
               <AutoForm schema={ProfileSchema} onSubmit={data => this.submit(data)} model={this.props.profile}>
                 <Form.Group widths={'equal'}>
-                  <TextField name='firstName' showInlineError={true} />
+                  <TextField name='firstName' showInlineError={true}/>
                   <TextField name='lastName' showInlineError={true} />
                 </Form.Group>
                   <TextField name='major' showInlineError={true} />

@@ -9,7 +9,7 @@ class RecipeCard extends React.Component {
 
     render() {
       return (
-      <Card centered>
+      <Card centered raised>
         <Image size='big' src={this.props.recipe.image}/>
         <Card.Content>
           <Card.Header>{this.props.recipe.name}</Card.Header>
@@ -42,9 +42,9 @@ class RecipeCard extends React.Component {
             {this.props.recipe.description}
           </Card.Description>
         </Card.Content>
-        <Card.Content textAlign='center' extra>
+        <Card.Content textAlign='center' extra style={{ backgroundColor: 'rgba(0,0,0,0.2)' }}>
            <Modal closeIcon
-               trigger={<Button inverted color='blue'>View Details</Button>}
+               trigger={<Button basic color='orange'>View Details</Button>}
                size='small'>
              <Modal.Content>
                <article className="text-over">
