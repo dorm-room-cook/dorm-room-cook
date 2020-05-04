@@ -18,7 +18,7 @@ class ListVendors extends React.Component {
 
     return (
         <Container>
-          <Header as="h2" textAlign="center" inverted>Search Vendors</Header>
+          <Header as="h2" textAlign="center">Search Vendors</Header>
           <Grid>
             <Grid.Column width={16}>
               <Search fluid size='large'/>

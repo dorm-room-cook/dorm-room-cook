@@ -22,14 +22,6 @@ Meteor.publish('ItemAdmin', function publish() {
   return this.ready();
 });
 
-/** This subscription publishes all profile documents for admin only. */
-Meteor.publish('ProfileAdmin', function publish() {
-  if (this.userId && Roles.userIsInRole(this.userId, 'admin')) {
-    return Profiles.find();
-  }
-  return this.ready();
-});
-
 /** This subscription publishes the recipes for all to see */
 Meteor.publish('Recipes', function publish() {
   return Recipes.find();
@@ -56,10 +48,18 @@ Meteor.publish('MyItems', function publish() {
   return this.ready();
 });
 
-Meteor.publish('MyProfile', function publish() {
+Meteor.publish('Profiles', function publish() {
   if (this.userId) {
     const username = Meteor.users.findOne(this.userId).username;
     return Profiles.find({ email: username });
+  }
+  return this.ready();
+});
+
+/** This subscription publishes all profile documents for admin only. */
+Meteor.publish('ProfileAdmin', function publish() {
+  if (this.userId && Roles.userIsInRole(this.userId, 'admin')) {
+    return Profiles.find();
   }
   return this.ready();
 });

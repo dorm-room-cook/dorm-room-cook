@@ -3,7 +3,7 @@ html,body{
   margin:0;
   color: #050505;
   text-align:center;
-  background: #E5F9E7 !important;
+  background: lemonchiffon !important;
   /*background: rgba(255, 162, 0, 0.69) !important;*/
   /*background: rgb(193,7,7);*/
   /*background: linear-gradient(180deg, rgba(193,7,7,1) 5%, rgba(237,198,7,1) 38%, rgba(52,128,25,1) 81%) !important;*/
@@ -20,24 +20,33 @@ html,body{
   text-decoration: line-through;
 }
 
-/*input[type=checkbox]:checked + label {*/
-/*  color: #f00 !important;*/
-/*  font-style: normal;*/
-/*  text-decoration: line-through;*/
-
-/*}*/
-
 .linediv {
   margin: 1rem 0rem;
 }
 
-/*footer {*/
-/*  margin-bottom: 0;*/
+/*.card {*/
+/*  position: relative;*/
+/*  background-size: cover;*/
+/*  background-position: center;*/
+/*  backdrop-filter: blur(20px);*/
+/*  background-color: rgba(255, 255, 255, 0.5);*/
+/*  border-radius: 5px;*/
+/*  box-sizing: border-box;*/
+/*  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
+/*  transition: .3s ease;*/
+/*  margin: 2vw;*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
 /*}*/
 
-.ui.inverted.vertical.segment{
-  margin-bottom: 0;
-}
+/*.card-title {*/
+/*  font-size: 6vh;*/
+/*}*/
+
+/*.card-text {*/
+/*  font-size: 4vh;*/
+/*}*/
 
 i {
   color: #015b1b;
@@ -74,17 +83,12 @@ h1.ui.header {
   font-size: 20px;
 }
 
-.logo {
-  margin: unset;
-  padding: unset;
-}
-
 /* Add font and change menu display settings */
 .ui.menu.top {
   background-color: rgba(0,0,0,0.8) !important;
   border-radius: 0;
   height: 25px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Baloo Thambi 2', cursive;
   font-size: 18px;
   margin-bottom: 50px !important;
 }
@@ -96,7 +100,7 @@ h1.ui.header {
 }
 
 /* Fix decorations for active menu item */
-.ui .item.active{
+.ui.menu.top .item.active{
   background: transparent !important;
   color: #008800 !important;
 }
@@ -104,8 +108,6 @@ h1.ui.header {
 .buttons {
   width: 100%;
 }
-
-
 
 .text-over {
   display: flex;

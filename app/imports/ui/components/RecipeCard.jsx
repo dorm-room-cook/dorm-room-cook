@@ -12,9 +12,9 @@ class RecipeCard extends React.Component {
       <Card centered>
         <Image size='big' src={this.props.recipe.image}/>
         <Card.Content>
-          <Card.Header>{this.props.recipe.title}</Card.Header>
+          <Card.Header>{this.props.recipe.name}</Card.Header>
           <Card.Meta>
-            <List text-align='centered' horizontal divided>
+            <List text-align='center' horizontal divided>
               <List.Item>
                 <List.Content>
                   <List.Icon inverted color='blue' name='clock outline'/>
@@ -57,9 +57,9 @@ class RecipeCard extends React.Component {
                    </figcaption>
                  </figure>
                </article>
-               <Grid container divided inverted stackable>
-                  <Grid.Row textAlign='centered'>
-                    <Header className='baloo' as='h2' content={this.props.recipe.title} color='orange'/>
+               <Grid container centered divided inverted stackable>
+                  <Grid.Row>
+                    <Header className='baloo' as='h2' content={this.props.recipe.name} color='orange'/>
                   </Grid.Row>
                  <Grid.Column width={4}>
                    <Header as='h4' content='Ingredients' />
@@ -81,7 +81,7 @@ class RecipeCard extends React.Component {
                  </Grid.Column>
                  <Grid.Column width={2}>
                    <Header as='h4' content='Info' />
-                   <List text-align='centered' divided>
+                   <List text-align='center' divided>
                      <List.Item>
                        <List.Content>
                          <List.Icon inverted color='blue' name='clock outline'/>

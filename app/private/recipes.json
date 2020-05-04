@@ -1,7 +1,7 @@
 {
   "recipes": [
     {
-      "title": "Ritz-choco-fluffernutter Sandwiches",
+      "name": "Ritz-choco-fluffernutter Sandwiches",
       "image": "/images/food/fluff.png",
       "description": "Great snack for all occasions. Simple to make, fun to eat.",
       "owner": "john@foo.com",
@@ -40,7 +40,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Banana Pancakes",
+      "name": "Banana Pancakes",
       "image": "/images/food/banana-pancakes.jpg",
       "description": "The perfect way to use up overripe bananas! These taste like banana bread but in tender and fluffy, syrup covered pancake form. Delicious!",
       "owner": "john@foo.com",
@@ -85,7 +85,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Goulash(One Pot American Style)",
+      "name": "Goulash(One Pot American Style)",
       "image": "/images/food/goulash.jpg",
       "description": "This delicious, easy goulash recipe is made with hearty beef, tender macaroni pasta, lots of vegetables and a savory tomato based sauce. Makes about 7 cups.",
       "owner": "john@foo.com",
@@ -134,7 +134,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Garlic Butter Chicken Bites",
+      "name": "Garlic Butter Chicken Bites",
       "image": "/images/food/garlic-butter-chicken.jpg",
       "description": "The easiest 15 minute recipe that requires minimal prep and a few basic ingredients, yet it wows with flavor! A new weeknight dinner staple!",
       "owner": "john@foo.com",
@@ -175,7 +175,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Small Batch Brownies",
+      "name": "Small Batch Brownies",
       "image": "/images/food/brownies.jpg",
       "description": "This is my go-to brownie recipe! It only makes a few so I'm not tempted by an entire batch of brownies sitting around for days. They're so easy to make, perfectly rich, deliciously fudgy and they're sure to satisfy those chocolate cravings.",
       "owner": "john@foo.com",
@@ -214,7 +214,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Honey Mustard Pecan Crusted Chicken",
+      "name": "Honey Mustard Pecan Crusted Chicken",
       "image": "/images/food/pecan-chicken.jpg",
       "description": "Protein rich chicken breasts are coated in a crisp pecan and panko mixture and oven baked, then they are finished with a sweet and tangy honey mustard glaze. A flavorful, easy recipe that's sure to satisfy!",
       "owner": "john@foo.com",
@@ -258,7 +258,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Fried Rice",
+      "name": "Fried Rice",
       "image": "/images/food/fried-rice.jpg",
       "description": "A classic, easy to make fried rice recipe! This is filled with tender rice, colorful vegetables, hearty eggs, tender (optional) ham and it's all fried with a delicious, robustly seasoned sauce.",
       "owner": "john@foo.com",
@@ -306,7 +306,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Chicken Pot Pie Soup",
+      "name": "Chicken Pot Pie Soup",
       "image": "/images/food/chicken-potpie-soup.jpg",
       "description": "All the classic flavors of pot pie but in rich and creamy, perfectly comforting and cozy soup form! This soup is a lot less work than a standard pot pie yet it's equally as delicious! It's brimming with chicken and veggies and a hearty broth. Makes about 10 cups.",
       "owner": "john@foo.com",
@@ -358,7 +358,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Lasagna",
+      "name": "Lasagna",
       "image": "/images/food/lasagna.jpg",
       "description": "Truly the easiest lasagna recipe you'll ever make! No pre-cooking lasagna noodles, no grating cheeses, no homemade sauces. Yet it's so perfectly delicious!!",
       "owner": "john@foo.com",
@@ -400,7 +400,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Chicken Marsala",
+      "name": "Chicken Marsala",
       "image": "/images/food/chicken-marsala.jpg",
       "description": "This classic Italian-American chicken recipe includes tender, perfectly pan seared chicken cutlets, and flavor enhancing browned mushrooms, and it's all covered with a richly seasoned marsala wine, garlic and herb sauce.",
       "owner": "john@foo.com",
@@ -450,7 +450,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Chicken Piccata",
+      "name": "Chicken Piccata",
       "image": "/images/food/chicken-piccata.jpg",
       "description": "An over-the-top delicious chicken piccata! Perfectly pan seared chicken breasts are topped with a rich and creamy, tangy piccata sauce and little bits of salty capers. Such a satisfying dish!",
       "owner": "john@foo.com",
@@ -495,7 +495,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Cannoli",
+      "name": "Cannoli",
       "image": "/images/food/cannoli.jpg",
       "description": "Cannoli!! This recipe makes a crisp and flaky cannoli shell enclosing a lusciously creamy, sweet ricotta filling which is dotted with decadent dark chocolate chips. In other words, pure dessert bliss!",
       "owner": "john@foo.com",
@@ -544,7 +544,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Twice Baked Potatoes",
+      "name": "Twice Baked Potatoes",
       "image": "/images/food/twice-baked-potatoes.jpg",
       "description": "One of the ultimate side dish recipes! These are seriously comforting, extra cheesy, deliciously creamy, mashed potato loaded, hearty stuffed potato skins and they never disappoint! A family favorite recipe!",
       "owner": "john@foo.com",
@@ -587,7 +587,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Stuffed Mushrooms",
+      "name": "Stuffed Mushrooms",
       "image": "/images/food/stuffed-mushrooms.jpg",
       "description": "Hearty stuffed mushrooms filled with rich cream cheese, tender spinach, melty mozzarella and parmesan, and vibrant garlic then topped with crispy panko bread crumbs. An appetizer or party snack recipe that's sure to impress! They're easy to make and perfect for entertaining. ",
       "owner": "john@foo.com",
@@ -630,7 +630,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Eggnog Cookies",
+      "name": "Eggnog Cookies",
       "image": "/images/food/eggnog-cookies.jpg",
       "description": "With their tender cake-like texture and generous coating of eggnog frosting they are likely to become a new favorite holiday cookie!",
       "owner": "john@foo.com",
@@ -678,7 +678,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Yellow Squash Casserole",
+      "name": "Yellow Squash Casserole",
       "image": "/images/food/yellow-squash-casserole.jpg",
       "description": "Made with tender yellow squash, a cheesy, creamy coating and it's finished with crispy toasted panko bread crumbs. It's a delicious, homestyle side dish that's perfect for holidays. Plus it's a great way to use up the abundance of summertime squash.",
       "owner": "john@foo.com",
@@ -725,7 +725,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Superfood salad",
+      "name": "Superfood salad",
       "image": "/images/food/superfood-salad.jpg",
       "description": "Full of great veggies and high-fibre quinoa, this easy-to-make salad is nutritious, delicious and super-satisfying. Top with juicy pomegranate seeds for a great burst of flavour.",
       "owner": "safeway@foo.com",
@@ -782,7 +782,7 @@
       "updated": "2020-01-29T08:05:42.984195+00:00"
     },
     {
-      "title": "Pumpkin Mug Pie with Toffee and Caramel",
+      "name": "Pumpkin Mug Pie with Toffee and Caramel",
       "image": "/images/food/Pumpkin-mug-pie.jpg",
       "description": "Making a mug pie is easy. Just throw all the ingredients in a mug and then stick it in the microwave for a few minutes.",
       "owner": "john@foo.com",
@@ -828,7 +828,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Chocolate Mug Cake",
+      "name": "Chocolate Mug Cake",
       "image": "/images/food/chocolate-mug-cake-33.jpg",
       "description": "Microwave Chocolate Mug Cake – the easiest and fastest dessert ever! It literally takes just minutes to prepare and cooks in a flash!",
       "owner": "safeway@foo.com",
@@ -873,7 +873,7 @@
       "updated": "2020-04-26"
     },
     {
-      "title": "Breakfast Burrito",
+      "name": "Breakfast Burrito",
       "image": "/images/food/breakfast-burrito.jpg",
       "description": "Breakfast burritos are one of my favorite splurge breakfast recipes. Though normally I don’t make them for breakfast – more often than not we actually eat them for dinner.",
       "owner": "safeway@foo.com",
@@ -925,7 +925,7 @@
       "updated": "2020-04-26"
     },
     {
-      "title": "Curried Chickpeas with Spinach",
+      "name": "Curried Chickpeas with Spinach",
       "image": "/images/food/curried-chickpeas.jpg",
       "description": "These super fast Curried Chickpeas with spinach are packed with flavor and nutrients, vegan, gluten-free, and filling! Plus they freeze great!",
       "owner": "john@foo.com",
@@ -962,7 +962,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Pork and Peanut Dragon Noodles",
+      "name": "Pork and Peanut Dragon Noodles",
       "image": "/images/food/pork-dragon-noodles.jpg",
       "description": "Sweet, salty, rich, and crunchy, these Pork and Peanut Dragon Noodles hit all the bases. It’s fast, easy comfort food for busy nights! ",
       "owner": "john@foo.com",
@@ -999,7 +999,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "One Pot Chili Pasta",
+      "name": "One Pot Chili Pasta",
       "image": "/images/food/chili-pasta.jpg",
       "description": "This super hearty One Pot Chili Pasta is bursting with southwest chili flavor, protein, and fiber. It's a meal in a bowl that the whole family will love.",
       "owner": "john@foo.com",
@@ -1044,7 +1044,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Beef and Cabbage Stir Fry",
+      "name": "Beef and Cabbage Stir Fry",
       "image": "/images/food/beefcabbage-stirfry.jpg",
       "description": "This fast and easy Beef and Cabbage Stir Fry is a filling low carb dinner with big flavor and endless possibilities for customization. ",
       "owner": "john@foo.com",
@@ -1088,7 +1088,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Bowties and Broccoli",
+      "name": "Bowties and Broccoli",
       "image": "/images/food/bowties-broccoli.jpg",
       "description": "This insanely simple dinner cheat is ready in minutes and will keep you full for hours. Bowties and Broccoli is my go-to lazy weeknight dinner.",
       "owner": "john@foo.com",
@@ -1123,7 +1123,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Poor Man's Burrito Bowls",
+      "name": "Poor Man's Burrito Bowls",
       "image": "/images/food/burrito-bowl.jpg",
       "description": "These easy no-frills burrito bowls are super fast and affordable. They're the perfect satisfying weeknight meal for times when money is tight!",
       "owner": "john@foo.com",
@@ -1162,7 +1162,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Creamy Tuna Pasta with Peas and Parmesan",
+      "name": "Creamy Tuna Pasta with Peas and Parmesan",
       "image": "/images/food/tuna-pasta.jpg",
       "description": "This quick and comforting Creamy Tuna Pasta with Peas and Parmesan is a fast and easy weeknight dinner that only requires a few simple ingredients.",
       "owner": "john@foo.com",
@@ -1202,7 +1202,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Weeknight Black Bean Chili",
+      "name": "Weeknight Black Bean Chili",
       "image": "/images/food/blackbean-chili.jpg",
       "description": "This easy and comforting black bean chili is rich, full of warm chili spices, and fast enough to pull together on a busy weeknight.",
       "owner": "john@foo.com",
@@ -1244,7 +1244,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Dragon Noodles",
+      "name": "Dragon Noodles",
       "image": "/images/food/spicy-dragon-noodles.jpg",
       "description": "These sweet, tangy, and spicy Dragon Noodles take only a few minutes to whip up and will kill your craving for take-out.",
       "owner": "john@foo.com",
@@ -1284,7 +1284,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "One Pot Bacon Broccoli Mac and Cheese",
+      "name": "One Pot Bacon Broccoli Mac and Cheese",
       "image": "/images/food/baconbroccoli-macncheese.jpg",
       "description": "This One Pot Bacon Broccoli Mac and Cheese is fast, easy, and absolutely fool proof. This sauce stays smooth and creamy!",
       "owner": "john@foo.com",
@@ -1327,7 +1327,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Hearty Black Bean Quesadillas",
+      "name": "Hearty Black Bean Quesadillas",
       "image": "/images/food/blackbean-quesadillas.jpg",
       "description": "Black beans, corn, cilantro, cheese, and plenty of spices make these vegetarian black bean quesadillas big on flavor and surprisingly filling.",
       "owner": "john@foo.com",
@@ -1365,7 +1365,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Spinach Feta Grilled Cheese",
+      "name": "Spinach Feta Grilled Cheese",
       "image": "/images/food/spinach-grilledcheese.jpg",
       "description": "Take your grilled cheese game to the next level with this Spinach Feta Grilled Cheese, featuring garlic, red pepper, and TWO cheeses!",
       "owner": "john@foo.com",
@@ -1403,7 +1403,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Pizzadillas",
+      "name": "Pizzadillas",
       "image": "/images/food/pizzadillas.jpg",
       "description": "All the cheesy toppings of a pizza stuffed into a fast, easy, and crispy quesadilla. Perfect for dipping in pizza sauce!",
       "owner": "john@foo.com",
@@ -1440,7 +1440,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Caramelized Banana and Peanut Butter Quesadilla",
+      "name": "Caramelized Banana and Peanut Butter Quesadilla",
       "image": "/images/food/banana-pnb-quesadilla.jpg",
       "description": "Tired of banana bread? Here's a fun new way to use up those over ripe bananas! Caramelized banana, peanut butter, and cinnamon make a warm, delicious treat.",
       "owner": "john@foo.com",
@@ -1475,7 +1475,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Pizza Roll Ups",
+      "name": "Pizza Roll Ups",
       "image": "/images/food/pizza-roll-ups.jpg",
       "description": "Forget frozen pizza rolls! These Pizza Roll Ups are the perfect last minute appetizer or indulgent snack on busy days!",
       "owner": "john@foo.com",
@@ -1512,7 +1512,7 @@
       "updated": "2020-04-15"
     },
     {
-      "title": "Two Minute Thai Peanut Noodles",
+      "name": "Two Minute Thai Peanut Noodles",
       "image": "/images/food/Noodles.png",
       "description": "Quick and inexpensive way to create delicious meal",
       "owner": "john@foo.com",
@@ -1549,7 +1549,7 @@
       "updated": "2020-04-26"
     },
     {
-      "title": "Make Ahead Breakfast Parfaits",
+      "name": "Make Ahead Breakfast Parfaits",
       "image": "/images/food/parfait.png",
       "description": "Quick, healthy breakfast for busy mornings.",
       "owner": "john@foo.com",
@@ -1589,7 +1589,7 @@
       "updated": "2020-04-26"
     },
     {
-      "title": "Easy Smores",
+      "name": "Easy Smores",
       "image": "/images/food/easysmore.jpg",
       "description": "Fast alternative to campfire smores.",
       "owner": "john@foo.com",
@@ -1625,7 +1625,7 @@
       "updated": "2020-04-26"
     },
     {
-      "title": "Ram n' Cheese",
+      "name": "Ram n' Cheese",
       "image": "/images/food/ramncheese.png",
       "description": "A nice mix of ramen and classic mac n' cheese for an fast and amazing meal.",
       "owner": "john@foo.com",
@@ -1665,7 +1665,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Veggie Breakfast Burrito",
+      "name": "Veggie Breakfast Burrito",
       "image": "/images/food/burrito.png",
       "description": "A healthy burrito alternative for everyone.",
       "owner": "john@foo.com",
@@ -1711,7 +1711,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Healthy Avocado Toast",
+      "name": "Healthy Avocado Toast",
       "image": "/images/food/avocado-toast.png",
       "description": "Fast and easy recipe for a simple meal in the morning",
       "owner": "john@foo.com",
@@ -1751,7 +1751,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Peanut butter, krispies, and chocolate sandwhich",
+      "name": "Peanut butter, krispies, and chocolate sandwhich",
       "image": "/images/food/chocolate-sandwhich.png",
       "description": "This snack is like a saturday-morning cartoon breakfast without the bowl.",
       "owner": "john@foo.com",
@@ -1785,7 +1785,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Homemade frozen mini pizza",
+      "name": "Homemade frozen mini pizza",
       "image": "/images/food/mini-pizza.png",
       "description": "They bake up all nice and are the perfect mini size.",
       "owner": "john@foo.com",
@@ -1826,7 +1826,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Easy fruit salad",
+      "name": "Easy fruit salad",
       "image": "/images/food/fruit-salad.png",
       "description": "Make this fruit salad in 10 minutes! So easy!",
       "owner": "john@foo.com",
@@ -1865,7 +1865,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Quick Oatmeal",
+      "name": "Quick Oatmeal",
       "image": "/images/food/oatmeal-snack.png",
       "description": "Quick and easy to make and you can customize it any way you want.",
       "owner": "john@foo.com",
@@ -1900,7 +1900,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Peanut butter toast",
+      "name": "Peanut butter toast",
       "image": "/images/food/peanut-butter-toast.png",
       "description": "Need a quick and healthy breakfast? toast up a slice of bread and spread some peanut butter on top wiht favorite toppings.",
       "owner": "john@foo.com",
@@ -1934,7 +1934,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Easy french toast",
+      "name": "Easy french toast",
       "image": "/images/food/french-toast.png",
       "description": "The classic in the moring item to add to your cup of coffee.",
       "owner": "john@foo.com",
@@ -1973,7 +1973,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Mango Madness",
+      "name": "Mango Madness",
       "image": "/images/food/frozen-mango-smoothie.png",
       "description": "Sip on summers fruitest flavors with these easy to make recipe.",
       "owner": "john@foo.com",
@@ -2011,7 +2011,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Chocolate wild blueberry mousse",
+      "name": "Chocolate wild blueberry mousse",
       "image": "/images/food/mousse.png",
       "description": "Fast and easy mousse snack that can easily be prepared in 1 minute!",
       "owner": "john@foo.com",
@@ -2047,7 +2047,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Garlic bacon bok choy",
+      "name": "Garlic bacon bok choy",
       "image": "/images/food/bok-choy.png",
       "description": "Can be used as an apetizer or amazing side dish!",
       "owner": "john@foo.com",
@@ -2089,7 +2089,7 @@
       "updated": "2020-04-27"
     },
     {
-      "title": "Coffee Cup Quiche",
+      "name": "Coffee Cup Quiche",
       "image": "/images/food/coffeecupquiche.jpg",
       "description": "A coffee cup is the perfect vessel for a quick meal such as quiche. It takes only a few ingredients and quick cooking time.",
       "owner": "john@foo.com",
@@ -2127,7 +2127,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "PB Chocolate Chip Chewy Granola Bars",
+      "name": "PB Chocolate Chip Chewy Granola Bars",
       "image": "/images/food/pbgranola.jpg",
       "description": "These Peanut Butter Chocolate Chip Chewy Granola Bars are made quickly and easily in the microwave and taste so delicious!",
       "owner": "john@foo.com",
@@ -2171,7 +2171,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "lox and bagel",
+      "name": "lox and bagel",
       "image": "/images/food/loxbagel.png",
       "description": "This open-face smoked salmon and cream cheese bagel is a great breakfast or brunch offering.",
       "owner": "john@foo.com",
@@ -2207,7 +2207,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "Chicken Curry",
+      "name": "Chicken Curry",
       "image": "/images/food/ckncurry.jpg",
       "description": "This recipe comes together in under an hour and is an excellent way to add some versatility to your weeknight dinner arsenal.",
       "owner": "john@foo.com",
@@ -2256,7 +2256,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "Acai bowl",
+      "name": "Acai bowl",
       "image": "/images/food/acaibowl.png",
       "description": "Acai bowls are truly as simple as blending a few ingredients together, pouring the mixture into a bowl, and adding your favorite toppings. They’re really that easy!",
       "owner": "john@foo.com",
@@ -2292,7 +2292,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "Loco Moco",
+      "name": "Loco Moco",
       "image": "/images/food/locomoco.jpg",
       "description": "The traditional loco moco consists of white rice, topped with a slice of spam, a fried egg, and brown gravy.",
       "owner": "john@foo.com",
@@ -2339,7 +2339,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "Everyday Salad",
+      "name": "Everyday Salad",
       "image": "/images/food/esalad.jpg",
       "description": "Perfect for serving as a side salad or main dish.",
       "owner": "john@foo.com",
@@ -2378,7 +2378,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "Triple Berry Smoothie",
+      "name": "Triple Berry Smoothie",
       "image": "/images/food/tripleberry.png",
       "description": "A smoothie is so much more than blended fruit. It's an art with all of its different elements blending perfectly together.",
       "owner": "john@foo.com",
@@ -2412,7 +2412,7 @@
       "updated": "2020-04-28"
     },
     {
-      "title": "Iced Green Tea",
+      "name": "Iced Green Tea",
       "image": "/images/food/greentea.jpg",
       "description": "Iced green tea with lemon, lime, and fresh mint is a refreshing and revitalizing beverage for those warm days. Each glass is naturally sweetened with honey.",
       "owner": "john@foo.com",
