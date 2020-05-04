@@ -56,6 +56,7 @@ export default class Signin extends React.Component {
                   iconPosition="left"
                   name="email"
                   type="email"
+                  autoComplete='username'
                   placeholder="E-mail address"
                   onChange={this.handleChange}
                 />
@@ -65,6 +66,7 @@ export default class Signin extends React.Component {
                   iconPosition="left"
                   name="password"
                   placeholder="Password"
+                  autoComplete='current-password'
                   type="password"
                   onChange={this.handleChange}
                 />

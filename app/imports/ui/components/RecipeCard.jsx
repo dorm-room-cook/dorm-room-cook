@@ -9,12 +9,12 @@ class RecipeCard extends React.Component {
 
     render() {
       return (
-      <Card centered>
+      <Card centered raised>
         <Image size='big' src={this.props.recipe.image}/>
         <Card.Content>
-          <Card.Header>{this.props.recipe.title}</Card.Header>
+          <Card.Header>{this.props.recipe.name}</Card.Header>
           <Card.Meta>
-            <List text-align='centered' horizontal divided>
+            <List text-align='center' horizontal divided>
               <List.Item>
                 <List.Content>
                   <List.Icon inverted color='blue' name='clock outline'/>
@@ -42,9 +42,9 @@ class RecipeCard extends React.Component {
             {this.props.recipe.description}
           </Card.Description>
         </Card.Content>
-        <Card.Content textAlign='center' extra>
+        <Card.Content textAlign='center' extra style={{ backgroundColor: 'rgba(0,0,0,0.2)' }}>
            <Modal closeIcon
-               trigger={<Button inverted color='blue'>View Details</Button>}
+               trigger={<Button basic color='orange'>View Details</Button>}
                size='small'>
              <Modal.Content>
                <article className="text-over">
@@ -57,9 +57,9 @@ class RecipeCard extends React.Component {
                    </figcaption>
                  </figure>
                </article>
-               <Grid container divided inverted stackable>
-                  <Grid.Row textAlign='centered'>
-                    <Header className='baloo' as='h2' content={this.props.recipe.title} color='orange'/>
+               <Grid container centered divided inverted stackable>
+                  <Grid.Row>
+                    <Header className='baloo' as='h2' content={this.props.recipe.name} color='orange'/>
                   </Grid.Row>
                  <Grid.Column width={4}>
                    <Header as='h4' content='Ingredients' />
@@ -81,7 +81,7 @@ class RecipeCard extends React.Component {
                  </Grid.Column>
                  <Grid.Column width={2}>
                    <Header as='h4' content='Info' />
-                   <List text-align='centered' divided>
+                   <List text-align='center' divided>
                      <List.Item>
                        <List.Content>
                          <List.Icon inverted color='blue' name='clock outline'/>

@@ -30,16 +30,17 @@ function createUser(email, password, role) {
   }
 }
 
+
 /** Initialize the database with a default recipe data document. */
 function addRecipes(data) {
-  console.log(`  Adding: ${data.title} (${data.owner})`);
+  console.log(`  Adding: ${data.name} (${data.owner})`);
   Recipes.insert(data);
 }
 
 /** Initialize the database with a default recipe data document. */
 function addProfiles(data) {
   console.log(`  Adding: ${data.firstName} (${data.email})`);
-  createUser(data.email, 'changeme', data.role);
+  createUser(data.email, 'changeme', '');
   // Create the profile.
   Profiles.insert(data);
 }

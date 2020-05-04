@@ -35,12 +35,12 @@ class Footer extends React.Component {
               <Grid.Column width={8}>
                 <Header inverted as='h4' content='Make sure to check us out!' />
                 <List horizontal>
-                  <List.Item><Icon name='facebook f large'/></List.Item>
-                  <List.Item><Icon name='twitter large'/></List.Item>
-                  <List.Item><Icon name='linkedin large'/></List.Item>
-                  <List.Item><Icon name='instagram large'/></List.Item>
-                  <List.Item><Icon name='twitch large'/></List.Item>
-                  <List.Item><Icon name='youtube large'/></List.Item>
+                  <List.Item><Icon name='facebook f' size='large'/></List.Item>
+                  <List.Item><Icon name='twitter' size='large'/></List.Item>
+                  <List.Item><Icon name='linkedin' size='large'/></List.Item>
+                  <List.Item><Icon name='instagram' size='large'/></List.Item>
+                  <List.Item><Icon name='twitch' size='large'/></List.Item>
+                  <List.Item><Icon name='youtube' size='large'/></List.Item>
                 </List>
               </Grid.Column>
              </Grid>
@@ -77,9 +77,10 @@ class Footer extends React.Component {
                     </Card.Content>
                     <Card.Content extra>
                       <div className="center aligned extra content">
-                        <a href="http://github.com/mlr77"><Icon name='big github'/></a>
-                        <a href="https://www.linkedin.com/in/michael-rogers-a2a1152a/"><Icon name='big linkedin'/></a>
-                        <a href="mailto:mlr2010@hawaii.edu"><Icon name='big mail square'/></a>
+                        <a href="http://github.com/mlr77"><Icon name='github' size='big'/></a>
+                        <a href="https://www.linkedin.com/in/michael-rogers-a2a1152a/">
+                          <Icon name='linkedin' size='big'/></a>
+                        <a href="mailto:mlr2010@hawaii.edu"><Icon name='mail square' size='big'/></a>
                       </div>
                     </Card.Content>
                   </Card>
@@ -98,9 +99,9 @@ class Footer extends React.Component {
                     </Card.Content>
                     <Card.Content extra>
                       <div className="center aligned extra content">
-                        <a href="http://github.com/joshuahartmann"><Icon name='big github'/></a>
-                        <a href="https://www.linkedin.com/in/joshua-hartmann/"><Icon name='big linkedin'/></a>
-                        <a href="mailto:joshuabh@hawaii.edu"><Icon name='big mail square'/></a>
+                        <a href="http://github.com/joshuahartmann"><Icon name='github' size='big'/></a>
+                        <a href="https://www.linkedin.com/in/joshua-hartmann/"><Icon name='linkedin' size='big'/></a>
+                        <a href="mailto:joshuabh@hawaii.edu"><Icon name='mail square' size='big'/></a>
                       </div>
                     </Card.Content>
                   </Card>
@@ -119,9 +120,9 @@ class Footer extends React.Component {
                     </Card.Content>
                     <Card.Content extra>
                       <div className="center aligned extra content">
-                        <a href="http://github.com/rberbano"><Icon name='big github'/></a>
-                        <a href="https://www.linkedin.com/in/randallberbano/"><Icon name='big linkedin'/></a>
-                        <a href="mailto:jrberbano@hawaii.edu"><Icon name='big mail square'/></a>
+                        <a href="http://github.com/rberbano"><Icon name='github' size='big'/></a>
+                        <a href="https://www.linkedin.com/in/randallberbano/"><Icon name='linkedin' size='big'/></a>
+                        <a href="mailto:jrberbano@hawaii.edu"><Icon name='mail square' size='big'/></a>
                       </div>
                     </Card.Content>
                   </Card>
@@ -140,9 +141,9 @@ class Footer extends React.Component {
                     </Card.Content>
                     <Card.Content extra>
                       <div className="center aligned extra content">
-                        <a href="http://github.com/ryanm73"><Icon name='big github'/></a>
-                        <a href="https://www.linkedin.com/in/ryan-mangubat/"><Icon name='big linkedin'/></a>
-                        <a href="mailto:ryan73@hawaii.edu"><Icon name='big mail square'/></a>
+                        <a href="http://github.com/ryanm73"><Icon name='github' size='big'/></a>
+                        <a href="https://www.linkedin.com/in/ryan-mangubat/"><Icon name='linkedin' size='big'/></a>
+                        <a href="mailto:ryan73@hawaii.edu"><Icon name='mail square' size='big'/></a>
                       </div>
                     </Card.Content>
                   </Card>
@@ -161,9 +162,9 @@ class Footer extends React.Component {
                     </Card.Content>
                     <Card.Content extra>
                       <div className="center aligned extra content">
-                        <a href="http://github.com/jonathanoba"><Icon name='big github'/></a>
-                        <a href="https://www.linkedin.com/in/jonathanoba/"><Icon name='big linkedin'/></a>
-                        <a href="mailto:joba@hawaii.edu"><Icon name='big mail square'/></a>
+                        <a href="http://github.com/jonathanoba"><Icon name='github' size='big'/></a>
+                        <a href="https://www.linkedin.com/in/jonathanoba/"><Icon name='linkedin' size='big'/></a>
+                        <a href="mailto:joba@hawaii.edu"><Icon name='mail square' size='big'/></a>
                       </div>
                     </Card.Content>
                   </Card>

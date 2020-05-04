@@ -28,20 +28,15 @@ class App extends React.Component {
           <div>
             <NavBar/>
             <Switch>
-              { /* The main landing page - everyone sees this */}
               <Route exact path="/" component={Landing}/>
-              { /* The page that displays all recipe cards - everyone has access */}
-              <Route path="/recipes" component={ListRecipes}/>
-              { /* The page that displays all vendor cards - everyone sees this */}
-              <Route path="/vendors" component={ListVendors}/>
-              { /* Sign-in/Sign-up - everyone can do this */}
               <Route path="/signin" component={Signin}/>
               <Route path="/signup" component={Signup}/>
-              { /* Need to be logged in to add/edit/delete items and recipes */ }
+              <Route path="/recipes" component={ListRecipes}/>
+              <Route path="/vendors" component={ListVendors}/>
               <ProtectedRoute path="/myrecipes" component={MyRecipes}/>
               <ProtectedRoute path="/myitems" component={MyItems}/>
               <ProtectedRoute path="/edititem/:_id" component={EditItem}/>
-              <ProtectedRoute path="/editprofile/:_id" component={EditProfile}/>
+              <ProtectedRoute path="/profile/:email" component={EditProfile}/>
               {/* <ProtectedRoute path="/editrecipe" component={EditRecipe}/> */}
               {/* <ProtectedRoute path="/items" component={ListVendorItems}/> */}
               {/* <AdminProtectedRoute path="/adminitems" component={ListVendorItemsAdmin}/> */}
