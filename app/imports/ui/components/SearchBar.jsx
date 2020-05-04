@@ -4,21 +4,31 @@ import { Grid, Input, Icon, Dropdown, Menu, Container } from 'semantic-ui-react'
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+const filter = {
+  filtered: false,
+  minTime: 0,
+  maxTime: 0,
+  ingredients: [],
+  type: [],
+  tools: [],
+};
+
+const options = [
+  { key: 'angular', text: 'Angular', value: 'angular' },
+  { key: 'css', text: 'CSS', value: 'css' },
+  { key: 'design', text: 'Graphic Design', value: 'design' },
+  { key: 'ember', text: 'Ember', value: 'ember' },
+  { key: 'html', text: 'HTML', value: 'html' },
+];
+
 class SearchBar extends Component {
   state = {
     results: [],
     value: '',
     source: [],
     showMore: false,
-    filters: {
-      filtered: false,
-      time: 0,
-      ingredients: [],
-      type: [],
-      tools: [],
-      servings: 0,
-    },
-  }
+    filters: filter,
+  };
 
   handleSearchChange = (e) => {
     this.setState({ value: e.target.value });
@@ -40,18 +50,17 @@ class SearchBar extends Component {
       }
 
     }, 300);
-  }
+  };
 
-  /*
-  * time
-  * items - #of ingredients
-  * ingredients
-  * type - keyword
-  * tools - like stove etc
-  * servings
-  * views
-  * created
-  */
+  onAdd = (name, list) => {
+    if (name === 'ingredients') {
+      this.setState({ ingredients: list });
+    } else if (name === 'type') {
+      this.setState({ type: list });
+    } else if (name === 'tools') {
+      this.setState({ tools: list });
+    }
+  };
 
   render() {
     const { source, showMore } = this.state;
@@ -75,8 +84,48 @@ class SearchBar extends Component {
             />
             {showMore ?
                 <div style={ filterMenu }>
-                  {/* maybe use grid or flex */}
-                  <p onClick={() => this.setState({ showMore: !showMore })}>show less</p>
+                  <Grid>
+                    <Grid.Row columns={4}>
+                      <Grid.Column>
+                        time<br/>
+                        <input
+                          type='number'
+                          placeholder='min'
+                        />
+                        <input
+                          type='number'
+                          placeholder='max'
+                        />
+                      </Grid.Column>
+                      <Grid.Column>
+                        ingredients
+                        <Dropdown
+                            placeholder='ingredients'
+                            fluid
+                            multiple
+                            search
+                            selection
+                            name='ingedients'
+                            onChange={(e, selected) => this.onAdd(selected.name, selected.value)}
+                            options={options}
+                        />
+                      </Grid.Column>
+                      <Grid.Column>
+                        type
+                      </Grid.Column>
+                      <Grid.Column>
+                        tools
+                      </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                      <Grid.Column floated='right'>
+                        <p onClick={() => this.setState({ filters: filter })} >clear filters</p>
+                      </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row centered>
+                      <p onClick={() => this.setState({ showMore: !showMore })}>show less</p>
+                    </Grid.Row>
+                  </Grid>
                 </div>
                 :
                 <div onClick={() => this.setState({ showMore: !showMore })} style={{ margin: '5px 0px' }}>
@@ -92,8 +141,8 @@ class SearchBar extends Component {
 const filterMenu = {
   backgroundColor: 'white',
   width: '100%',
-  height: '150px',
-}
+  height: '100%',
+};
 
 SearchBar.propTypes = {
   recipes: PropTypes.array.isRequired,
