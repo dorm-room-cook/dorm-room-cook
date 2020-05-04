@@ -3,7 +3,7 @@
     {
       "firstName": "Michael",
       "lastName": "Rogers",
-      "bio": "Project Management, Website Design and Recipe Creation",
+      "bio": "Project Management and Website Design.",
       "major": "Computer Science",
       "interests": [
         "Sandwiches",
@@ -14,13 +14,15 @@
         "Fluffernutter Sandwich",
         "Something else"
       ],
+      "linkedIn": "https://www.linkedin.com/in/michael-rogers-a2a1152a/",
+      "github": "http://github.com/mlr77",
       "picture": "https://ca.slack-edge.com/TS7NRJMB7-US9698SUR-7eab80555b70-512",
       "email": "mlr2010@hawaii.edu"
     },
     {
       "firstName": "Joshua",
       "lastName": "Hartmann",
-      "bio": "React Framework Guru",
+      "bio": "React Framework Guru.",
       "major": "Computer Science",
       "interests": [
         "Something",
@@ -32,13 +34,15 @@
         "Something Else",
         "Another thing"
       ],
-      "picture": "https://ca.slack-edge.com/TS7NRJMB7-US9698SUR-7eab80555b70-512",
-      "email": "mlr2010@hawaii.edu"
+      "linkedIn": "https://www.linkedin.com/in/joshua-hartmann/",
+      "github": "http://github.com/joshuahartmann",
+      "picture": "https://ca.slack-edge.com/TS7NRJMB7-USAD0EUAE-60de112b7d73-512",
+      "email": "joshuabh@hawaii.edu"
     },
     {
-      "firstName": "Michael",
-      "lastName": "Rogers",
-      "bio": "Meteor and JavaScript Aficionado",
+      "firstName": "Randall",
+      "lastName": "Berbano",
+      "bio": "Meteor and JavaScript Aficionado.",
       "major": "Engineering",
       "interests": [
         "Something",
@@ -50,13 +54,15 @@
         "Something Else",
         "Another thing"
       ],
+      "linkedIn": "https://www.linkedin.com/in/randallberbano/",
+      "github": "http://github.com/rberbano",
       "picture": "https://ca.slack-edge.com/TS7NRJMB7-USEBKFVSM-21eaa8d50430-512",
-      "email": "user@hawaii.edu"
+      "email": "jrberbano@hawaii.edu"
     },
     {
       "firstName": "Ryan",
       "lastName": "Mangubat",
-      "bio": "Front End Development",
+      "bio": "Front End Development/Documentation.",
       "major": "Engineering",
       "interests": [
         "Something",
@@ -68,8 +74,10 @@
         "Something Else",
         "Another thing"
       ],
+      "linkedIn": "https://www.linkedin.com/in/ryan-mangubat/",
+      "github": "http://github.com/ryanm73",
       "picture": "https://ca.slack-edge.com/TS7NRJMB7-USMBWH3KJ-6b53892ebced-512",
-      "email": "user@hawaii.edu"
+      "email": "ryan73@hawaii.edu"
     },
     {
       "firstName": "Jonathan",
@@ -86,8 +94,10 @@
         "Something Else",
         "Another thing"
       ],
+      "linkedIn": "https://www.linkedin.com/in/jonathanoba/",
+      "github": "http://github.com/jonathanoba",
       "picture": "https://ca.slack-edge.com/TS7NRJMB7-USLHUCQ95-14f2f6636888-512",
-      "email": "user2010@hawaii.edu"
+      "email": "joba@hawaii.edu"
     }
   ]
 }

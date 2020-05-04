@@ -1,17 +1,7 @@
 {
   "defaultAccounts": [
     { "email": "admin@foo.com", "password": "changeme", "role": "admin" },
-    { "email": "john@foo.com", "password": "changeme" },
-    { "email": "safeway@foo.com", "password": "changeme", "role": "vendor" },
-    { "email": "foodland@foo.com", "password": "changeme", "role": "vendor" },
-    { "email": "walmart@foo.com", "password": "changeme", "role": "vendor" },
-    { "email": "themarket@foo.com", "password": "changeme", "role": "vendor" },
-    { "email": "vendor@foo.com", "password": "changeme", "role": "vendor" }
+    { "email": "john@foo.com", "password": "changeme" }
   ],
-  "defaultData": [
-      { "name": "Chives", "price": 2.00, "size": "medium", "vendor": "Safeway", "owner": "safeway@foo.com",
-        "availability": true, "qty": 3
-      }
-    ],
   "loadAssetsFile":  true
 }

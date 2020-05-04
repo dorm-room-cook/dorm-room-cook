@@ -1,4 +1,6 @@
 import { Meteor } from 'meteor/meteor';
+import { Accounts } from 'meteor/accounts-base';
+import { Roles } from 'meteor/alanning:roles';
 import { Items } from '../../api/items/Items.js';
 import { Recipes } from '../../api/recipes/Recipes.js';
 import { Profiles } from '../../api/profiles/Profiles.js';
@@ -6,11 +8,27 @@ import { Vendors } from '../../api/vendors/Vendors.js';
 
 /* eslint-disable no-console */
 
-// /** Initialize the database with a default data document. */
-// function addDefaultData(data) {
-//   console.log(`  Adding: ${data.name} (${data.owner})`);
-//   Items.insert(data);
+/** Define an interest.  Has no effect if interest already exists. */
+// function addRecipes(recipe) {
+//   Recipes.update({ name: recipe }, { $set: { name: recipe } }, { upsert: true });
 // }
+
+function createUser(email, password, role) {
+  console.log(`  Creating user ${email}.`);
+  const userID = Accounts.createUser({
+    username: email,
+    email: email,
+    password: password,
+  });
+
+  if (role === 'admin') {
+    Roles.addUsersToRoles(userID, 'admin');
+  }
+
+  if (role === 'vendor') {
+    Roles.addUsersToRoles(userID, 'vendor');
+  }
+}
 
 /** Initialize the database with a default recipe data document. */
 function addRecipes(data) {
@@ -21,6 +39,8 @@ function addRecipes(data) {
 /** Initialize the database with a default recipe data document. */
 function addProfiles(data) {
   console.log(`  Adding: ${data.firstName} (${data.email})`);
+  createUser(data.email, 'changeme', data.role);
+  // Create the profile.
   Profiles.insert(data);
 }
 
@@ -32,17 +52,10 @@ function addItems(data) {
 
 /** Initialize the database with a default recipe data document. */
 function addVendors(data) {
-  console.log(`  Adding: ${data.name} (${data.owner})`);
+  console.log(`  Adding: ${data.name} (${data.email})`);
+  createUser(data.email, 'changeme', 'vendor');
   Vendors.insert(data);
 }
-
-// /** Initialize the collection if empty. */
-// if (Items.find().count() === 0) {
-//   if (Meteor.settings.defaultData) {
-//     console.log('Creating default data.');
-//     Meteor.settings.defaultData.map(data => addDefaultData(data));
-//   }
-// }
 
 /**
  * If the loadAssetsFile field in settings.development.json is true, then load the data in private/recipe.json.
@@ -52,11 +65,7 @@ function addVendors(data) {
  * For more info on assets, see https://docs.meteor.com/api/assets.html
  * Recipe count check is to make sure we don't load the file twice, which would generate errors due to duplicate info.
  */
-if ((Meteor.settings.loadAssetsFile) && (Recipes.find().count() < 3)
-// && (Vendors.find().count() < 3)
-// && (Profiles.find().count() < 3)
-// && (Items.find().count() < 3)
-) {
+if ((Meteor.settings.loadAssetsFile) && (Recipes.find().count() < 3)) {
   /* Add items data */
   const itemsFileName = 'items.json';
   console.log(`Loading data from private/${itemsFileName}`);

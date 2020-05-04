@@ -18,6 +18,7 @@ import MyRecipes from '../pages/MyRecipes';
 import MyItems from '../pages/MyItems';
 import EditItem from '../pages/EditItem';
 import ListVendors from '../pages/ListVendors';
+import EditProfile from '../pages/EditProfile';
 
 /** Top-level layout component for this application. Called in imports/startup/client/startup.jsx. */
 class App extends React.Component {
@@ -40,7 +41,7 @@ class App extends React.Component {
               <ProtectedRoute path="/myrecipes" component={MyRecipes}/>
               <ProtectedRoute path="/myitems" component={MyItems}/>
               <ProtectedRoute path="/edititem/:_id" component={EditItem}/>
-              {/* <ProtectedRoute path="/editprofile" component={EditProfile}/> */}
+              <ProtectedRoute path="/editprofile/:_id" component={EditProfile}/>
               {/* <ProtectedRoute path="/editrecipe" component={EditRecipe}/> */}
               {/* <ProtectedRoute path="/items" component={ListVendorItems}/> */}
               {/* <AdminProtectedRoute path="/adminitems" component={ListVendorItemsAdmin}/> */}

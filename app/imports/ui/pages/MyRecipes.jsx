@@ -1,6 +1,6 @@
 import React from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Grid, Modal, Button, Icon, Segment } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Grid, Modal, Button, Icon } from 'semantic-ui-react';
 import { AutoForm } from 'uniforms-semantic';
 import swal from 'sweetalert';
 import PropTypes from 'prop-types';
