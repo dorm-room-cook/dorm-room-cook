@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
 import RecipeCard from '/imports/ui/components/RecipeCard';
@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 import { Recipes } from '../../api/recipes/Recipes';
 
 /** Renders a table containing all of the Contact documents. */
-class ListRecipes extends React.Component {
+class ListRecipes extends Component {
 
   /** Render the page once subscriptions have been received. */
   render() {

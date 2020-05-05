@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid, Image, Header } from 'semantic-ui-react';
+import FeaturedRecipesBlock from '../components/FeaturedRecipesBlock';
+import MissionBlock from '../components/MissionBlock';
+import StatisticBlock from '../components/StatisticBlock';
 
 /** A simple static component to render some text for the landing page. */
-class Landing extends React.Component {
+class Landing extends Component {
   render() {
     return (
         <div>
@@ -16,11 +19,16 @@ class Landing extends React.Component {
                 be made from the comfort of your dorm room or apartment.</p>
               <p className='baloo'>Recipes are crafted with nutrition, budget, and local Hawaiian vendors
                 in mind.</p>
-              <br />
+              <br/>
             </Grid.Column>
+            <Grid.Column width={2}/>
           </Grid>
+          <FeaturedRecipesBlock/>
+          <MissionBlock/>
+          <StatisticBlock/>
         </div>
     );
   }
 }
+
 export default Landing;

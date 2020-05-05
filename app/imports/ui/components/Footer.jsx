@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Container, Grid, Header, Icon, Card, List, Segment, Modal, Image } from 'semantic-ui-react';
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
-class Footer extends React.Component {
+class Footer extends Component {
   state = { open: false }
 
   show = (size) => () => this.setState({ size, open: true })
