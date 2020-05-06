@@ -1,63 +1,47 @@
 import React from 'react';
-import { Segment, Statistic } from 'semantic-ui-react';
+import { Grid, Segment, Statistic } from 'semantic-ui-react';
 
 export default class StatisticBlock extends React.Component {
   render() {
     return (
-    <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
-      <Statistic inverted>
-        <Statistic.Value>54</Statistic.Value>
-        <Statistic.Label>inverted</Statistic.Label>
-      </Statistic>
-      <Statistic color='red' inverted>
-        <Statistic.Value>27</Statistic.Value>
-        <Statistic.Label>red</Statistic.Label>
-      </Statistic>
-      <Statistic color='orange' inverted>
-        <Statistic.Value>81</Statistic.Value>
-        <Statistic.Label>orange</Statistic.Label>
-      </Statistic>
-      <Statistic color='yellow' inverted>
-        <Statistic.Value>28</Statistic.Value>
-        <Statistic.Label>yellow</Statistic.Label>
-      </Statistic>
-      <Statistic color='olive' inverted>
-        <Statistic.Value>72</Statistic.Value>
-        <Statistic.Label>olive</Statistic.Label>
-      </Statistic>
-      <Statistic color='green' inverted>
-        <Statistic.Value>14</Statistic.Value>
-        <Statistic.Label>green</Statistic.Label>
-      </Statistic>
-      <Statistic color='teal' inverted>
-        <Statistic.Value>82</Statistic.Value>
-        <Statistic.Label>teal</Statistic.Label>
-      </Statistic>
-      <Statistic color='blue' inverted>
-        <Statistic.Value>13</Statistic.Value>
-        <Statistic.Label>blue</Statistic.Label>
-      </Statistic>
-      <Statistic color='violet' inverted>
-        <Statistic.Value>22</Statistic.Value>
-        <Statistic.Label>violet</Statistic.Label>
-      </Statistic>
-      <Statistic color='purple' inverted>
-        <Statistic.Value>23</Statistic.Value>
-        <Statistic.Label>purple</Statistic.Label>
-      </Statistic>
-      <Statistic color='pink' inverted>
-        <Statistic.Value>15</Statistic.Value>
-        <Statistic.Label>pink</Statistic.Label>
-      </Statistic>
-      <Statistic color='brown' inverted>
-        <Statistic.Value>36</Statistic.Value>
-        <Statistic.Label>brown</Statistic.Label>
-      </Statistic>
-      <Statistic color='grey' inverted>
-        <Statistic.Value>49</Statistic.Value>
-        <Statistic.Label>grey</Statistic.Label>
-      </Statistic>
-    </Segment>
+        <Segment inverted vertical style={{ margin: '15em 0em 0em', padding: '5em 0em' }}>
+          <Grid textAlign='center'>
+            <Grid.Row>
+              <Grid.Column width={8}>
+                <Statistic color='orange' inverted>
+                  <Statistic.Value>Five</Statistic.Value>
+                  <Statistic.Label>Active Users</Statistic.Label>
+                </Statistic>
+                <Statistic color='violet' inverted>
+                  <Statistic.Value>+</Statistic.Value>
+                </Statistic>
+                <Statistic color='yellow' inverted>
+                  <Statistic.Value>59</Statistic.Value>
+                  <Statistic.Label>Recipes</Statistic.Label>
+                </Statistic>
+                <Statistic color='teal' inverted>
+                  <Statistic.Value>+</Statistic.Value>
+                </Statistic>
+                <Statistic color='green' inverted>
+                  <Statistic.Value>Some</Statistic.Value>
+                  <Statistic.Label>Vendors</Statistic.Label>
+                </Statistic>
+                <Statistic color='pink' inverted>
+                  <Statistic.Value>=</Statistic.Value>
+                </Statistic>
+                <Statistic color='blue' inverted>
+                  <Statistic.Value>loads</Statistic.Value>
+                </Statistic>
+                <Statistic color='purple' inverted>
+                  <Statistic.Value>of</Statistic.Value>
+                </Statistic>
+                <Statistic color='red' inverted>
+                  <Statistic.Value>happiness</Statistic.Value>
+                </Statistic>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Segment>
     );
   }
 }

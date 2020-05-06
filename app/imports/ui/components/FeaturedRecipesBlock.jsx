@@ -21,10 +21,11 @@ class FeaturedRecipesBlock extends Component {
     const featuredRecipes = _.sample(this.props.recipes, 3);
 
     return (
-        <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
+        <Segment inverted vertical style={{ padding: '5em 0em' }}>
           <Container>
             <Grid>
-              <Grid.Column width={16}>
+              <Grid.Column width={1}/>
+              <Grid.Column width={14}>
                 <Card.Group>
                   {featuredRecipes.map((recipe, index) => <FeaturedRecipeCard
                           key={index}
@@ -32,6 +33,7 @@ class FeaturedRecipesBlock extends Component {
                           Recipes={Recipes}
                       />)}
                 </Card.Group>
+                <Grid.Column width={1}/>
               </Grid.Column>
             </Grid>
           </Container>

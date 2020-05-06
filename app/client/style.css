@@ -4,6 +4,7 @@ html {
 
 body {
   background: linear-gradient(to top, blue, red) fixed !important;
+  /*background: #bbbbbb !important;*/
 }
 
 /* Handles the checked Ingredients in the Recipe Modal */
@@ -20,29 +21,14 @@ label {
   color: #d4d4d5 !important;
 }
 
-/*.profileCard {*/
-/*  position: relative;*/
-/*  background-size: cover;*/
-/*  background-position: center;*/
-/*  backdrop-filter: blur(20px);*/
-/*  background-color: rgba(255, 255, 255, 0.5);*/
-/*  border-radius: 5px;*/
-/*  box-sizing: border-box;*/
-/*  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
-/*  transition: .3s ease;*/
-/*  margin: 2vw;*/
-/*  display: flex;*/
-/*  justify-content: center;*/
-/*  align-items: center;*/
-/*}*/
-
-/*.card-title {*/
-/*  font-size: 6vh;*/
-/*}*/
-
-/*.card-text {*/
-/*  font-size: 4vh;*/
-/*}*/
+p.mission-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.875;
+  color: #cccdd3;
+  letter-spacing: .1em;
+  text-align: center;
+}
 
 /*!* Fix highlight for item and font hover *!*/
 i:hover {
@@ -54,14 +40,14 @@ i:hover {
 
 /* Image filters - to use, just add className='uh-green' for example after <Image /> */
 .uh-green { filter: invert(16%) sepia(56%) saturate(2027%) hue-rotate(137deg) brightness(94%) contrast(98%); }
-.grayscale { filter: grayscale(100%); }
-.contrast { filter: contrast(160%); }
-.brightness { filter: brightness(0.25); }
-.blur { filter: blur(3px); }
-.invert { filter: invert(100%); }
-.sepia { filter: sepia(100%); }
-.huerotate { filter: hue-rotate(180deg); }
-.rss.opacity { filter: opacity(50%); }
+/*.grayscale { filter: grayscale(100%); }*/
+/*.contrast { filter: contrast(160%); }*/
+/*.brightness { filter: brightness(0.25); }*/
+/*.blur { filter: blur(3px); }*/
+/*.invert { filter: invert(100%); }*/
+/*.sepia { filter: sepia(100%); }*/
+/*.huerotate { filter: hue-rotate(180deg); }*/
+/*.rss.opacity { filter: opacity(50%); }*/
 .white {filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(299deg) brightness(101%) contrast(103%); }
 
 /* INTRO BLOCK */
@@ -82,7 +68,7 @@ h1.ui.header {
   height: 25px;
   font-family: 'Baloo Thambi 2', cursive;
   font-size: 18px;
-  margin-bottom: 50px !important;
+  /*margin-bottom: 50px !important;*/
 }
 
 /* Fix highlight for item and font hover */
