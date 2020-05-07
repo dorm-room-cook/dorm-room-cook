@@ -13,7 +13,7 @@ class Footer extends Component {
 
     return (
       <footer>
-        <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
+        <Segment inverted vertical style={{ margin: '0em 0em 0em', padding: '5em 0em' }}>
           <Container textAlign='center'>
              <Grid divided inverted stackable>
               <Grid.Column width={4}>

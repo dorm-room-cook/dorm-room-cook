@@ -21,6 +21,7 @@ const RecipeSchema = new SimpleSchema({
   instructions: [String],
   source: { type: String, optional: true },
   views: Number,
+  rating: { type: Number, min: 0, max: 5, optional: true },
   notes: [String],
   created: String,
   updated: String,

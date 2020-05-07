@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Header, Icon, Image } from 'semantic-ui-react';
+import { Card, Icon, Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
@@ -8,18 +8,18 @@ class ProfileCard extends React.Component {
 
     render() {
 
-      const cardContentStyle1 = { backgroundColor: 'rgba(0,0,0,0.8)', width: '100%', height: '40px' };
+      // const cardContentStyle1 = { backgroundColor: 'rgba(0,0,0,0.8)', width: '100%', height: '40px' };
       const cardContentStyle2 = { backgroundColor: 'rgba(0,0,0,0.2', width: '100%' };
       const cardContentStyle3 = { backgroundColor: 'rgba(0,0,0,0.1', width: '100%' };
       const iconStyle = { color: 'darkGreen' };
 
       return (
         <Card basic centered size='tiny' raised='true'>
-          <Card.Content style={ cardContentStyle1 }>
-          <Header as="h4" style={{ color: 'white' }} textAlign="center">Profile View</Header>
-          </Card.Content>
-          <Image src={this.props.profile.picture}/>
+          {/* <Card.Content style={ cardContentStyle1 }> */}
+          {/* <Header as="h4" style={{ color: 'white' }} textAlign="center">Profile View</Header> */}
+          {/* </Card.Content> */}
           <Card.Content extra style={ cardContentStyle2 }>
+            <Image floated='right' size='mini' src={this.props.profile.picture}/>
             <Card.Header>{this.props.profile.firstName} {this.props.profile.lastName}</Card.Header>
             <Card.Meta>Student, {this.props.profile.major}</Card.Meta>
             <Card.Description>

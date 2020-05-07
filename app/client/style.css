@@ -1,25 +1,84 @@
 html {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: linear-gradient(to top, blue, red) fixed !important;
+  /*background: linear-gradient(to top, blue, red) fixed !important;*/
+  /*background: linear-gradient(to top, grey, black) fixed !important;*/
   /*background: #bbbbbb !important;*/
+  background: rgb(2,71,49) !important;
+}
+
+.ui.form .field > label{
+  color: white !important;
 }
 
 /* Handles the checked Ingredients in the Recipe Modal */
-.ui.checked.checkbox label {
-  color: rgb(128, 128, 128);
+.ui.checked.checkbox {
+  color: rgb(255, 1, 1);
   text-decoration: line-through;
+}
+
+.ui.ordered.list > .item:before {
+  left: -5px !important;
+  font: bold 14px sans-serif;
+  text-align: center !important;
+  color: rgb(255,255,255) !important;
+  line-height: 18px;
+  width: 18px; height: 18px;
+  background: rgb(255,102,0);
+  -moz-border-radius: 999px;
+  border-radius: 999px
+}
+
+.featuredPic {
+  border-image: round;
+}
+
+label .ingredients {
+  color: #0f0f10 !important;
+}
+
+/* 2. Make nav sticky */
+main > nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+.section-nav li.active > a {
+  color: #333;
+  font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+  padding-left: 0;
+  border-left: 1px solid #efefef;
+}
+
+.section-nav a {
+  text-decoration: none;
+  display: block;
+  padding: .125rem 0;
+  color: #ccc;
+  transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+  color: #666;
 }
 
 .linediv {
   margin: 1rem 0rem;
 }
 
-label {
-  color: #d4d4d5 !important;
-}
+/*label {*/
+/*  color: #d4d4d5 !important;*/
+/*}*/
 
 p.mission-text {
   font-size: 16px;
@@ -27,7 +86,6 @@ p.mission-text {
   line-height: 1.875;
   color: #cccdd3;
   letter-spacing: .1em;
-  text-align: center;
 }
 
 /*!* Fix highlight for item and font hover *!*/
@@ -50,44 +108,53 @@ i:hover {
 /*.rss.opacity { filter: opacity(50%); }*/
 .white {filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(299deg) brightness(101%) contrast(103%); }
 
-/* INTRO BLOCK */
-h1.ui.header {
-  font-family: 'Indie Flower', cursive;
-  font-size: 40px !important;
-}
-
-.baloo{
-  font-family: 'Baloo Thambi 2', cursive;
-  font-size: 20px;
-}
-
 /* Add font and change menu display settings */
 .ui.menu.top {
-  background-color: rgba(0,0,0,0.8) !important;
+  background: transparent !important;
   border-radius: 0;
   height: 25px;
-  font-family: 'Baloo Thambi 2', cursive;
+  font-family: 'Pacifico', cursive;
   font-size: 18px;
-  /*margin-bottom: 50px !important;*/
 }
 
-/* Fix highlight for item and font hover */
-.ui .item:hover {
-  /*background: transparent !important;*/
+/** Nav Menu Items home/recipes/etc. */
+.ui.secondary.inverted.pointing.menu a.item{ color: rgba(255, 255, 255, 0.9) !important; }
+.ui.secondary.inverted.pointing.menu a.item.active{
   transition: cubic-bezier(0.1, 0.7, 1.0, 0.1);
   transition: color .5s;
   color: #ff6600 !important;
 }
 
-/*!* Fix decorations for active menu item *!*/
-/*.ui.menu.top .active{*/
+.ui.secondary.inverted.pointing.menu .active.item{
+  border-color: #ff6600 !important;
+  /*border-image: url("public/images/shapes/squiggly1.png") inherit !important;*/
+}
+
+
+/*.ui.menu .active:hover {*/
 /*  background: transparent !important;*/
-/*  color: #008800 !important;*/
+/*  transition: cubic-bezier(0.1, 0.7, 1.0, 0.1);*/
+/*  transition: color .5s;*/
+/*  color: #ff6600 !important;*/
 /*}*/
 
-.buttons {
-  width: 100%;
+/* Fix highlight for item and font hover */
+.ui .item:hover {
+  background: transparent !important;
+  transition: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+  transition: color .5s;
+  color: #ff6600 !important;
 }
+
+/* Fix decorations for active menu item */
+.active {
+  background: transparent !important;
+  /*color: #ff6600 !important;*/
+}
+
+/*.buttons {*/
+/*  width: 100%;*/
+/*}*/
 
 .text-over {
   display: flex;
@@ -108,9 +175,10 @@ h1.ui.header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(0deg, #9f99a0 0%, rgba(248, 248, 248, 0.91) 100%);
+  /*background-image: linear-gradient(0deg, #9f99a0 0%, rgba(248, 248, 248, 0.91) 100%);*/
+  /*background-image: linear-gradient(to top, blue, red) fixed !important;*/
   content: '';
-  border-radius: 50px 5px 50px 5px !important;
+  /*border-radius: 50px 5px 50px 5px !important;*/
 }
 
 .text-over figure:hover img {
@@ -153,6 +221,31 @@ h1.ui.header {
   object-fit: cover;
   mix-blend-mode: multiply;
   filter: saturate(1.5);
-  border-radius: 50px 5px 50px 5px !important;
+  /*border-radius: 50px 5px 50px 5px !important;*/
   transition: all 0.3s ease-in-out;
 }
+
+#scrollUp {
+  right: 25px;
+  bottom: 25px;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  display: block;
+}
+
+/*.product-tab li a.active::after {*/
+/*  background-image: url(/images/shape/1.png);*/
+/*  background-repeat: no-repeat;*/
+/*  content: "";*/
+/*  height: 6px;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*  transition: all 0.3s ease 0s;*/
+/*  width: 76px;*/
+/*  right: 0;*/
+/*  margin: auto;*/
+/*  bottom: -25px;*/
+/*  text-align: center;*/
+/*  background-position: center;*/
+/*}*/

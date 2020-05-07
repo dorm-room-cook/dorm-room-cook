@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Segment, Container, Card, Loader, Grid } from 'semantic-ui-react';
+import { Container, Card, Loader, Grid } from 'semantic-ui-react';
 import FeaturedRecipeCard from '/imports/ui/components/FeaturedRecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
@@ -21,28 +21,26 @@ class FeaturedRecipesBlock extends Component {
     const featuredRecipes = _.sample(this.props.recipes, 3);
 
     return (
-        <Segment inverted vertical style={{ padding: '5em 0em' }}>
-          <Container>
-            <Grid>
+        <Container style={{ padding: '2.5em 0em' }}>
+          <Grid>
+            <Grid.Column width={1}/>
+            <Grid.Column width={14}>
+              <Card.Group>
+                {featuredRecipes.map((recipe, index) => <FeaturedRecipeCard
+                    key={index}
+                    recipe={recipe}
+                    Recipes={Recipes}
+                />)}
+              </Card.Group>
               <Grid.Column width={1}/>
-              <Grid.Column width={14}>
-                <Card.Group>
-                  {featuredRecipes.map((recipe, index) => <FeaturedRecipeCard
-                          key={index}
-                          recipe={recipe}
-                          Recipes={Recipes}
-                      />)}
-                </Card.Group>
-                <Grid.Column width={1}/>
-              </Grid.Column>
-            </Grid>
-          </Container>
-        </Segment>
+            </Grid.Column>
+          </Grid>
+        </Container>
     );
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.setState({ time: Date.now() }), 10000);
+    this.interval = setInterval(() => this.setState({ time: Date.now() }), 25000);
   }
 
   componentWillUnmount() {

@@ -11,6 +11,7 @@ import {
   Dimmer,
   Divider,
   Rating,
+  Container,
   Responsive,
 } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
@@ -34,9 +35,9 @@ class RecipeCard extends Component {
     };
     const span = { color: 'rgb(255,102,0)' };
     const desc = { color: 'rgb(255,255,255)' };
-    const directionStyle = { color: 'rgb(0,0,0)' };
+    const directionStyle = { color: 'rgb(0,0,0)', lineHeight: '1.5em' };
     const content = (
-        <div>
+        <Container>
           <Card.Content>
             <Card.Header style={header}>{this.props.recipe.name}</Card.Header>
             <Divider/>
@@ -68,7 +69,7 @@ class RecipeCard extends Component {
               </List>
             </Card.Meta>
           </Card.Content>
-        </div>
+        </Container>
     );
 
     const dimmer = (
@@ -81,28 +82,30 @@ class RecipeCard extends Component {
             onMouseLeave={this.handleHide}
             size='big'
             src={this.props.recipe.image}
+            rounded
         />
     );
 
     return (
-        <Card centered raised>
+        <Card centered style={{ background: 'rgba(200,200,200,0.8)' }}>
           <Modal closeIcon
                  trigger={<a>{dimmer}</a>}
-                 size='small'>
+                 size='small'
+          >
+            <article className="text-over">
+              <figure>
+                <img src={this.props.recipe.image} alt={this.props.recipe.name}/>
+                <figcaption>
+                  <Header as='h2'>
+                    {this.props.recipe.description}
+                  </Header>
+                </figcaption>
+              </figure>
+            </article>
             <Modal.Content style={{ background: 'lightGrey' }}>
-              <article className="text-over">
-                <figure>
-                  <img src={this.props.recipe.image} alt={this.props.recipe.name}/>
-                  <figcaption>
-                    <Header as='h2'>
-                      {this.props.recipe.description}
-                    </Header>
-                  </figcaption>
-                </figure>
-              </article>
               <Grid container centered divided inverted stackable>
                 <Grid.Row>
-                  <Header className='baloo' as='h2' content={this.props.recipe.name} color='orange'/>
+                  <Header style={header} as='h2' content={this.props.recipe.name} color='orange'/>
                 </Grid.Row>
                 <Grid.Row>
                   <List divided text-align='center' horizontal>
@@ -122,7 +125,7 @@ class RecipeCard extends Component {
                     </List.Item>
                     <List.Item>
                       <List.Content>
-                        <Rating icon='star' defaultRating={5} maxRating={5} />
+                        <Rating icon='star' defaultRating={this.props.recipe.rating} maxRating={5}/>
                         <List.Description style={desc}>Rating</List.Description>
                       </List.Content>
                     </List.Item>
@@ -136,8 +139,10 @@ class RecipeCard extends Component {
                       {_.map(this.props.recipe.ingredients,
                           (ingredient, index) => <Form.Field
                               control={Checkbox}
-                              label={<label>{ingredient}</label>}
-                              key={index}>
+                              label={<label style={{ color: 'black' }}>{ingredient}</label>}
+                              key={ingredient}
+                              tabindex={index}
+                          >
                           </Form.Field>)}
                     </Form>
                   </Grid.Column>
@@ -147,8 +152,9 @@ class RecipeCard extends Component {
                       {_.map(this.props.recipe.instructions,
                           (instruction, index) => <List.Item
                               style={directionStyle}
-                              key={index}
-                              content={instruction}/>)}
+                              key={index}>
+                            {/* <Label circular color='pink' content={index + 1}/> */}
+                            {instruction}</List.Item>)}
                     </List>
                   </Grid.Column>
                 </Grid.Row>

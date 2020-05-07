@@ -10,84 +10,92 @@ import { Roles } from 'meteor/alanning:roles';
 class NavBar extends Component {
   render() {
     return (
-        <Menu inverted secondary attached='top'>
-          <Menu.Item as={NavLink} activeClassName="" exact to="/">
-            <Image className='white' src='/images/logo.png' size='mini'/>
-          </Menu.Item>
-          <Responsive as={Menu.Item} maxWidth={767}>
-            <Dropdown icon='bars'>
-              <Dropdown.Menu>
-                <Dropdown.Item as={NavLink} exact to='/recipes'>Recipes</Dropdown.Item>
-                <Dropdown.Item as={NavLink} exact to='/vendors'>Vendors</Dropdown.Item>
-                {this.props.currentUser ? ([
-                <Dropdown.Divider key=''/>,
-                <Dropdown.Item as={NavLink}
-                               activeClassName='active'
-                               exact to='/myrecipes'
-                               key='myrecipes'
-                               content='My Recipes'
-                />,
-                  <Dropdown.Item as={NavLink}
-                                 activeClassName='active'
-                                 exact to='/myitems'
-                                 key='myitems'
-                                 content='My Ingredients'
-                  />,
-                ]) : ''}
-              </Dropdown.Menu>
-            </Dropdown>
-          </Responsive>
-          <Responsive as={Menu.Menu} minWidth={767}>
-            <Menu.Item
-                as={NavLink}
-                activeClassName='active'
-                exact to='/recipes'
-                key='recipes'
-                content='Recipes'/>
-            <Menu.Item
-                as={NavLink}
-                activeClassName='active'
-                exact to='/vendors'
-                key='vendors'
-                content='Vendors'/>
-          {this.props.currentUser ? ([
+        <Menu inverted pointing secondary attached={'top'}>
+          <Image className='white' src='/images/logo.png' spaced style={{ width: '50px', height: '50px' }} />
+            <Responsive as={Menu.Item} maxWidth={767}>
+              <Dropdown icon='bars'>
+                <Dropdown.Menu>
+                  <Dropdown.Item as={NavLink} exact to='/recipes'>Recipes</Dropdown.Item>
+                  <Dropdown.Item as={NavLink} exact to='/vendors'>Vendors</Dropdown.Item>
+                  {this.props.currentUser ? ([
+                    <Dropdown.Divider key=''/>,
+                    <Dropdown.Item as={NavLink}
+                                   activeClassName='active'
+                                   exact to='/myrecipes'
+                                   key='myrecipes'
+                                   icon={'plus'}
+                                   content={'Recipe'}
+                    />,
+                    <Dropdown.Item as={NavLink}
+                                   activeClassName='active'
+                                   exact to='/myitems'
+                                   key='myitems'
+                                   content='My Ingredients'
+                    />,
+                  ]) : ''}
+                </Dropdown.Menu>
+              </Dropdown>
+            </Responsive>
+            <Responsive as={Menu.Menu} minWidth={767}>
+              <Menu.Item
+                  as={NavLink}
+                  activeClassName='active'
+                  exact to='/'
+                  key='/'
+                  content='Home'/>
+              <Menu.Item
+                  as={NavLink}
+                  activeClassName='active'
+                  exact to='/recipes'
+                  key='recipes'
+                  content='Recipes'/>
+              <Menu.Item
+                  as={NavLink}
+                  activeClassName='active'
+                  exact to='/vendors'
+                  key='vendors'
+                  content='Vendors'/>
+              {this.props.currentUser ? ([
                 <Menu.Item
                     as={NavLink}
                     activeClassName="active"
                     exact to="/myrecipes"
                     key='myrecipes'
-                    content='My Recipes'/>,
+                    icon={'plus'}
+                    content={'Recipe'}
+                />,
                 <Menu.Item
                     as={NavLink}
                     activeClassName="active"
                     exact to="/myitems"
                     key='myitems'
                     content='My Ingredients'/>]) : ''}
-          </Responsive>
-          {/* Right Side */}
-          {(Roles.userIsInRole(Meteor.userId(), 'admin')) ? ([
-                <Menu.Item as={NavLink} activeClassName="active" exact to="/users" key='users' content='Permissions'/>]
-          ) : ''}
-          <Menu.Item position="right">
-            {this.props.currentUser === '' ? (
-                <Dropdown text="Login&nbsp;" pointing="top right" spaced='true'>
-                  <Dropdown.Menu>
-                    <Dropdown.Item icon="user" text="Sign In" as={NavLink} exact to="/signin"/>
-                    <Dropdown.Item icon="add user" text="Sign Up" as={NavLink} exact to="/signup"/>
-                  </Dropdown.Menu>
-                </Dropdown>
-            ) : (
-                <Dropdown text={this.props.currentUser} pointing="top right">
-                  <Dropdown.Menu>
-                    <Dropdown.Item icon="address card"
-                                   text="Edit Profile"
-                                   as={NavLink}
-                                   exact to={`/profile/${this.props.currentUser}`}/>
-                    <Dropdown.Item icon="sign out" text="Sign Out" as={NavLink} exact to="/signout"/>
-                  </Dropdown.Menu>
-                </Dropdown>
-            )} { /* Otherwise show Edit Profile Page and Sign Out option */}
-          </Menu.Item>
+            </Responsive>
+            {/* Right Side */}
+            {(Roles.userIsInRole(Meteor.userId(), 'admin')) ? ([
+                  <Menu.Item as={NavLink} activeClassName="active" exact to="/users" key='users'
+                             content='Permissions'/>]
+            ) : ''}
+            <Menu.Item position="right">
+              {this.props.currentUser === '' ? (
+                  <Dropdown text="Login&nbsp;" pointing="top right" spaced='true'>
+                    <Dropdown.Menu>
+                      <Dropdown.Item icon="user" text="Sign In" as={NavLink} exact to="/signin"/>
+                      <Dropdown.Item icon="add user" text="Sign Up" as={NavLink} exact to="/signup"/>
+                    </Dropdown.Menu>
+                  </Dropdown>
+              ) : (
+                  <Dropdown text={this.props.currentUser} pointing="top right">
+                    <Dropdown.Menu>
+                      <Dropdown.Item icon="address card"
+                                     text="Edit Profile"
+                                     as={NavLink}
+                                     exact to={`/profile/${this.props.currentUser}`}/>
+                      <Dropdown.Item icon="sign out" text="Sign Out" as={NavLink} exact to="/signout"/>
+                    </Dropdown.Menu>
+                  </Dropdown>
+              )} { /* Otherwise show Edit Profile Page and Sign Out option */}
+            </Menu.Item>
         </Menu>
     );
   }

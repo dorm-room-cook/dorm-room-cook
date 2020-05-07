@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Search, Grid, Icon } from 'semantic-ui-react';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
@@ -15,9 +15,12 @@ class ListRecipes extends Component {
   }
 
   renderPage() {
+    /** This is used as a shortcut to just navigate back to the top of the page. */
+    // eslint-disable-next-line no-undef
+    const goToTop = () => window.scrollTo(0, 0);
 
     return (
-        <Container>
+        <Container style={{ padding: '5em 0em' }}>
           <Header as="h2" textAlign="center">All Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
@@ -31,6 +34,7 @@ class ListRecipes extends Component {
                 Recipes={Recipes}
             />)}
           </Card.Group>
+          <a id='scrollUp' onClick={goToTop}><Icon name='angle up' inverted color='green' circular/></a>
         </Container>
     );
   }

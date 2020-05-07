@@ -35,8 +35,10 @@ class MyRecipes extends Component {
 
   renderPage() {
     let fRef = null;
+
+
     return (
-        <Container>
+        <Container style={{ padding: '5em 0em' }}>
           <Header as="h2" textAlign="center" inverted>My Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
