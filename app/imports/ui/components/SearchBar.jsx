@@ -1,25 +1,37 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
-import { Grid, Input, Icon, Dropdown, Menu, Container } from 'semantic-ui-react';
+import { Grid, Input, Icon, Dropdown } from 'semantic-ui-react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
+// test data
+const ingredient = [
+  { key: 'egg', text: 'egg', value: 'egg' },
+  { key: 'milk', text: 'milk', value: 'milk' },
+  { key: 'oil', text: 'oil', value: 'oil' },
+  { key: 'garlic', text: 'garlic', value: 'garlic' },
+];
+
+const type = [
+  { key: 'Dinner', text: 'Dinner', value: 'Dinner' },
+  { key: 'Breakfast', text: 'Breakfast', value: 'Breakfast' },
+  { key: 'Snack', text: 'Snack', value: 'Snack' },
+];
+
+const tool = [
+  { key: 'Microwave', text: 'Microwave', value: 'Microwave' },
+  { key: 'Bowl', text: 'Bowl', value: 'Bowl' },
+  { key: 'Stovetop', text: 'Stovetop', value: 'Stovetop' },
+];
+
 const filter = {
   filtered: false,
-  minTime: 0,
-  maxTime: 0,
+  minTime: '',
+  maxTime: '',
   ingredients: [],
-  type: [],
+  types: [],
   tools: [],
 };
-
-const options = [
-  { key: 'angular', text: 'Angular', value: 'angular' },
-  { key: 'css', text: 'CSS', value: 'css' },
-  { key: 'design', text: 'Graphic Design', value: 'design' },
-  { key: 'ember', text: 'Ember', value: 'ember' },
-  { key: 'html', text: 'HTML', value: 'html' },
-];
 
 class SearchBar extends Component {
   state = {
@@ -31,36 +43,128 @@ class SearchBar extends Component {
   };
 
   handleSearchChange = (e) => {
+    console.log(e.target.value);
     this.setState({ value: e.target.value });
 
     setTimeout(() => {
-      if (this.state.value.length < 1) return this.setState({ results: [], value: '' });
-
-      const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
-      const isMatch = (result) => re.test(result.title);
-
-      this.setState({
-        results: _.filter(this.state.source, isMatch),
-      });
-
-      if (this.state.results.length === 0) {
-        this.props.setResults(this.state.source);
-      } else {
-        this.props.setResults(this.state.results);
-      }
+      this.updateResults();
 
     }, 300);
   };
 
-  onAdd = (name, list) => {
-    if (name === 'ingredients') {
-      this.setState({ ingredients: list });
-    } else if (name === 'type') {
-      this.setState({ type: list });
-    } else if (name === 'tools') {
-      this.setState({ tools: list });
+  updateResults = () => {
+    let { results } = this.state;
+    const { value, source } = this.state;
+    const { filtered, minTime, maxTime, ingredients, types, tools } = this.state.filters;
+    results = source;
+    console.log(`lookie ${value}`);
+    // search bar filter
+    if (value.length > 0) {
+      const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
+      const isMatch = (result) => re.test(result.title);
+
+      results = _.filter(this.state.source, isMatch)
     }
+
+    if (filtered && results.length > 0) {
+
+      // time filter
+      if (minTime !== '') {
+        results = _.filter(results, (r) => r.time >= minTime);
+      }
+      if (maxTime !== '') {
+        results = _.filter(results, (r) => r.time <= maxTime);
+      }
+
+      // ingredient filter
+      const inCheck = (r) => {
+        let bool = true;
+        for (let i = 0; i < ingredients.length; i++) {
+          if (!r.ingredients.includes(ingredients[i])) {
+            bool = false;
+          }
+        }
+
+        return bool;
+      }
+      if (ingredients.length !== 0) {
+        results = _.filter(results, inCheck);
+      }
+
+      // type filter
+      const typeCheck = (r) => {
+        let bool = true;
+        for (let i = 0; i < types.length; i++) {
+          if (!r.type.includes(types[i])) {
+            bool = false;
+          }
+        }
+
+        return bool;
+      }
+      if (types.length !== 0) {
+        results = _.filter(results, typeCheck);
+      }
+
+      // tool filter
+      const toolCheck = (r) => {
+        let bool = true;
+        for (let i = 0; i < tools.length; i++) {
+          if (!r.tools.includes(tools[i])) {
+            bool = false;
+          }
+        }
+
+        return bool;
+      }
+      if (tools.length !== 0) {
+        results = _.filter(results, toolCheck);
+      }
+
+      this.setState({ results });
+    }
+
+    if (results.length === 0) {
+      this.props.setResults(this.state.source);
+    } else {
+      this.props.setResults(results);
+    }
+    console.log(results);
+  }
+
+  handleListChange = (e) => {
+    const { filters } = this.state;
+    filters[e.name] = e.value;
+    this.setState({ filters });
+    console.log(filters);
+    this.filtersCheck();
   };
+
+  handleTimeChange = (e) => {
+    const { filters } = this.state;
+    let val = e.target.value;
+    if (val.length > 0) {
+      val = Number(val);
+    }
+    filters[e.target.name] = val;
+    this.setState({ filters });
+    console.log(filters);
+    this.filtersCheck();
+  }
+
+  filtersCheck = () => {
+    const { minTime, maxTime, ingredients, types, tools } = this.state.filters;
+    const { filters } = this.state;
+    console.log(ingredients);
+    if ( (minTime === '') && (maxTime === '')
+        && (ingredients.length === 0) && (types.length === 0) && (tools.length === 0) ) {
+      filters.filtered = false;
+    } else {
+      filters.filtered = true;
+    }
+    this.setState({ filters });
+    this.updateResults();
+  }
 
   render() {
     const { source, showMore } = this.state;
@@ -68,7 +172,7 @@ class SearchBar extends Component {
     // set up source data when component first loads
     if (this.props.recipes !== source) {
       this.props.setResults(this.props.recipes);
-      this.setState({ source: this.props.recipes });
+      this.setState({ source: this.props.recipes, results: this.props.recipes });
     }
 
     return (
@@ -90,11 +194,15 @@ class SearchBar extends Component {
                         time<br/>
                         <input
                           type='number'
+                          name='minTime'
                           placeholder='min'
+                          onChange={(e) => this.handleTimeChange(e)}
                         />
                         <input
                           type='number'
+                          name='maxTime'
                           placeholder='max'
+                          onChange={(e) => this.handleTimeChange(e)}
                         />
                       </Grid.Column>
                       <Grid.Column>
@@ -105,21 +213,36 @@ class SearchBar extends Component {
                             multiple
                             search
                             selection
-                            name='ingedients'
-                            onChange={(e, selected) => this.onAdd(selected.name, selected.value)}
-                            options={options}
+                            name='ingredients'
+                            onChange={(e, selected) => this.handleListChange(selected)}
+                            options={ingredient}
                         />
                       </Grid.Column>
                       <Grid.Column>
                         type
+                        <Dropdown
+                            placeholder='type'
+                            fluid
+                            multiple
+                            search
+                            selection
+                            name='types'
+                            onChange={(e, selected) => this.handleListChange(selected)}
+                            options={type}
+                        />
                       </Grid.Column>
                       <Grid.Column>
                         tools
-                      </Grid.Column>
-                    </Grid.Row>
-                    <Grid.Row>
-                      <Grid.Column floated='right'>
-                        <p onClick={() => this.setState({ filters: filter })} >clear filters</p>
+                        <Dropdown
+                            placeholder='tools'
+                            fluid
+                            multiple
+                            search
+                            selection
+                            name='tools'
+                            onChange={(e, selected) => this.handleListChange(selected)}
+                            options={tool}
+                        />
                       </Grid.Column>
                     </Grid.Row>
                     <Grid.Row centered>
