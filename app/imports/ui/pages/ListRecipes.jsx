@@ -21,10 +21,10 @@ class ListRecipes extends Component {
 
     return (
         <Container style={{ padding: '5em 0em' }}>
-          <Header as="h2" textAlign="center">All Recipes</Header>
+          <Header as="h2" inverted textAlign="center">All Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large' placeholder={'search by keyword(s)...'}/>
+              <Search fluid size='large' placeholder={'Filter Recipes...'}/>
             </Grid.Column>
           </Grid>
           <Card.Group>

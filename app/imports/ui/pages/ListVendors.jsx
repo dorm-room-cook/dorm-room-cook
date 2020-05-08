@@ -19,10 +19,10 @@ class ListVendors extends React.Component {
     // const { isLoading, value, results } = this.state;
     return (
         <Container style={{ padding: '5em 0em' }}>
-          <Header as="h2" textAlign="center">Search Vendors</Header>
+          <Header as="h2" inverted textAlign="center">Search Vendors</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large'
+              <Search fluid size='large' placeholder='Filter Vendors...'
                       // input={{ icon: 'search', iconPosition: 'left' }}
                       // loading={isLoading}
                       // onResultSelect={this.handleResultSelect}

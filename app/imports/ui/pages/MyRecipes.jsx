@@ -39,7 +39,7 @@ class MyRecipes extends Component {
 
     return (
         <Container style={{ padding: '5em 0em' }}>
-          <Header as="h2" textAlign="center" inverted>My Recipes</Header>
+          <Header as="h2" inverted textAlign="center">My Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
               <Grid.Row text-align='centered'>

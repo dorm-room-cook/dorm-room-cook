@@ -2,7 +2,10 @@ import React from 'react';
 import { Header, Button, Container, Image, Grid } from 'semantic-ui-react';
 
 export default class MissionBlock extends React.Component {
-  state = { showMessage: false, visible: true }
+  constructor(props) {
+    super(props);
+    this.state = { showMessage: false, visible: true };
+  }
 
   toggle = () => {
     this.setState({ showMessage: !this.state.showMessage });
@@ -23,8 +26,7 @@ export default class MissionBlock extends React.Component {
       letterSpacing: '.1em',
     };
     return (
-        <div style={{ margin: '5em 0em 0em 0em', padding: '5em 0em' }}>
-          <Grid container textAlign='center'>
+          <Grid container textAlign='center' style={{ padding: '5em 0em' }}>
             <Grid.Row>
               <Grid.Column width={10}>
                 <Header inverted as="h1" style={missionTitle} textAlign='center'>Who Are We?</Header>
@@ -57,7 +59,6 @@ export default class MissionBlock extends React.Component {
               </Grid.Column>
             </Grid.Row>
           </Grid>
-        </div>
     );
   }
 }

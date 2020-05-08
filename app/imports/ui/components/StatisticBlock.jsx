@@ -5,39 +5,50 @@ class StatisticBlock extends React.Component {
   render() {
     const labelSytle = { color: 'orange' };
     return (
-        <Segment inverted style={{ padding: '5em 0em' }}>
-          <Grid textAlign='center' centered stackable>
-              <Grid.Column width={14}>
-                <Statistic color='grey' inverted>
+        <Segment inverted vertical style={{ padding: '5em 0em' }}>
+          <Grid container stackable textAlign='center'>
+            <Grid.Row>
+              <Grid.Column width={4}>
+                <Statistic color='grey' inverted size='huge'>
+                  <Statistic.Value>5</Statistic.Value>
+                  <Statistic.Label style={labelSytle}>active</Statistic.Label>
+                  <Statistic.Label>users</Statistic.Label>
+                </Statistic>
+              </Grid.Column>
+              <Grid.Column width={4}>
+                <Statistic color='grey' inverted size='huge'>
                   <Statistic.Value>50</Statistic.Value>
-                  <Statistic.Label style={labelSytle}>thousand</Statistic.Label>
-                  <Statistic.Label>active users</Statistic.Label>
+                  <Statistic.Label style={labelSytle}>plus</Statistic.Label>
+                  <Statistic.Label>recipes</Statistic.Label>
                 </Statistic>
-                <Statistic color='grey' inverted>
-                  <Statistic.Value>10</Statistic.Value>
-                  <Statistic.Label style={labelSytle}>million</Statistic.Label>
-                  <Statistic.Label>active users</Statistic.Label>
-                </Statistic>
-                <Statistic color='grey' inverted>
-                  <Statistic.Value>100</Statistic.Value>
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column width={4}>
+                <Statistic color='grey' inverted size='huge'>
+                  <Statistic.Value>15</Statistic.Value>
                   <Statistic.Label style={labelSytle}>wonderful</Statistic.Label>
                   <Statistic.Label>sponsors</Statistic.Label>
                 </Statistic>
-                <Statistic color='grey' inverted>
-                  <Statistic.Value>500</Statistic.Value>
-                  <Statistic.Label style={labelSytle}>million</Statistic.Label>
+              </Grid.Column>
+              <Grid.Column width={4}>
+                <Statistic color='grey' inverted size='huge'>
+                  <Statistic.Value>2</Statistic.Value>
+                  <Statistic.Label style={labelSytle}>dozen</Statistic.Label>
                   <Statistic.Label>smiles</Statistic.Label>
                 </Statistic>
-            </Grid.Column>
+              </Grid.Column>
+            </Grid.Row>
           </Grid>
         </Segment>
     );
   }
-} export default StatisticBlock;
-// <Card.Content
+}
+
+export default StatisticBlock;
+//
 //     style={{
 //       height: "200px",
 //       backgroundImage: `url(https://cdn.pixabay.com/photo/2017/05/13/15/18/dear-2309801_1280.jpg)`,
 //       backgroundSize: "cover",
 //     }}
-// >

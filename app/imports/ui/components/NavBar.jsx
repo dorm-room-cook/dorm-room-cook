@@ -3,18 +3,19 @@ import PropTypes from 'prop-types';
 import { Meteor } from 'meteor/meteor';
 import { withTracker } from 'meteor/react-meteor-data';
 import { withRouter, NavLink } from 'react-router-dom';
-import { Menu, Dropdown, Image, Responsive } from 'semantic-ui-react';
+import { Menu, Dropdown, Image, Responsive, Sticky } from 'semantic-ui-react';
 import { Roles } from 'meteor/alanning:roles';
 
 /** The NavBar appears at the top of every page. Rendered by the App Layout component. */
 class NavBar extends Component {
   render() {
     return (
-        <Menu inverted pointing secondary attached={'top'}>
+<Sticky pushing>
+     <Menu inverted pointing secondary fixed={'top'}>
           <Image className='white' src='/images/logo.png' spaced style={{ width: '50px', height: '50px' }} />
             <Responsive as={Menu.Item} maxWidth={767}>
               <Dropdown icon='bars'>
-                <Dropdown.Menu>
+                <Dropdown.Menu style={{ background: 'rgba(0,0,0,0.9)' }}>
                   <Dropdown.Item as={NavLink} exact to='/recipes'>Recipes</Dropdown.Item>
                   <Dropdown.Item as={NavLink} exact to='/vendors'>Vendors</Dropdown.Item>
                   {this.props.currentUser ? ([
@@ -79,7 +80,7 @@ class NavBar extends Component {
             <Menu.Item position="right">
               {this.props.currentUser === '' ? (
                   <Dropdown text="Login&nbsp;" pointing="top right" spaced='true'>
-                    <Dropdown.Menu>
+                    <Dropdown.Menu style={{ background: 'rgba(0,0,0,0.8)' }}>
                       <Dropdown.Item icon="user" text="Sign In" as={NavLink} exact to="/signin"/>
                       <Dropdown.Item icon="add user" text="Sign Up" as={NavLink} exact to="/signup"/>
                     </Dropdown.Menu>
@@ -97,6 +98,7 @@ class NavBar extends Component {
               )} { /* Otherwise show Edit Profile Page and Sign Out option */}
             </Menu.Item>
         </Menu>
+</Sticky>
     );
   }
 }
