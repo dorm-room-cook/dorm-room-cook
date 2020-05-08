@@ -3,6 +3,7 @@ import { Meteor } from 'meteor/meteor';
 import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
 import VendorCard from '/imports/ui/components/VendorCard';
 import { withTracker } from 'meteor/react-meteor-data';
+import { _ } from 'meteor/underscore';
 import PropTypes from 'prop-types';
 import { Vendors } from '../../api/vendors/Vendors';
 
@@ -15,13 +16,23 @@ class ListVendors extends React.Component {
   }
 
   renderPage() {
-
+    // const { isLoading, value, results } = this.state;
     return (
-        <Container>
-          <Header as="h2" textAlign="center">Search Vendors</Header>
+        <Container style={{ padding: '5em 0em' }}>
+          <Header as="h2" inverted textAlign="center">Search Vendors</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large'/>
+              <Search fluid size='large' placeholder='Filter Vendors...'
+                      // input={{ icon: 'search', iconPosition: 'left' }}
+                      // loading={isLoading}
+                      // onResultSelect={this.handleResultSelect}
+                      // onSearchChange={_.debounce(this.handleSearchChange, 500, {
+                      //   leading: 'true',
+                      // })}
+                      // results={results}
+                      // value={value}
+                      // {...this.props}
+              />
             </Grid.Column>
           </Grid>
           <Card.Group>

@@ -1,52 +1,18 @@
 {
   "vendors": [
     {
-      "name": "Safeway (Manoa Rd)",
+      "name": "Safeway",
       "image": "/images/stores/safeway-manoa-rd.png",
       "email": "safeway@foo.com",
-      "address": "2855 E Manoa Rd\nHonolulu, HI 96822",
+      "address": [
+        "2855 E Manoa Rd\nHonolulu, HI 96822",
+        "888 Kapahulu Ave\nHonolulu, HI 96816",
+        "1234 S Beretania St\nHonolulu, HI 96814",
+        "1360 Pali Hwy\nHonolulu, HI 96813"
+      ],
       "hours": "6AM-10PM Daily",
       "phone": "(808) 988-2058",
       "website": "https://local.safeway.com/safeway/hi/honolulu/2855-e-manoa-rd.html",
-      "coupons": "https://coupons.safeway.com/weeklyad/",
-      "priceindex": "$$",
-      "logo": "https://images.albertsons-media.com/is/image/ABS/safeway_logo?$fulfillment$&defaultImage=Not_Available",
-      "likes": 0
-    },
-    {
-      "name": "Safeway (Kapahulu)",
-      "image": "/images/stores/safeway-kapahulu.jpg",
-      "email": "safeway2@foo.com",
-      "address": "888 Kapahulu Ave\nHonolulu, HI 96816",
-      "hours": "6AM-10PM Daily",
-      "phone": "(808) 733-2600",
-      "website": "https://local.safeway.com/safeway/hi/honolulu/888-kapahulu-ave.html",
-      "coupons": "https://coupons.safeway.com/weeklyad/",
-      "priceindex": "$$",
-      "logo": "https://images.albertsons-media.com/is/image/ABS/safeway_logo?$fulfillment$&defaultImage=Not_Available",
-      "likes": 0
-    },
-    {
-      "name": "Safeway (Beretania St)",
-      "image": "/images/stores/safeway-beretania.png",
-      "email": "safeway3@foo.com",
-      "address": "1234 S Beretania St\nHonolulu, HI 96814",
-      "hours": "6AM-10PM Daily",
-      "phone": "(808) 535-1780",
-      "website": "https://local.safeway.com/safeway/hi/honolulu/1234-s-beretania-st.html",
-      "coupons": "https://coupons.safeway.com/weeklyad/",
-      "priceindex": "$$",
-      "logo": "https://images.albertsons-media.com/is/image/ABS/safeway_logo?$fulfillment$&defaultImage=Not_Available",
-      "likes": 0
-    },
-    {
-      "name": "Safeway (Pali Hwy)",
-      "image": "/images/stores/safeway-pali.png",
-      "email": "safeway4@foo.com",
-      "address": "1360 Pali Hwy\nHonolulu, HI 96813",
-      "hours": "6AM-10PM Daily",
-      "phone": "(808) 566-6811",
-      "website": "https://local.safeway.com/safeway/hi/honolulu/1234-s-beretania-st.html",
       "coupons": "https://coupons.safeway.com/weeklyad/",
       "priceindex": "$$",
       "logo": "https://images.albertsons-media.com/is/image/ABS/safeway_logo?$fulfillment$&defaultImage=Not_Available",
@@ -74,8 +40,8 @@
       "phone": "(808) 956-9667",
       "priceindex": "$$$",
       "website": "https://www.yelp.com/biz/village-market-honolulu",
-      "coupons": "/",
-      "logo": "N/A",
+      "coupons": "",
+      "logo": "",
       "likes": 0
     },
     {
@@ -87,8 +53,8 @@
       "phone": "(808) 525-6692",
       "priceindex": "$",
       "website": "http://manoamarketplacehawaii.com/events-promotions/",
-      "coupons": "/",
-      "logo": "N/A",
+      "coupons": "",
+      "logo": "",
       "likes": 0
     },
     {
@@ -100,8 +66,8 @@
       "phone": "(808) 848-2074",
       "priceindex": "$$",
       "website": "https://www.yelp.com/biz/kcc-farmers-market-honolulu",
-      "coupons": "/",
-      "logo": "N/A",
+      "coupons": "",
+      "logo": "",
       "likes": 0
     },
     {
@@ -112,8 +78,8 @@
       "hours": "24 Hours Daily",
       "phone": "(808) 973-4800",
       "priceindex": "$",
-      "website": "/",
-      "coupons": "/",
+      "website": "",
+      "coupons": "",
       "logo": "https://donquijote.staradvertiser.com/images/Don_Quijote_Hawaii.png",
       "likes": 0
     },
@@ -121,12 +87,15 @@
       "name": "Times",
       "image": "/images/stores/times-honolulu.png",
       "email": "times@foo.com",
-      "address": "1290 S Beretania St\nHonolulu, HI 96814",
+      "address": [
+        "1290 S Beretania St\nHonolulu, HI 96814",
+        "1772 S King St\nHonolulu, HI 96826",
+        "3221 Waialae Avenue\nHonolulu, HI 96816"],
       "hours": "5AM-12AM Daily",
       "phone": "(808) 532-5400",
       "priceindex": "$",
-      "website": "/",
-      "coupons": "/",
+      "website": "https://www.timessupermarkets.com/",
+      "coupons": "https://www.timessupermarkets.com/oahu-weekly-ad/",
       "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Times_Supermarkets_logo.svg/440px-Times_Supermarkets_logo.svg.png",
       "likes": 0
     },
@@ -138,21 +107,22 @@
       "hours": "10AM-6PM Daily",
       "phone": "(808) 979-8977",
       "priceindex": "$$",
-      "website": "/",
-      "coupons": "/",
-      "logo": "/",
+      "website": "https://www.yelp.com/biz/nijiya-market-university-hi-honolulu?start=160",
+      "coupons": "https://www.weekly-ads-online.com/weekly-ad/nijiya-market",
+      "logo": "",
       "likes": 0
     },
     {
       "name": "Whole Foods",
       "image": "/images/stores/wholefoods-honolulu.png",
       "email": "wholefoods@foo.com",
-      "address": "388 Kamakee St Ste 100\nHonolulu, HI 96814",
+      "address": ["388 Kamakee St Ste 100\nHonolulu, HI 96814",
+        "4211 Wai'alae Ave Ste 2000\nHonolulu, HI 96816"],
       "hours": "8AM-9PM Daily",
       "phone": "(808) 379-1800",
       "priceindex": "$$$",
-      "website": "/",
-      "coupons": "/",
+      "website": "",
+      "coupons": "",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Whole_Foods_Market_logo.svg",
       "likes": 0
     },
@@ -164,8 +134,8 @@
       "hours": "6AM-9PM Daily",
       "phone": "(808) 947-7678",
       "priceindex": "$$",
-      "website": "/",
-      "coupons": "/",
+      "website": "",
+      "coupons": "",
       "logo": "https://www.downtoearth.org/sites/all/themes/dte8/images/gbl/logo-horizontal.png",
       "likes": 0
     },
@@ -177,8 +147,8 @@
       "hours": "24 Hours",
       "phone": "(808) 947-2651 ",
       "priceindex": "$",
-      "website": "/",
-      "coupons": "/",
+      "website": "",
+      "coupons": "",
       "logo": "https://longs.staradvertiser.com/images/longsheader.png",
       "likes": 0
     },
@@ -190,9 +160,9 @@
       "hours": "24 Hours",
       "phone": "(808) 955-8441",
       "priceindex": "$",
-      "website": "/",
-      "coupons": "/",
-      "logo": "https://www.pngfind.com/pngs/m/34-342961_walmart-logo-png-download-walmart-pharmacy-transparent-png.png",
+      "website": "",
+      "coupons": "",
+      "logo": "",
       "likes": 0
     },
     {
@@ -203,48 +173,9 @@
       "hours": "9AM-8PM Mon-Sat, 10AM-6PM Sun",
       "phone": "(808) 945-9841",
       "priceindex": "$$",
-      "website": "/",
-      "coupons": "/",
+      "website": "",
+      "coupons": "",
       "logo": "https://www.logolynx.com/images/logolynx/83/8371115975cd94aac88eada75361c486.png",
-      "likes": 0
-    },
-    {
-      "name": "Whole Foods (Kahala)",
-      "image": "/images/stores/wholefoodskahala.jpg",
-      "email": "wholefoods2@foo.com",
-      "address": "4211 Wai'alae Ave Ste 2000\nHonolulu, HI 96816",
-      "hours": "8AM-9PM Daily",
-      "phone": "(808) 738-0820",
-      "priceindex": "$$$",
-      "website": "https://www.wholefoodsmarket.com/stores/honolulu",
-      "coupons": "/",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Whole_Foods_Market_logo.svg",
-      "likes": 0
-    },
-    {
-      "name": "Times (McCully)",
-      "image": "/images/stores/times-honolulu.png",
-      "email": "times2@foo.com",
-      "address": "1772 S King St\nHonolulu, HI 96826",
-      "hours": "6AM-10PM Daily",
-      "phone": "(808) 973-5868",
-      "priceindex": "$",
-      "website": "https://www.timessupermarkets.com/mccully-times/",
-      "coupons": "/",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Times_Supermarkets_logo.svg/440px-Times_Supermarkets_logo.svg.png",
-      "likes": 0
-    },
-    {
-      "name": "Times (Kaimuki)",
-      "image": "/images/stores/times-honolulu.png",
-      "email": "times3@foo.com",
-      "address": "3221 Waialae Avenue\nHonolulu, HI 96816",
-      "hours": "6AM-11PM Daily",
-      "phone": "(808) 733-5050",
-      "priceindex": "$",
-      "website": "https://www.timessupermarkets.com/kaimuki-times/",
-      "coupons": "/",
-      "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Times_Supermarkets_logo.svg/440px-Times_Supermarkets_logo.svg.png",
       "likes": 0
     }
   ]

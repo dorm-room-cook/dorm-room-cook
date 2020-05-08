@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
-import { Header, Container, Card, Loader, Search, Grid } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Search, Grid, Icon } from 'semantic-ui-react';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 import { Recipes } from '../../api/recipes/Recipes';
 
 /** Renders a table containing all of the Contact documents. */
-class ListRecipes extends React.Component {
+class ListRecipes extends Component {
 
   /** Render the page once subscriptions have been received. */
   render() {
@@ -15,13 +15,16 @@ class ListRecipes extends React.Component {
   }
 
   renderPage() {
+    /** This is used as a shortcut to just navigate back to the top of the page. */
+    // eslint-disable-next-line no-undef
+    const goToTop = () => window.scrollTo(0, 0);
 
     return (
-        <Container>
-          <Header as="h2" textAlign="center">All Recipes</Header>
+        <Container style={{ padding: '5em 0em' }}>
+          <Header as="h2" inverted textAlign="center">All Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
-              <Search fluid size='large' placeholder={'search by keyword(s)...'}/>
+              <Search fluid size='large' placeholder={'Filter Recipes...'}/>
             </Grid.Column>
           </Grid>
           <Card.Group>
@@ -31,6 +34,7 @@ class ListRecipes extends React.Component {
                 Recipes={Recipes}
             />)}
           </Card.Group>
+          <a id='scrollUp' onClick={goToTop}><Icon name='angle up' inverted color='green' circular/></a>
         </Container>
     );
   }

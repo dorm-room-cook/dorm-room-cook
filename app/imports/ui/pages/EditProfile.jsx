@@ -33,10 +33,10 @@ class EditProfile extends React.Component {
     const iconStyle = { color: 'darkGreen' };
 
     return (
-        <Grid container centered stackable>
+        <Grid container centered stackable style={{ padding: '5em 0em' }}>
           <Grid.Row>
             <Grid.Column>
-              <Header as="h2" textAlign="center">Edit Profile</Header>
+              <Header inverted as="h2" textAlign="center">Edit Profile</Header>
             </Grid.Column>
           </Grid.Row>
           <Grid.Row>
@@ -45,8 +45,8 @@ class EditProfile extends React.Component {
                 <Card.Content style={ cardContentStyle1 }>
                   <Header as="h4" style={{ color: 'white' }} textAlign="center">Profile View</Header>
                 </Card.Content>
-                <Image src={this.props.profile.picture}/>
                 <Card.Content extra style={ cardContentStyle2 }>
+                  <Image floated='right' rounded size='mini' src={this.props.profile.picture}/>
                   <Card.Header>{this.props.profile.firstName} {this.props.profile.lastName}</Card.Header>
                   <Card.Meta>{this.props.profile.major}</Card.Meta>
                   <Card.Description>
@@ -54,7 +54,6 @@ class EditProfile extends React.Component {
                   </Card.Description>
                 </Card.Content>
                 <Card.Content extra style={ cardContentStyle3 }>
-                  <div className="center aligned extra content">
                     {(this.props.profile.github !== '') ?
                         <a href={this.props.profile.github}>
                           <Icon style={ iconStyle } name='github' size='big'/>
@@ -65,7 +64,6 @@ class EditProfile extends React.Component {
                     <a href={`mailto:${this.props.profile.email}`}>
                       <Icon style={ iconStyle } name='mail square' size='big'/>
                     </a>
-                  </div>
                 </Card.Content>
               </Card>
             </Grid.Column>

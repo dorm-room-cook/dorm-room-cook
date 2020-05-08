@@ -3,6 +3,7 @@ import { Roles } from 'meteor/alanning:roles';
 import { Items } from '../../api/items/Items';
 import { Recipes } from '../../api/recipes/Recipes';
 import { Vendors } from '../../api/vendors/Vendors';
+import { Suppliers } from '../../api/vendors/Suppliers';
 import { Profiles } from '../../api/profiles/Profiles';
 
 /** This subscription publishes only the documents associated with the logged in user */
@@ -30,6 +31,11 @@ Meteor.publish('Recipes', function publish() {
 /** This subscription publishes the recipes for all to see */
 Meteor.publish('Vendors', function publish() {
   return Vendors.find();
+});
+
+/** This subscription publishes the recipes for all to see */
+Meteor.publish('Suppliers', function publish() {
+  return Suppliers.find();
 });
 
 Meteor.publish('MyRecipes', function publish() {

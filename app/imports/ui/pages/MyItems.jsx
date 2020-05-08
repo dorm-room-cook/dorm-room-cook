@@ -37,8 +37,8 @@ class MyItems extends React.Component {
   renderPage() {
     let fRef = null;
     return (
-        <Container>
-          <Header as="h2" textAlign="center">Ingredients</Header>
+        <Container style={{ padding: '5em 0em' }}>
+          <Header as="h2" inverted textAlign="center">Ingredients</Header>
           <Table celled>
             <Table.Header>
               <Table.Row>

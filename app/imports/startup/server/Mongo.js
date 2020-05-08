@@ -5,6 +5,7 @@ import { Items } from '../../api/items/Items.js';
 import { Recipes } from '../../api/recipes/Recipes.js';
 import { Profiles } from '../../api/profiles/Profiles.js';
 import { Vendors } from '../../api/vendors/Vendors.js';
+import { Suppliers } from '../../api/vendors/Suppliers';
 
 /* eslint-disable no-console */
 
@@ -58,6 +59,12 @@ function addVendors(data) {
   Vendors.insert(data);
 }
 
+/** Initialize the database with a default recipe data document. */
+function addSuppliers(data) {
+  console.log(`  Adding: ${data.supplier} (${data.location})`);
+  Suppliers.insert(data);
+}
+
 /**
  * If the loadAssetsFile field in settings.development.json is true, then load the data in private/recipe.json.
  * This approach allows you to initialize your system with large amounts of data.
@@ -87,6 +94,11 @@ if ((Meteor.settings.loadAssetsFile) && (Recipes.find().count() < 3)) {
   console.log(`Loading data from private/${vendorsFileName}`);
   const vendorsData = JSON.parse(Assets.getText(vendorsFileName));
   vendorsData.vendors.map(vendor => addVendors(vendor));
+  /* Add vendors data */
+  const suppliersFileName = 'suppliers.json';
+  console.log(`Loading data from private/${suppliersFileName}`);
+  const suppliersData = JSON.parse(Assets.getText(suppliersFileName));
+  suppliersData.suppliers.map(supplier => addSuppliers(supplier));
 }
 // if ((Meteor.settings.loadAssetsFile) && (Recipes.find().count() < 2)) {
 //   const assetsFileName = 'recipes.json';

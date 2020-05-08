@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
 import { Header, Container, Card, Loader, Grid, Modal, Button, Icon } from 'semantic-ui-react';
 import { AutoForm } from 'uniforms-semantic';
@@ -9,7 +9,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import { Recipes, RecipeSchema } from '../../api/recipes/Recipes';
 
 /** Renders a table containing all of the Contact documents. */
-class MyRecipes extends React.Component {
+class MyRecipes extends Component {
 
   /** Render the page once subscriptions have been received. */
   render() {
@@ -35,9 +35,11 @@ class MyRecipes extends React.Component {
 
   renderPage() {
     let fRef = null;
+
+
     return (
-        <Container>
-          <Header as="h2" textAlign="center" inverted>My Recipes</Header>
+        <Container style={{ padding: '5em 0em' }}>
+          <Header as="h2" inverted textAlign="center">My Recipes</Header>
           <Grid>
             <Grid.Column width={16}>
               <Grid.Row text-align='centered'>

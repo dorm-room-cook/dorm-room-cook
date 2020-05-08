@@ -34,7 +34,7 @@ class ListVendorItems extends React.Component {
   /** Render the page once subscriptions have been received. */
   renderPage() {
     return (
-        <Container>
+        <Container style={{ padding: '5em 0em' }}>
           <Header as="h2" textAlign="center">Ingredients</Header>
           <Table celled>
             <Table.Header>

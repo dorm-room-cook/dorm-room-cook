@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Button, Card, Image, List, Modal, Grid, Header, Form, Checkbox } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 import { _ } from 'meteor/underscore';
 
 /** Component for layout out a Recipe Card. */
-class RecipeCard extends React.Component {
+class RecipeCard extends Component {
 
     render() {
       return (

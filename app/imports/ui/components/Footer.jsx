@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Container, Grid, Header, Icon, Card, List, Segment, Modal, Image } from 'semantic-ui-react';
 /** The Footer appears at the bottom of every page. Rendered by the App Layout component. */
-class Footer extends React.Component {
+class Footer extends Component {
   state = { open: false }
 
   show = (size) => () => this.setState({ size, open: true })
@@ -13,7 +13,7 @@ class Footer extends React.Component {
 
     return (
       <footer>
-        <Segment inverted vertical style={{ margin: '5em 0em 0em', padding: '5em 0em' }}>
+        <Segment inverted vertical style={{ margin: '0em 0em 0em', padding: '5em 0em' }}>
           <Container textAlign='center'>
              <Grid divided inverted stackable>
               <Grid.Column width={4}>
