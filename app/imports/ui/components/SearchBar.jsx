@@ -269,7 +269,7 @@ class SearchBar extends Component {
 const filterMenu = {
   backgroundColor: 'white',
   width: '100%',
-  height: '85%',
+  height: '90%',
 };
 
 SearchBar.propTypes = {
