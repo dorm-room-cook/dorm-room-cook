@@ -43,7 +43,6 @@ class SearchBar extends Component {
   };
 
   handleSearchChange = (e) => {
-    console.log(e.target.value);
     this.setState({ value: e.target.value });
 
     setTimeout(() => {
@@ -57,13 +56,12 @@ class SearchBar extends Component {
     const { value, source } = this.state;
     const { filtered, minTime, maxTime, ingredients, types, tools } = this.state.filters;
     results = source;
-    console.log(`lookie ${value}`);
+
     // search bar filter
     if (value.length > 0) {
       const re = new RegExp(_.escapeRegExp(this.state.value), 'i');
       const isMatch = (result) => re.test(result.title);
-
-      results = _.filter(this.state.source, isMatch)
+      results = _.filter(this.state.source, isMatch);
     }
 
     if (filtered && results.length > 0) {
@@ -84,9 +82,9 @@ class SearchBar extends Component {
             bool = false;
           }
         }
-
         return bool;
-      }
+      };
+
       if (ingredients.length !== 0) {
         results = _.filter(results, inCheck);
       }
@@ -99,9 +97,9 @@ class SearchBar extends Component {
             bool = false;
           }
         }
-
         return bool;
-      }
+      };
+
       if (types.length !== 0) {
         results = _.filter(results, typeCheck);
       }
@@ -114,9 +112,9 @@ class SearchBar extends Component {
             bool = false;
           }
         }
-
         return bool;
-      }
+      };
+
       if (tools.length !== 0) {
         results = _.filter(results, toolCheck);
       }
@@ -129,8 +127,7 @@ class SearchBar extends Component {
     } else {
       this.props.setResults(results);
     }
-    console.log(results);
-  }
+  };
 
   handleListChange = (e) => {
     const { filters } = this.state;
@@ -148,20 +145,27 @@ class SearchBar extends Component {
     filters[e.target.name] = val;
     this.setState({ filters });
     this.filtersCheck();
-  }
+  };
 
   filtersCheck = () => {
     const { minTime, maxTime, ingredients, types, tools } = this.state.filters;
     const { filters } = this.state;
-    console.log(ingredients);
-    if ( (minTime === '') && (maxTime === '')
-        && (ingredients.length === 0) && (types.length === 0) && (tools.length === 0) ) {
-      filters.filtered = false;
-    } else {
-      filters.filtered = true;
-    }
+    filters.filtered = !((minTime === '') && (maxTime === '')
+        && (ingredients.length === 0) && (types.length === 0) && (tools.length === 0));
     this.setState({ filters });
     this.updateResults();
+  };
+
+  clearFilters = () => {
+    const clear = {
+      filtered: false,
+      minTime: '',
+      maxTime: '',
+      ingredients: [],
+      types: [],
+      tools: [],
+    };
+    this.setState({ filters: clear, showMore: false }, this.updateResults);
   }
 
   render() {
@@ -185,22 +189,22 @@ class SearchBar extends Component {
                 })}
             />
             {showMore ?
-                <div style={ filterMenu }>
+                <div style={filterMenu}>
                   <Grid>
                     <Grid.Row columns={4}>
                       <Grid.Column>
                         time<br/>
                         <input
-                          type='number'
-                          name='minTime'
-                          placeholder='min'
-                          onChange={(e) => this.handleTimeChange(e)}
+                            type='number'
+                            name='minTime'
+                            placeholder='min'
+                            onChange={(e) => this.handleTimeChange(e)}
                         />
                         <input
-                          type='number'
-                          name='maxTime'
-                          placeholder='max'
-                          onChange={(e) => this.handleTimeChange(e)}
+                            type='number'
+                            name='maxTime'
+                            placeholder='max'
+                            onChange={(e) => this.handleTimeChange(e)}
                         />
                       </Grid.Column>
                       <Grid.Column>
@@ -242,6 +246,9 @@ class SearchBar extends Component {
                             options={tool}
                         />
                       </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row centered>
+                      <p onClick={() => this.clearFilters()}>clear filters</p>
                     </Grid.Row>
                     <Grid.Row centered>
                       <p onClick={() => this.setState({ showMore: !showMore })}>show less</p>
