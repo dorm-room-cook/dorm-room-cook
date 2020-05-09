@@ -136,7 +136,6 @@ class SearchBar extends Component {
     const { filters } = this.state;
     filters[e.name] = e.value;
     this.setState({ filters });
-    console.log(filters);
     this.filtersCheck();
   };
 
@@ -148,7 +147,6 @@ class SearchBar extends Component {
     }
     filters[e.target.name] = val;
     this.setState({ filters });
-    console.log(filters);
     this.filtersCheck();
   }
 
@@ -221,7 +219,7 @@ class SearchBar extends Component {
                       <Grid.Column>
                         type
                         <Dropdown
-                            placeholder='type'
+                            placeholder='types'
                             fluid
                             multiple
                             search
@@ -264,7 +262,7 @@ class SearchBar extends Component {
 const filterMenu = {
   backgroundColor: 'white',
   width: '100%',
-  height: '100%',
+  height: '85%',
 };
 
 SearchBar.propTypes = {
