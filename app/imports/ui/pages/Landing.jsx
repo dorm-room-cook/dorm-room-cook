@@ -7,6 +7,7 @@ import StatisticBlock from '../components/StatisticBlock';
 // import SponsorsBlock from '../components/SponsorsBlock';
 import SuppliersBlock from '../components/SuppliersBlock';
 import ActionBlock from '../components/ActionBlock';
+// import SearchBar from '../components/SearchBar';
 
 /** A simple static component to render some text for the landing page. */
 class Landing extends Component {
@@ -25,7 +26,8 @@ class Landing extends Component {
                  centered style={{ width: '65%', height: '15px' }}/>
           <MissionBlock/>
           <StatisticBlock/>
-          {/*<SponsorsBlock/>*/}
+          {/* <SponsorsBlock/> */}
+          {/*<SearchBar/>*/}
           <SuppliersBlock/>
           <ActionBlock/>
           <a id='scrollUp' onClick={goToTop}><Icon name='angle up' inverted color='green' circular/></a>

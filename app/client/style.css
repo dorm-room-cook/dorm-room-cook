@@ -134,6 +134,9 @@ i:hover {
   /*border-image: url("public/images/shapes/squiggly1.png") inherit !important;*/
 }
 
+.ui.pointing.dropdown > .menu::after {
+  background: transparent !important;
+}
 
 /*.ui.menu .active:hover {*/
 /*  background: transparent !important;*/

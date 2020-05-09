@@ -1,24 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Grid, Segment, Statistic } from 'semantic-ui-react';
 
-class StatisticBlock extends React.Component {
+const backgroundStyle = {
+  padding: '5em 0em',
+  border: '5px',
+  borderStyle: 'solid none solid none',
+  borderColor: 'rgb(200,200,200)',
+};
+
+class StatisticBlock extends Component {
   render() {
     const labelSytle = { color: 'orange' };
     return (
-        <Segment inverted vertical style={{ padding: '5em 0em' }}>
+        <Segment inverted vertical
+                 style={backgroundStyle}>
           <Grid container stackable textAlign='center'>
             <Grid.Row>
               <Grid.Column width={4}>
                 <Statistic color='grey' inverted size='huge'>
-                  <Statistic.Value>5</Statistic.Value>
-                  <Statistic.Label style={labelSytle}>active</Statistic.Label>
-                  <Statistic.Label>users</Statistic.Label>
+                  <Statistic.Value>500</Statistic.Value>
+                  <Statistic.Label style={labelSytle}>satisfied</Statistic.Label>
+                  <Statistic.Label>customers*</Statistic.Label>
                 </Statistic>
               </Grid.Column>
               <Grid.Column width={4}>
                 <Statistic color='grey' inverted size='huge'>
-                  <Statistic.Value>50</Statistic.Value>
-                  <Statistic.Label style={labelSytle}>plus</Statistic.Label>
+                  <Statistic.Value>50+</Statistic.Value>
+                  <Statistic.Label style={labelSytle}>amazing</Statistic.Label>
                   <Statistic.Label>recipes</Statistic.Label>
                 </Statistic>
               </Grid.Column>
@@ -26,16 +34,16 @@ class StatisticBlock extends React.Component {
             <Grid.Row>
               <Grid.Column width={4}>
                 <Statistic color='grey' inverted size='huge'>
-                  <Statistic.Value>15</Statistic.Value>
+                  <Statistic.Value>20</Statistic.Value>
                   <Statistic.Label style={labelSytle}>wonderful</Statistic.Label>
-                  <Statistic.Label>sponsors</Statistic.Label>
+                  <Statistic.Label>sponsors*</Statistic.Label>
                 </Statistic>
               </Grid.Column>
               <Grid.Column width={4}>
                 <Statistic color='grey' inverted size='huge'>
-                  <Statistic.Value>2</Statistic.Value>
-                  <Statistic.Label style={labelSytle}>dozen</Statistic.Label>
-                  <Statistic.Label>smiles</Statistic.Label>
+                  <Statistic.Value>200</Statistic.Value>
+                  <Statistic.Label style={labelSytle}>million</Statistic.Label>
+                  <Statistic.Label>smiles somewhere</Statistic.Label>
                 </Statistic>
               </Grid.Column>
             </Grid.Row>

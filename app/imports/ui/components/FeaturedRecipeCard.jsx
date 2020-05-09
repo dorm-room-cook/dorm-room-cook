@@ -11,7 +11,6 @@ import {
   Dimmer,
   Divider,
   Rating,
-  Container,
   Responsive,
 } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
@@ -31,15 +30,14 @@ class RecipeCard extends Component {
       color: 'rgb(255,102,0)',
       fontFamily: 'Pacifico',
       fontStyle: 'cursive',
-      fontSize: '25px',
     };
     const span = { color: 'rgb(255,102,0)' };
     const desc = { color: 'rgb(255,255,255)' };
     const directionStyle = { color: 'rgb(0,0,0)', lineHeight: '1.5em' };
     const content = (
-        <Container>
+        <Grid textAlign={'center'}>
           <Card.Content>
-            <Card.Header style={header}>{this.props.recipe.name}</Card.Header>
+            <Card.Header content={this.props.recipe.name} as='h2' style={header}/>
             <Divider/>
           </Card.Content>
           <Card.Content extra>
@@ -69,7 +67,7 @@ class RecipeCard extends Component {
               </List>
             </Card.Meta>
           </Card.Content>
-        </Container>
+        </Grid>
     );
 
     const dimmer = (
@@ -80,7 +78,7 @@ class RecipeCard extends Component {
             dimmer={{ active, content }}
             onMouseEnter={this.handleShow}
             onMouseLeave={this.handleHide}
-            size='big'
+            // size='medium'
             src={this.props.recipe.image}
             rounded
         />
@@ -103,7 +101,7 @@ class RecipeCard extends Component {
               </figure>
             </article>
             <Modal.Content style={{ background: 'lightGrey' }}>
-              <Grid container centered divided inverted stackable>
+              <Grid centered divided inverted stackable>
                 <Grid.Row>
                   <Header style={header} as='h2' content={this.props.recipe.name} color='orange'/>
                 </Grid.Row>

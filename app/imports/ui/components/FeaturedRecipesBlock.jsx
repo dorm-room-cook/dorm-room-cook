@@ -40,7 +40,7 @@ class FeaturedRecipesBlock extends Component {
   }
 
   componentDidMount() {
-    this.interval = setInterval(() => this.setState({ time: Date.now() }), 25000);
+    this.interval = setInterval(() => this.setState({ time: Date.now() }), 60000);
   }
 
   componentWillUnmount() {

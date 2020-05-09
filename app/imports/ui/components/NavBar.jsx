@@ -12,7 +12,8 @@ class NavBar extends Component {
     return (
 <Sticky pushing>
      <Menu inverted pointing secondary fixed={'top'}>
-          <Image className='white' src='/images/logo.png' spaced style={{ width: '50px', height: '50px' }} />
+          <Image className='white' src='/images/logo.png'
+                 style={{ width: '50px', height: '50px', margin: '5px 25px 0px 25px' }} />
             <Responsive as={Menu.Item} maxWidth={767}>
               <Dropdown icon='bars'>
                 <Dropdown.Menu style={{ background: 'rgba(0,0,0,0.9)' }}>
@@ -65,12 +66,13 @@ class NavBar extends Component {
                     icon={'plus'}
                     content={'Recipe'}
                 />,
+                (Roles.userIsInRole(Meteor.userId(), 'admin')) || (Roles.userIsInRole(Meteor.userId(), 'vendor')) ?
                 <Menu.Item
                     as={NavLink}
                     activeClassName="active"
                     exact to="/myitems"
                     key='myitems'
-                    content='My Ingredients'/>]) : ''}
+                    content='My Ingredients'/> : '']) : ''}
             </Responsive>
             {/* Right Side */}
             {(Roles.userIsInRole(Meteor.userId(), 'admin')) ? ([
@@ -87,7 +89,7 @@ class NavBar extends Component {
                   </Dropdown>
               ) : (
                   <Dropdown text={this.props.currentUser} pointing="top right">
-                    <Dropdown.Menu>
+                    <Dropdown.Menu style={{ background: 'rgba(0,0,0,0.8)' }}>
                       <Dropdown.Item icon="address card"
                                      text="Edit Profile"
                                      as={NavLink}
