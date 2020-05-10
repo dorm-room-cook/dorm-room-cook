@@ -18,17 +18,6 @@ class ListRecipes extends React.Component {
   render() {
     return (this.props.ready) ? this.renderPage() : <Loader active>Getting data</Loader>;
   }
-  /*
-  * title
-  * time
-  * items - #of ingredients
-  * ingredients
-  * type - keyword
-  * tools - like stove etc
-  * servings
-  * views
-  * created
-  */
 
   bringInResults = (results) => {
     this.setState({ results });
