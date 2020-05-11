@@ -9,11 +9,11 @@ body {
   /*background: #bbbbbb !important;*/
   background: rgb(2,71,49) !important;
 }
-
+/*
 .ui.form .field > label{
   color: white !important;
 }
-
+*/
 /* Handles the checked Ingredients in the Recipe Modal */
 .ui.checked.checkbox {
   color: rgb(255, 1, 1);
