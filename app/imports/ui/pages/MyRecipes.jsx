@@ -1,29 +1,73 @@
 import React, { Component } from 'react';
 import { Meteor } from 'meteor/meteor';
-import { ListField, ListItemField, ListAddField, NestField, AutoField } from 'uniforms-unstyled';
+import { AutoField, ListField } from 'uniforms-unstyled';
 import { AutoForm, TextField, LongTextField, SubmitField, ErrorsField, NumField } from 'uniforms-semantic';
-import { Header, Container, Card, Loader, Grid, Modal, Button, Icon, Segment, Form } from 'semantic-ui-react';
+import { Header, Container, Card, Loader, Grid, Modal, Button, Icon, Segment, Form, Image } from 'semantic-ui-react';
 import swal from 'sweetalert';
 import PropTypes from 'prop-types';
+import 'uniforms-bridge-simple-schema-2'; // required for Uniforms
+import SimpleSchema from 'simpl-schema';
 import RecipeCard from '/imports/ui/components/RecipeCard';
 import { withTracker } from 'meteor/react-meteor-data';
 import { Recipes, RecipeSchema } from '../../api/recipes/Recipes';
 
+/** Create a schema to specify the structure of the data to appear in the form. */
+const formSchema = new SimpleSchema({
+  name: String,
+  image: String,
+  description: String,
+  time: String,
+  servings: { type: Number, min: 0 },
+  source: { type: String, optional: true },
+  ingredients: { type: Array, minCount: 1 },
+  'ingredients.$': { type: String, min: 1 },
+  instructions: { type: Array, minCount: 1 },
+  'instructions.$': { type: String, min: 1 },
+  type: { type: Array, minCount: 1 },
+  'type.$': { type: String, min: 1 },
+  tools: { type: Array, minCount: 1 },
+  'tools.$': { type: String, min: 1 },
+  notes: { type: Array, optional: true },
+  'notes.$': { type: String },
+});
+
 /** Renders a table containing all of the Contact documents. */
 class MyRecipes extends Component {
+
+  state = {
+    url: '',
+  };
 
   /** Render the page once subscriptions have been received. */
   render() {
     return (this.props.ready) ? this.renderPage() : <Loader active>Getting data</Loader>;
   }
 
+  /** Update image preview */
+  handleChange = (field, value) => {
+    if (field === 'image') {
+      this.setState({ url: value });
+    }
+  }
+
   /** On submit, insert the data. */
   submit(data, formRef) {
-    const { name, image, description, time, items, ingredients, type, tools, servings, instructions,
-    source, views, notes, created, updated } = data;
+    const { name, image, description, time, ingredients, type, tools, servings, instructions,
+    source, notes } = data;
     const owner = Meteor.user().username;
+    const items = ingredients.length;
+
+    let today = new Date();
+    const dd = String(today.getDate()).padStart(2, '0');
+    const mm = String(today.getMonth() + 1).padStart(2, '0');
+    const yyyy = today.getFullYear();
+    today = `${yyyy} / ${mm} / ${dd}`;
+    const created = today;
+    const updated = today;
+
+
     Recipes.insert({ name, image, description, time, items, ingredients, type, tools, servings, instructions,
-          source, views, notes, created, updated, owner },
+          source, notes, created, updated, owner },
         (error) => {
           if (error) {
             swal('Error', error.message, 'error');
@@ -44,54 +88,47 @@ class MyRecipes extends Component {
           <Grid>
             <Grid.Column width={16}>
               <Grid.Row text-align='centered'>
-              <Modal basic closeIcon size='large'
+              <Modal closeIcon size='small'
                      trigger={
                        <Button icon labelPosition='left' size='small'>
                          <Icon name='add' color='red' />Add Recipe</Button>}
               >
-                <Modal.Header>Add an item</Modal.Header>
+                <Modal.Header>Add a Recipe</Modal.Header>
                 <Modal.Content>
-                  <Card>
-                    <Card.Content>
+
+
                       <AutoForm ref={ref => { fRef = ref; }}
-                                schema={RecipeSchema}
+                                schema={formSchema}
+                                onChange={(field, value) => this.handleChange(field, value)}
                                 onSubmit={data => this.submit(data, fRef)} >
-                        <Segment>
+                        {/*<Segment>
                           <Form.Group widths={'equal'}>
-                            <TextField name='name' showInlineError={true} placeholder='name'/>
+                            <TextField name='name' showInlineError={true} placeholder='name of recipe'/>
                             <TextField name='image' showInlineError={true} placeholder='picture URL'/>
-                            <TextField name='owner' showInlineError={true} placeholder='owner'/>
+                            <Image src={this.state.url} size='small' />
                           </Form.Group>
                           <LongTextField name='description' placeholder='Describe the recipe here'/>
                           <Form.Group widths={'equal'}>
-                            <TextField name='time' showInlineError={true} placeholder='time'/>
-                            <NumField name='items' showInlineError={true} placeholder='items'/>
-                            <AutoField name="ingredients"/>
+                            <TextField name='time' showInlineError={true} placeholder='cook time (minutes)'/>
+                            <NumField name='servings' showInlineError={true} placeholder='serving size'/>
+                            <TextField name='source' showInlineError={true} placeholder='source url of recipe'/>
+                          </Form.Group>
+                          <div>please click the + to add lines, click the - to delete a line</div>
+                          <Form.Group widths={'equal'}>
+                            <AutoField name="type" placeholder='Breakfast, Snack, etc..'/>
+                            <AutoField name="tools" placeholder='Stove, Microwave, etc..'/>
                           </Form.Group>
                           <Form.Group widths={'equal'}>
-                            <AutoField name="type"/>
-                            <AutoField name="tools"/>
-                            <NumField name='servings' showInlineError={true} placeholder='servings'/>
-                          </Form.Group>
-                          <Form.Group widths={'equal'}>
-                            <AutoField name="instructions"/>
-                            <TextField name='source' showInlineError={true} placeholder='source'/>
-                            <NumField name='views' showInlineError={true} placeholder='views'/>
-                          </Form.Group>
-                          <Form.Group widths={'equal'}>
-                            <NumField name='rating' showInlineError={true} placeholder='ratings'/>
-                            <AutoField name="notes"/>
-                            <TextField name='created' showInlineError={true} placeholder='created'/>
-                          </Form.Group>
-                          <Form.Group widths={'equal'}>
-                            <TextField name='updated' showInlineError={true} placeholder='updated'/>
+                            <AutoField name="instructions" placeholder='first.., second..'/>
+                            <AutoField name="ingredients" placeholder='onions, '/>
+                            <AutoField name="notes" placeholder='extra notes'/>
                           </Form.Group>
                           <SubmitField value='Submit'/>
                           <ErrorsField/>
-                        </Segment>
+                        </Segment>*/}
                       </AutoForm>
-                    </Card.Content>
-                  </Card>
+
+
                 </Modal.Content>
               </Modal>
               </Grid.Row>
